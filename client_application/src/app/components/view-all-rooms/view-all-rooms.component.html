@@ -1,0 +1,78 @@
+<div>
+    <div>
+        <div class="selectRoomWrap">
+            <div></div>
+            <div>
+                <header class="makeSticky selectRoomHeader bdrBottom1">
+                    <a class="backLink" href="/hotels/hotel-details?checkin=04052019&amp;checkout=04062019&amp;city=GOI&amp;country=IN&amp;hotelId=200703241029455940&amp;loggedIn=false&amp;mtkeys=N%24%24s9rHC9RN7n%2FdaPaDa5FBfAq%2BGhQa5OWqtEHuvkQpjC2B%2Bbd4YKBvGD0kiKv%2FSFKEC4iB5%2FZRUBXuJejW0gpvSMEgg87NIorL63oKdMtw7Fz%2BuV4ka6zIxRmzKf5ahHGvj8VmqmyE4HsAQPhTokfR7zj4Y2vjkHejqN%2BhPJr%2BM6snE5OI%2BVFiSkFbSzXFwfymBRLzQMbcIeB2dxaYEpR1IBLbLzLjYFcWwXKg61viewVYwytXXtZDr5iGzPBU%2B082pkoWvGJV%2F5MACdI56eIYdDQiftYL%2FsxgCbA6msoObIro67XmHGNbu72uIkPmAjkc50S%2BZV5oVpo%3D&amp;pageNumber=1&amp;price=&amp;roomCount=1&amp;roomStayQualifier=2e0e&amp;screenKey=hotelDetails&amp;searchText=Goa&amp;totalGuestCount=2&amp;type=CTY&amp;visitorId=a5806c4e-cd67-4b82-b00a-144751fefcb0"><span class="blackRoomBackIcon selectRoomSprite">Back Arrow</span></a>
+                    <div class="calc30  pushRight">
+                        <p class="latoBold">Select Room</p>
+                        <p class="font10 greyLightText">Caravela Beach Resort</p>
+                    </div>
+                </header>
+            </div>
+            <div class="paddingLR20 paddingTB12 bdrBottom1 tariffSticky">
+                <ul class="flexSliderWrap font12"></ul>
+            </div>
+            <main>
+                <ul>
+                    <li *ngFor="let room of rooms">
+                        <div>
+                            <div class="roomsTypeWrap bdrBottom1">
+                                <div class="roomHeader">
+                                    <p class="redText font10 lastRoom">Last Room Left!</p>
+                                    <p class="latoBlack blackText"> {{room.roomType}} </p>
+                                </div>
+                                <div class="roomSection bdrBottom1">
+                                    <div class="makeFlex">
+                                        <ul class="makeFlex hotelItinaries">
+                                            <li class="makeFlex column hrtlCenter textCenter"><span class="appendBottom4"><img src="https://promos.makemytrip.com/roomfacilities/mini_bar.png" alt=""></span><span class="font10">Mini Bar</span></li>
+                                            <li class="makeFlex column hrtlCenter  textCenter"><span class="appendBottom4"><img src="https://promos.makemytrip.com/roomfacilities/balcony.png" alt=""></span><span class="font10">Balcony</span></li>
+                                            <li class="makeFlex column hrtlCenter  textCenter"><span class="appendBottom4 selectRoomSprite defaultIcon"></span><span class="font10">Mini Bar</span></li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="roomTileWrap">
+                                    <p class="font10 appendBottom16 capText latoBold">Room Tariffs ({{room.options.length}})</p>
+                                    <ul class="tariffCradList">
+                                        <li *ngFor="let opt of room.options" class="roomTile" [class.selected]="selected" [class.soldOut]="opt.soldOut">
+                                            <div class="left">
+                                                <span class="latoBold font10  appendBottom8 nonRefundable" *ngIf="opt.nonRefundable"> Non-Refundable</span>
+                                                <p class="font12 latoBold blackText appendBottom4" *ngIf="opt.breakfast">Breakfast </p>
+                                                <ul class="font10 roomOtherInfo">
+                                                    <li>{{opt.included}}</li>
+                                                </ul>
+                                            </div>
+                                            <div class="right">
+                                                <div class="priceSection font10  textRight makeFlex column">
+                                                    <p class="latoBold font12 appendBottom4"><span class="adultsNo paddingR8"><span class="selectRoomSprite adultIcon"></span> <span class="selectRoomSprite adultIcon"></span> </span><span class="childNo appendLeft4"></span></p>
+                                                    <p class="font11 lightGreyText lineThrough appendBottom4"><span>{{opt.real_price}}</span></p>
+                                                    <p class="latoBlack blackText font16"><span>{{opt.discounted_price}}</span></p>
+                                                    <p class=" latoBlack appendBottom8 font10">Per night</p><span class="selectBtn latoBold font10 appendBottom8 "><span class="roomSelected"><span class="tickMark"></span></span> SELECTED </span>
+                                                </div>
+                                                <div class="soldOutTag makeFlex column perfectCenter pushRight appendTop10">
+                                                    <p class="redText font12 capText latoBold">Sold Out</p>
+                                                    <p class="misItText">You just missed it.</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </main>
+            <div>
+                <div class="bottomBarWrap paddingLR20 paddingTB12 hrtlCenter">
+                    <div class="makeFlex column"><span class="lightGreyText lineThrough font11">₹ 10,700</span>
+                        <p class="makeFlex hrtlCenter"><span class="whiteText font18 whiteText latoBold appendRight8">₹ 10,165</span><span class="offerTag font10">1 Offer<span class="offerTagArrow appendLeft4">&nbsp;</span></span>
+                        </p><span class="font11 lightGreyText "> per night </span></div>
+                    <div class="pushRight"><a class="blueBtn paddingLR20 paddingTB12 latoBold continueWidth"><span routerLink="/review-booking"> CONTINUE </span></a></div>
+                </div>
+                <div class="bottomBarGutter">&nbsp;</div>
+            </div>
+        </div>
+    </div>
+</div>
