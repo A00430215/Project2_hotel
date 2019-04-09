@@ -1,0 +1,330 @@
+.labelText {
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.txtInput {
+    background: #fff;
+    border: 1px #9b9b9b solid;
+    outline: 0;
+    width: 100%;
+    font-weight: 700;
+    font-size: 14px;
+    color: #4a4a4a;
+    padding: 10px 15px;
+    border-radius: 4px;
+}
+
+.txtSelect {
+    border: 1px #9b9b9b solid;
+    outline: 0;
+    width: 100%;
+    font-weight: 700;
+    font-size: 14px;
+    color: #4a4a4a;
+    padding: 10px 15px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -webkit-border-radius: 0px;
+    background: none;
+    border-radius: 4px !important;
+}
+
+.selectWraper {
+    position: relative;
+}
+
+.selectWraper:after {
+    border: solid #4a4a4a;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 2px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    position: absolute;
+    right: 9px;
+    top: 16px;
+    content: "";
+}
+
+::placeholder {
+    color: rgba(74, 74, 74, 0.5);
+    font-size: 14px;
+}
+
+input::placeholder {
+    color: rgba(74, 74, 74, 0.5);
+    font-size: 14px;
+}
+
+._TravelerInfo .travelerInfoLeft {
+    flex: 1;
+    flex-shrink: 0;
+}
+
+._TravelerInfo .travelerInfoRight {
+    width: 380px;
+    flex-shrink: 0;
+}
+
+._TravelerInfo .whySignup {
+    background: #fff4e2;
+    border-radius: 4px;
+    padding: 20px;
+    display: none;
+}
+
+._TravelerInfo .whyLogin li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 7px;
+}
+
+._TravelerInfo .whyLogin li::before {
+    content: '';
+    display: block;
+    width: 3px;
+    height: 6px;
+    border: solid #4a4a4a;
+    border-width: 0 1px 1px 0;
+    transform: rotate(45deg);
+    margin-right: 10px;
+}
+
+._TravelerInfo .width88 {
+    width: 88px;
+}
+
+._TravelerInfo .width258 {
+    width: 258px;
+}
+
+._TravelerInfo .contactInputBox {
+    border: 1px #9b9b9b solid;
+    width: 100%;
+    padding: 0 15px 0 0;
+    border-radius: 4px;
+    display: flex;
+}
+
+._TravelerInfo .contactInputBoxLeft {
+    width: 84px;
+    flex-shrink: 0;
+    position: relative;
+}
+
+._TravelerInfo .contactInputBoxLeft::after {
+    width: 3px;
+    height: 1px;
+    background: #4a4a4a;
+    position: absolute;
+    right: 0;
+    top: 18px;
+    content: "";
+}
+
+._TravelerInfo .txtInputContactInfo {
+    width: 100%;
+    border: 0;
+    outline: 0;
+    background: none;
+    font-weight: 700;
+    font-size: 14px;
+    color: #4a4a4a;
+    padding: 10px 0;
+}
+
+._TravelerInfo .countryCode {
+    border: 0;
+    outline: 0;
+    width: 100%;
+    font-weight: 700;
+    font-size: 14px;
+    color: #4a4a4a;
+    padding: 10px 15px;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0px;
+    -moz-appearance: none;
+    border-radius: 4px;
+    background-size: 9px 6px;
+    background: none;
+}
+
+._TravelerInfo .errorField {
+    color: #d0021b;
+}
+
+._TravelerInfo .errorField .txtInput {
+    border-color: #d0021b;
+}
+
+._TravelerInfo .errorField .contactInputBox {
+    border-color: #d0021b;
+}
+
+._GSTDetails .btnAddGST {
+    width: 18px;
+    height: 18px;
+    background: #008cff;
+    position: relative;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+._GSTDetails .btnAddGST::after,
+._GSTDetails .btnAddGST::before {
+    width: 2px;
+    height: 10px;
+    background: #fff;
+    content: "";
+    position: absolute;
+    left: 8px;
+    top: 4px;
+}
+
+._GSTDetails .btnAddGST::after {
+    transform: rotate(90deg);
+}
+
+._GSTDetails .gstNumberCont {
+    padding: 0 0 0 28px;
+}
+
+
+/** Autosuggest **/
+
+._TravelerInfo .react-autosuggest__input {
+    border-radius: 4px;
+    background: #ffffff;
+    border: solid 1px #e3e7eb;
+    outline: 0;
+    padding: 10px 10px 10px 38px;
+    font-size: 16px;
+    color: #4a4a4a;
+    font-weight: 400;
+    width: 100%;
+}
+
+._TravelerInfo .react-autosuggest__container:after {
+    width: 14px;
+    height: 14px;
+    background: url(//imgak.mmtcdn.com/pwa_v3/pwa_hotel_assets/web/hotelSprite-v1.png) 0 0 no-repeat;
+    background-size: 400px 350px;
+    background-position: -8px -238px;
+    position: absolute;
+    left: 12px;
+    top: 13px;
+    content: "";
+}
+
+._TravelerInfo .react-autosuggest__container {
+    position: relative;
+    border: 1px #9b9b9b solid;
+    border-radius: 4px;
+}
+
+._TravelerInfo .react-autosuggest__suggestions-container--open {
+    position: absolute;
+    background-color: #ffffff;
+    width: 100%;
+    border-radius: 4px;
+    z-index: 2;
+    box-shadow: 0 1px 9px 0 rgba(0, 0, 0, 0.2);
+    top: 44px;
+}
+
+._TravelerInfo .react-autosuggest__suggestions-container--open::after {
+    bottom: 100%;
+    left: 20px;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(255, 255, 255, 0);
+    border-bottom-color: #fff;
+    border-width: 6px;
+    margin-left: -6px;
+}
+
+._TravelerInfo .react-autosuggest__suggestions-list {
+    max-height: 320px;
+    overflow-y: auto;
+}
+
+._TravelerInfo .react-autosuggest__suggestions-list li {
+    border-bottom: 1px #e3e7eb solid;
+    cursor: pointer;
+}
+
+._TravelerInfo .react-autosuggest__suggestions-list li:hover {
+    color: #008cff;
+}
+
+._TravelerInfo .react-autosuggest__suggestions-list li:last-child {
+    border: 0;
+}
+
+._TravelerInfo .react-autosuggest__suggestions-list li:hover .sprite.suggestionIcon {
+    background-position: -340px -279px;
+}
+
+._TravelerInfo .react-autosuggest__suggestions-list li p {
+    padding: 15px;
+}
+
+._TravelerInfo .no-result-dropdown {
+    color: black;
+    cursor: default;
+}
+
+._TravelerInfo .no-result-dropdown:hover {
+    color: black;
+    cursor: default;
+}
+
+
+/*-- New Rules for MultiTravellers --*/
+
+._addTraveler .searchTraveler {
+    width: 400px;
+    outline: none;
+    border: none;
+    background: transparent;
+}
+
+._addTraveler .addedTraveller {
+    width: 48%;
+    padding-bottom: 10px;
+}
+
+._addTraveler .addedTraveller .disabled {
+    pointer-events: none;
+    opacity: 0.8;
+}
+
+._TravelerInfo input:disabled {
+    pointer-events: none;
+    opacity: 0.8;
+}
+
+.primaryBtn.addTravelerCfm {
+    border-radius: 4px;
+    height: 45px;
+    display: flex;
+    font-size: 16px;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(94deg, #f0772c, #f95776);
+    width: 300px;
+    margin: 0 auto;
+}
+
+.noteBar {
+    padding: 10px;
+    background: #ffedd1;
+    color: #cf8100;
+    border-radius: 4px;
+}
