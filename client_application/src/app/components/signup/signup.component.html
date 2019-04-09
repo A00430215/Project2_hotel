@@ -1,0 +1,86 @@
+<div class="container">
+  <div class="row">
+    <div class="col-sm-6 col-md-4 col-md-offset-4">
+      <h1 class="text-center login-title">Create Account</h1>
+      <div class="account-wall">
+
+        <form class="form-signin" #signupForm="ngForm" (ngSubmit)="signupForm.form.valid && onSubmit()" novalidate>
+
+          <!-- First Name -->
+
+          <input type="text" class="form-control" placeholder="First name" [(ngModel)]="signupVals.firstName"
+            name="firstName" #firstName="ngModel" required>
+
+          <div *ngIf="firstName.invalid && (firstName.dirty || firstName.touched)" class="alert alert-danger">
+            <div *ngIf="firstName.errors?.required">
+              First name can't be blank
+            </div>
+          </div>
+
+          <!-- Last name -->
+
+          <input type="text" class="form-control" placeholder="Last Name" [(ngModel)]="signupVals.lastName" name="lastName"
+            #lastName="ngModel" required>
+
+          <div *ngIf="lastName.invalid && (lastName.dirty || lastName.touched)" class="alert alert-danger">
+            <div *ngIf="lastName.errors?.required">
+              Last name can't be blank
+            </div>
+          </div>
+
+          <!-- Email -->
+
+          <input type="email" class="form-control" placeholder="Email" [(ngModel)]="signupVals.email" name="email"
+            #email="ngModel" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required>
+
+
+          <div *ngIf="email.invalid && (email.dirty || email.touched)" class="alert alert-danger">
+            <div *ngIf="email.errors?.required">
+              Email field can't be blank
+            </div>
+            <div *ngIf="email.errors?.pattern && email.touched">
+              The email id doesn't seem right
+            </div>
+          </div>
+
+          <!-- Phone Number -->
+
+          <input type="number" class="form-control" placeholder="Phone" [(ngModel)]="signupVals.phone" name="phone"
+            pattern="^\d{3}\d{3}\d{4}$" #phone="ngModel" required>
+
+          <div *ngIf="phone.invalid && (phone.dirty || phone.touched)" class="alert alert-danger">
+            <div *ngIf="phone.errors?.required">
+              Phone number field can't be blank
+            </div>
+            <div *ngIf="phone.errors?.pattern && phone.touched">
+              Phone number should be 10 digits long
+            </div>
+          </div>
+
+          <!-- Password -->
+
+          <input type="password" class="form-control" placeholder="Password" [(ngModel)]="signupVals.password"
+            name="password" #password="ngModel" minlength="5" required>
+
+
+          <div *ngIf="password.invalid && (password.dirty || password.touched)" class="alert alert-danger">
+            <div *ngIf="password.errors?.required">
+              Password field can't be blank
+            </div>
+            <div *ngIf="password.errors?.minlength && password.touched">
+              Password length must be minimum 5 characters
+            </div>
+          </div>
+
+          <!-- Submit Form -->
+
+          <button class="btn btn-lg btn-primary btn-block" type="submit" [disabled]="!signupForm.form.valid ">
+            Submit
+          </button>
+          <span class="clearfix"></span>
+        </form>
+      </div>
+      <a routerLink="../login" class="text-center new-account">Already have an account? Login </a>
+    </div>
+  </div>
+</div>
