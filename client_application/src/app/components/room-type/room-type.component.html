@@ -1,0 +1,107 @@
+<div class="forDesk">
+    <section id="RoomType" class="page-section bottom35">
+        <div class="_RoomType">
+            <div class="gap"></div>
+            <div>
+                <ul class="roomIncludesTag" id="detpg_room_includes_options"></ul>
+                <div class="roomheader"><span class="font12 latoBold capText titleWidth" style="width: 260px;">Room
+          Type</span><span class="font12 latoBold capText titleWidth" style="width: 260px;">Options</span><span class="font12 latoBold capText titleWidth" style="width: 260px;">Included in this Price</span><span class="font12 latoBold capText titleWidth"
+                        style="width: 418px;">Price</span></div>
+                <div *ngFor="let room of rooms" class="roomWrap">
+                    <div class="roomLeft">
+                        <div class="sticky">
+                            <h2>{{room.roomType}}</h2>
+                            <ul class="appendBottom10"></ul>
+                        </div>
+                    </div>
+                    <div class="roomRight">
+                        <div *ngFor="let opt of room.options" id="XDT^^^OTAISRL:MSE:G:MSE:SNXX0001" class="makeFlex bdrBottom   ">
+                            <div class="makeFlex column titleWidth">
+                                <p class="makeFlex appendBottom20"><span class="appendRight10 latoBold font14 darkText capText"> {{opt.name}}</span></p>
+                                <div class="makeFlex  appendBottom15"><span class="roomIconWrap"><span
+                    class="sprite roomBreakfastIcon">&nbsp;</span></span>
+                                    <div *ngIf="opt.breakfast" class="makeFlex column flexOne appendLeft10">
+                                        <p class="appendBottom4"><span class="greenText latoBold">Breakfast</span></p>
+                                    </div>
+                                </div>
+                                <div *ngIf="opt.nonRefundable" class="makeFlex  appendBottom15"><span class="roomIconWrap"><span
+                    class="sprite nonRefundableIcon">&nbsp;</span></span>
+                                    <div class="makeFlex column flexOne appendLeft10">
+                                        <p class="appendBottom5"><span class="redText latoBold">Non-refundable </span></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="titleWidth">
+                                <ul class="includeList">
+                                    <li>{{opt.included}}</li>
+                                </ul>
+                            </div>
+                            <div class="makeFlex column titleLastWidth" id="XDT^^^OTAISRL">
+                                <div class="dealOfDay">
+                                    <p class="dealTitle">{{opt.deal}}</p>
+                                </div>
+                                <div class="makeFlex appendTop40 roomTypePrice">
+                                    <div class="makeFlex column font12 appendRight20">
+                                        <p class="lineThrough latoBold grayText">{{opt.real_price}}</p>
+                                        <div class="font22 latoBlack appendBottom5 relative"><span class="bxNegotiate">{{opt.discounted_price}}<div
+                        class="pbTooltip whiteText">
+                        
+                          
+                                </div>
+                                </span><span></span></div>
+                                        <p class="font12 grayText appendBottom5">Per Night</p>
+
+                                    </div>
+                                    <div (click)="selectRoom(room,opt)" class="makeFlex column perfectCenter noShrink"><a class="primaryBtn appendBottom15 ">SELECT
+                    ROOM</a></div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<div class="forMob">
+    <div class="boxPadding bdrBottom1 clearfix" id="recommendedRoom">
+        <p class="font20 blackText latoBlack appendBottom4">Recommended Room
+            <span class="paddingL16 deepskyBlueText font12 latoBold textRight"><span class="" routerLink="/view-all-rooms">VIEW ALL ROOMS</span></span>
+        </p>
+        <p class="appendBottom20">2 Adults</p>
+        <div class="recomOuter">
+            <div class="makeFlex spaceBetween appendBottom10">
+                <div class="roomInfoDetail">
+                    <p class="latoBlack blackText truncate">{{rooms[0].roomType}}</p>
+                    <p class="greenText latoIlalic font11"></p>
+
+                    <div class="paddingTB12 appendBottom10 bdrBottom1 makeFlex">
+
+
+                    </div>
+                    <div class=" bdrBottom1 makeFlex spaceBetween">
+                        <div class="font11 roomInfoSection">
+                            <p class="blackText appendBottom10">
+                                <span class="latoBold" *ngIf="rooms[0].options[0].breakfast">Breakfast</span>
+                                <span class="redText latoIlalic" *ngIf="rooms[0].options[0].nonRefundable"> Non Refundable</span>
+                            </p>
+                            <ul class="roomOtherInfo">
+                                <li>{{rooms[0].options[0].included}}</li>
+                            </ul>
+                        </div>
+                        <div class="priceSection">
+                            <p class="appendBottom2 font10 lightGreyText"><span> <span class="selectRoomSprite adultIcon"></span> <span class="selectRoomSprite adultIcon"></span> </span><span> </span></p>
+                            <div>
+                                <p class="appendBottom2 font10 lightGreyText lineThrough">{{rooms[0].options[0].real_price}}</p>
+                                <p class="appendBottom2 font14 latoBold blackText">{{rooms[0].options[0].discounted_price}}</p>
+                            </div>
+                            <p class="font10 latoBlack appendBottom10 ">Per night</p>
+                        </div>
+                    </div>
+                    <p class="paddingTB12 makeFlex hrtlCenter spaceBetween font10"><a class="latoBold ">MORE INFO</a><span class="makeFlex hrtlCenter"><span class="blueBtn pushRight paddingLR20 paddingTB12 latoBold  continueLoader">QUICK BOOK</span></span>
+                    </p>
+                </div>
+            </div>
+        </div>
