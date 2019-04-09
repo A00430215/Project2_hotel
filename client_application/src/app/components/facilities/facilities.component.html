@@ -1,0 +1,29 @@
+<section id="Facilities" class="page-section borderBottom bottom35">
+    <h2 class="txtHeading">Facilities at The Lalit Golf &amp; Spa Resort</h2>
+    <p class="txtSmallText">Facilities here have been <span class="latoBold greenText">rated 4.3 by 923 guests</span></p>
+    <ul class="_FacilitiesByHotel facilityList">
+        <li><span class="amenitiesSprite amenitiesIcon wifi"></span>
+            <div class="rightCont">
+                <p class="latoBold">Free Wi-fi</p>
+            </div>
+        </li>
+        <li><span class="amenitiesSprite amenitiesIcon parking"></span>
+            <div class="rightCont">
+                <p class="latoBold">Parking</p>
+            </div>
+        </li>
+        <li><span class="amenitiesSprite amenitiesIcon outdoorFacilities"></span>
+            <div class="rightCont">
+                <p class="latoBold">Picnic Area</p>
+            </div>
+        </li>
+        <li><span class="amenitiesSprite amenitiesIcon defaultAmenIcon"></span>
+            <div class="rightCont">
+                <p class="latoBold">Air Conditioning</p>
+            </div>
+        </li>
+    </ul>
+    <ul class="_Amenities amenitiesList">
+        <li *ngFor="let amenity of amenitiesList "><span class="amenitiesDot"></span><span class="amenitiesName">{{amenity}}</span></li>
+    </ul>
+</section>
