@@ -1,0 +1,83 @@
+
+<div class="container-fluid emp-profile">
+  <div class="container innerDiv">
+    <div class="jumbotron"><span _ngcontent-c3="" class="bdr-bottom-gold profile-head" 
+      style="color:#976107; font:30px Prata Serif; Padding:0px 0px 6px;"><u>My Profile</u></span>
+      </div>
+      <br>
+    <form method="post">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="profile-img">
+                    <img src="../../../assets/images/profile.jpg" alt=""/>
+                    
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="profile-head">
+                            <h1 style = "color:#976107">
+                                {{customerData.CustomerName}}
+                            </h1>
+                            <h5>
+                                Hotel Customer
+                            </h5>
+                            <p class="proile-rating">Bookings : <span>0</span></p>
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="home-tab" data-toggle="tab"  role="tab" aria-controls="home" aria-selected="true">About</a>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+           
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                
+            </div>
+            <div class="col-md-8">
+                <div class="tab-content profile-tab" id="myTabContent">
+                    <!-- <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab"> -->
+                               <div> 
+                                
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <label>Name</label>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <p style = "color:#976107">{{customerData.CustomerName}}</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <label>Email</label>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <p style = "color:#976107">{{customerData.Email}}</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <label>Phone</label>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <p style = "color:#976107">{{customerData.PhoneNumber}}</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <label>Date of Registeration</label>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <p style = "color:#976107">{{today | date:'dd/MM/yyyy'}}</p>
+                                    </div>
+                                </div>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+    </form>      
+    </div>     
+</div>
