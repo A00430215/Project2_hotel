@@ -1,0 +1,41 @@
+<!-- <div *ngIf="authentication"> -->
+
+<div>
+    <app-head [customer]="customer"></app-head>
+</div>
+
+<!-- <button type="button" mat-button (click)="drawer.toggle()">
+
+    Menu
+
+  </button>
+
+  <mat-drawer-container class="example-container" autosize>
+
+    <mat-drawer #drawer class="example-sidenav" mode="side">
+
+      <app-left-panel></app-left-panel>
+
+    </mat-drawer>
+
+    <div>
+
+      <router-outlet></router-outlet>
+
+    </div>
+
+  </mat-drawer-container>
+
+</div> -->
+
+<!-- <div *ngIf="!authentication"> -->
+<div style="padding:0" class="container-fluid">
+    <alert></alert>
+    <router-outlet></router-outlet>
+</div>
+
+
+
+<div>
+    <!-- <app-footer></app-footer> -->
+</div>

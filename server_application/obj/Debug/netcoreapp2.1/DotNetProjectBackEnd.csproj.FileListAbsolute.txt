@@ -1,0 +1,28 @@
+C:\Users\kshpa\Documents\AngularProjects\DotNetProjectBackEnd\DotNetProjectBackEnd\bin\Debug\netcoreapp2.1\DotNetProjectBackEnd.deps.json
+C:\Users\kshpa\Documents\AngularProjects\DotNetProjectBackEnd\DotNetProjectBackEnd\bin\Debug\netcoreapp2.1\DotNetProjectBackEnd.runtimeconfig.json
+C:\Users\kshpa\Documents\AngularProjects\DotNetProjectBackEnd\DotNetProjectBackEnd\bin\Debug\netcoreapp2.1\DotNetProjectBackEnd.runtimeconfig.dev.json
+C:\Users\kshpa\Documents\AngularProjects\DotNetProjectBackEnd\DotNetProjectBackEnd\bin\Debug\netcoreapp2.1\DotNetProjectBackEnd.dll
+C:\Users\kshpa\Documents\AngularProjects\DotNetProjectBackEnd\DotNetProjectBackEnd\bin\Debug\netcoreapp2.1\DotNetProjectBackEnd.pdb
+C:\Users\kshpa\Documents\AngularProjects\DotNetProjectBackEnd\DotNetProjectBackEnd\obj\Debug\netcoreapp2.1\DotNetProjectBackEnd.csprojAssemblyReference.cache
+C:\Users\kshpa\Documents\AngularProjects\DotNetProjectBackEnd\DotNetProjectBackEnd\obj\Debug\netcoreapp2.1\DotNetProjectBackEnd.csproj.CoreCompileInputs.cache
+C:\Users\kshpa\Documents\AngularProjects\DotNetProjectBackEnd\DotNetProjectBackEnd\obj\Debug\netcoreapp2.1\DotNetProjectBackEnd.RazorAssemblyInfo.cache
+C:\Users\kshpa\Documents\AngularProjects\DotNetProjectBackEnd\DotNetProjectBackEnd\obj\Debug\netcoreapp2.1\DotNetProjectBackEnd.RazorAssemblyInfo.cs
+C:\Users\kshpa\Documents\AngularProjects\DotNetProjectBackEnd\DotNetProjectBackEnd\obj\Debug\netcoreapp2.1\DotNetProjectBackEnd.AssemblyInfoInputs.cache
+C:\Users\kshpa\Documents\AngularProjects\DotNetProjectBackEnd\DotNetProjectBackEnd\obj\Debug\netcoreapp2.1\DotNetProjectBackEnd.AssemblyInfo.cs
+C:\Users\kshpa\Documents\AngularProjects\DotNetProjectBackEnd\DotNetProjectBackEnd\obj\Debug\netcoreapp2.1\DotNetProjectBackEnd.RazorTargetAssemblyInfo.cache
+C:\Users\kshpa\Documents\AngularProjects\DotNetProjectBackEnd\DotNetProjectBackEnd\obj\Debug\netcoreapp2.1\DotNetProjectBackEnd.dll
+C:\Users\kshpa\Documents\AngularProjects\DotNetProjectBackEnd\DotNetProjectBackEnd\obj\Debug\netcoreapp2.1\DotNetProjectBackEnd.pdb
+C:\Data\Projects-University\Dan's Class\Assignments\ProjectBackend\bin\Debug\netcoreapp2.1\DotNetProjectBackEnd.deps.json
+C:\Data\Projects-University\Dan's Class\Assignments\ProjectBackend\bin\Debug\netcoreapp2.1\DotNetProjectBackEnd.runtimeconfig.json
+C:\Data\Projects-University\Dan's Class\Assignments\ProjectBackend\bin\Debug\netcoreapp2.1\DotNetProjectBackEnd.runtimeconfig.dev.json
+C:\Data\Projects-University\Dan's Class\Assignments\ProjectBackend\bin\Debug\netcoreapp2.1\DotNetProjectBackEnd.dll
+C:\Data\Projects-University\Dan's Class\Assignments\ProjectBackend\bin\Debug\netcoreapp2.1\DotNetProjectBackEnd.pdb
+C:\Data\Projects-University\Dan's Class\Assignments\ProjectBackend\obj\Debug\netcoreapp2.1\DotNetProjectBackEnd.csprojAssemblyReference.cache
+C:\Data\Projects-University\Dan's Class\Assignments\ProjectBackend\obj\Debug\netcoreapp2.1\DotNetProjectBackEnd.csproj.CoreCompileInputs.cache
+C:\Data\Projects-University\Dan's Class\Assignments\ProjectBackend\obj\Debug\netcoreapp2.1\DotNetProjectBackEnd.RazorAssemblyInfo.cache
+C:\Data\Projects-University\Dan's Class\Assignments\ProjectBackend\obj\Debug\netcoreapp2.1\DotNetProjectBackEnd.RazorAssemblyInfo.cs
+C:\Data\Projects-University\Dan's Class\Assignments\ProjectBackend\obj\Debug\netcoreapp2.1\DotNetProjectBackEnd.AssemblyInfoInputs.cache
+C:\Data\Projects-University\Dan's Class\Assignments\ProjectBackend\obj\Debug\netcoreapp2.1\DotNetProjectBackEnd.AssemblyInfo.cs
+C:\Data\Projects-University\Dan's Class\Assignments\ProjectBackend\obj\Debug\netcoreapp2.1\DotNetProjectBackEnd.RazorTargetAssemblyInfo.cache
+C:\Data\Projects-University\Dan's Class\Assignments\ProjectBackend\obj\Debug\netcoreapp2.1\DotNetProjectBackEnd.dll
+C:\Data\Projects-University\Dan's Class\Assignments\ProjectBackend\obj\Debug\netcoreapp2.1\DotNetProjectBackEnd.pdb
