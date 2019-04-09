@@ -1,0 +1,21 @@
+<!-- <h1>{{title}}</h1> -->
+<!-- <button mat-button [routerLink]=" ['./logout'] ">Logout!</button> -->
+
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" routerLink="dashboard">Hotel Application</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a class="nav-link" routerLink="dashboard">Home</a></li>
+                <li><a class="nav-link" routerLink="about">About</a></li>
+                <li><a class="nav-link" routerLink="profile">Profile</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a class="nav-link" routerLink="login"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                <li><a class="nav-link" routerLink="signup"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
