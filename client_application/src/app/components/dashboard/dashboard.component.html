@@ -1,0 +1,24 @@
+<div class="dashboardContainer" *ngIf="showDesk">
+    <app-nav-header></app-nav-header>
+    <app-main-wrapper></app-main-wrapper>
+    <app-nav-features></app-nav-features>
+    <app-room-type></app-room-type>
+    <app-facilities></app-facilities>
+    <app-location></app-location>
+    <app-policies></app-policies>
+    <app-user-review></app-user-review>
+    <app-loader></app-loader>
+</div>
+
+
+<div class="hotelDetailsPage" *ngIf="!showDesk">
+    <div class="appendBottom70">
+        <app-main-wrapper></app-main-wrapper>
+        <app-room-type></app-room-type>
+        <app-location></app-location>
+        <app-policies></app-policies>
+        <app-user-review></app-user-review>
+        <div class="paddingLR20"></div>
+    </div>
+    <app-payment-bar></app-payment-bar>
+</div>
