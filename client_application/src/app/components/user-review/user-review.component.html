@@ -1,0 +1,81 @@
+<div class="forDesk">
+    <section id="UserReviews" class="page-section">
+        <div class="appendBottom25">
+            <h2 class="txtHeading">Verified Ratings &amp; Reviews for The Lalit Golf &amp; Spa Resort</h2>
+            <p class="txtSmallText">Take a look at <b>verified</b> ratings &amp; reviews posted by guests </p>
+        </div>
+        <ul class="ratingReviewTab appendBottom25">
+            <li id="userReviews_mmt" class="activeTab latoBold blackText">Makemytrip</li>
+        </ul>
+        <div class="_RatingReview">
+            <div class="reviewHeader">
+                <div class="headerLeft">
+                    <div class="userRating lightGreenBg lightGreenBorder">
+                        <div class="userRatingTop whiteText"><span class="rating">4.2</span>
+                            <div class="ratingRight font13 lineHight18">
+                                <p>{{ratingCount}} RATINGS</p>
+                                <p>{{reviewCount}} REVIEWS</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="headerMiddle flexOne" id="detpg_headermiddle_user_rating_reviews">
+                    <ul>
+                        <li id="tag_999"><a class="darkText active">All Reviews</a></li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <div *ngFor="let review of reviews[currentPage]" class="reviewBox">
+                <div class="reviewRow">
+                    <div class="reviewBoxLeft">
+                        <p class="latoBold font18 lineHight22 greenText">{{review.title}}</p>
+                        <p class="grayText appendBottom10">{{review.author}}, {{review.dateTime}}</p>
+                        <p class="font14 lineHight22">{{review.review}}</p>
+                    </div><span class="reviewBoxRight greenText greenBorder">{{review.rating}}</span>
+                </div>
+                <p class="report"></p>
+            </div>
+
+
+
+            <app-pagination [numberOfPages] ="reviews.length" 
+            (pageNumberClick) = "updatePage($event)"></app-pagination>>
+            <!-- <div class="pagination" id="detpg_review_ratings_pagination">
+                <ul class="pagination">
+                    <li class="disabled"><a class="" href="#">«</a></li>
+                    <li class="disabled"><a class="" href="#">⟨</a></li>
+                    <li class="active"><a class="undefined" href="#">1</a></li>
+                    <li class=""><a class="" href="#">2</a></li>
+                    <li class=""><a class="" href="#">3</a></li>
+                    <li class=""><a class="" href="#">4</a></li>
+                    <li class=""><a class="" href="#">5</a></li>
+                    <li class=""><a class="" href="#">⟩</a></li>
+                    <li class=""><a class="" href="#">»</a></li>
+                </ul>
+            </div> -->
+        </div>
+    </section>
+</div>
+
+
+<div class="forMob">
+    <div class="boxPadding bdrBottom1 clearfix" id="reviewRatingMain">
+        <p class="makeFlex spaceBetween hrtlCenter appendBottom4"><span class="font20 blackText latoBlack">Review &amp; Rating</span><span class=" excellentRatingText latoBold">Excellent<span class="appendLeft6 excellentFilledRating">4.3</span></span>
+        </p>
+        <p class="appendBottom16">819 guest reviews</p>
+        <div class="clearfix appendBottom16">
+            <div class="makeFlex"><span class="appendRight14"><span class="appendTop4 excellentUnfilledRating">5.0</span></span>
+                <div class="reviewRatingRight">
+                    <p class="latoBold appendBottom4">{{reviews[0].title}}</p>
+                    <p class="font12 lineHight16 appendBottom4">{{reviews[0].review}}</p>
+                    <p class="font11 lightGreyText">{{reviews[0].author}} | {{reviews[0].dateTime}}</p>
+                </div>
+            </div>
+        </div>
+        <a href="/hotels/user-reviews?checkin=04052019&amp;checkout=04062019&amp;city=GOI&amp;country=IN&amp;hotelId=200703241029455940&amp;loggedIn=false&amp;mtkeys=N%24%24s9rHC9RN7n%2FdaPaDa5FBfAq%2BGhQa5OWqtEHuvkQpjC2B%2Bbd4YKBvGD0kiKv%2FSFKEC4iB5%2FZRUBXuJejW0gpvSMEgg87NIorL63oKdMtw7Fz%2BuV4ka6zIxRmzKf5ahHGvj8VmqmyE4HsAQPhTokfR7zj4Y2vjkHejqN%2BhPJr%2BM6snE5OI%2BVFiSkFbSzXFwfymBRLzQMbcIeB2dxaYEpR1IBLbLzLjYFcWwXKg61viewVYwytXXtZDr5iGzPBU%2B082pkoWvGJV%2F5MACdI56eIYdDQiftYL%2FsxgCbA6msoObIro67XmHGNbu72uIkPmAjkc50S%2BZV5oVpo%3D&amp;pageNumber=1&amp;price=&amp;roomCount=1&amp;roomStayQualifier=2e0e&amp;searchText=Goa&amp;totalGuestCount=2&amp;type=CTY&amp;visitorId=a5806c4e-cd67-4b82-b00a-144751fefcb0">
+            <p class="deepskyBlueText font12 latoBold textRight"><span class="">VIEW ALL REVIEWS</span></p>
+        </a>
+    </div>
+</div>
