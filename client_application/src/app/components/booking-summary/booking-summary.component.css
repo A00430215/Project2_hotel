@@ -1,0 +1,7116 @@
+body {
+    background: #f2f2f2 none repeat scroll 0 0;
+    font-family: 'Lato-Regular', Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #4a4a4a;
+    margin: 0;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: #008cff
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0
+}
+
+h1,
+h2,
+h3 {
+    font-weight: normal
+}
+
+.text-center {
+    text-align: center
+}
+
+div.chf_fb_overlayContents a,
+div.chf_fb_overlayContents a:active,
+div.chf_fb_overlayContents a:focus,
+div.chf_fb_overlayContents a:link,
+div.chf_fb_overlayContents a:visited,
+div.chf_header a,
+div.chf_header a:active,
+div.chf_header a:focus,
+div.chf_header a:link,
+div.chf_header a:visited {
+    color: #008cff
+}
+
+input.chf_login_btn,
+.chf_primary_btn,
+a.chf_primary_btn {
+    border-radius: 30px!important;
+    font-size: 18px;
+    line-height: 14px;
+    padding: 15px 15px 12px!important;
+    color: #fff;
+    height: 14px;
+    /* background-image: linear-gradient(97deg, #53b2fe, #065af3); */
+    border: 0;
+    font-weight: bold;
+    cursor: pointer;
+    width: 88%!important
+}
+
+.chf_secondary_btn_flat,
+a.chf_secondary_btn_flat {
+    -moz-border-radius: 30px!important;
+    -webkit-border-radius: 30px!important;
+    -o-border-radius: 30px!important;
+    border-radius: 30px!important;
+    background: #008cff!important;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff!important;
+    padding: 8px 15px!important;
+    height: 14px;
+    line-height: 24px;
+    text-decoration: none!important;
+    text-shadow: 0 1px rgba(0, 0, 0, .3);
+    width: 88%!important
+}
+
+table {
+    border-collapse: collapse
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table
+}
+
+.clearfix:after {
+    clear: both
+}
+
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.pull-right {
+    float: right!important
+}
+
+.pull-left {
+    float: left!important
+}
+
+.text-left {
+    text-align: left
+}
+
+.text-right {
+    text-align: right
+}
+
+.append_bottom3 {
+    margin-bottom: 3px
+}
+
+.append_bottom4 {
+    margin-bottom: 4px
+}
+
+.append_bottom5 {
+    margin-bottom: 5px
+}
+
+.append_bottom6 {
+    margin-bottom: 6px
+}
+
+.append_bottom7 {
+    margin-bottom: 7px
+}
+
+.append_bottom8 {
+    margin-bottom: 8px
+}
+
+.append_bottom9 {
+    margin-bottom: 9px
+}
+
+.append_bottom10 {
+    margin-bottom: 10px
+}
+
+.append_bottom11 {
+    margin-bottom: 11px
+}
+
+.append_bottom12 {
+    margin-bottom: 12px
+}
+
+.append_bottom13 {
+    margin-bottom: 13px
+}
+
+.append_bottom14 {
+    margin-bottom: 14px
+}
+
+.append_bottom15 {
+    margin-bottom: 15px
+}
+
+.append_bottom16 {
+    margin-bottom: 16px
+}
+
+.append_bottom17 {
+    margin-bottom: 17px
+}
+
+.append_bottom18 {
+    margin-bottom: 18px
+}
+
+.append_bottom19 {
+    margin-bottom: 19px
+}
+
+.append_bottom20 {
+    margin-bottom: 20px
+}
+
+.append_bottom21 {
+    margin-bottom: 21px
+}
+
+.append_bottom22 {
+    margin-bottom: 22px
+}
+
+.append_bottom23 {
+    margin-bottom: 23px
+}
+
+.append_bottom24 {
+    margin-bottom: 24px
+}
+
+.append_bottom25 {
+    margin-bottom: 25px
+}
+
+.append_bottom50 {
+    margin-bottom: 50px
+}
+
+.append_left5 {
+    margin-left: 5px
+}
+
+.secure,
+.transaction,
+.encription,
+.pay_icon,
+.netbnkng_icon,
+.phpe_icon,
+.card_icon,
+.other_icon,
+.giftcard_icon,
+.headerBack,
+.paypal_icon2,
+.paypal_icon,
+.info_icon,
+.radio_option,
+.lock_icon,
+.paypal_smallicn,
+.guarntee_icon,
+.wallet_icon,
+.paytm_icon,
+.freecharge_icon,
+.payu_icon,
+.mobik_icon,
+.amex_icon,
+.ezeclick_icon,
+.american_icon,
+.mastercard_icon,
+.master_icon,
+.maestro_icon,
+.mystrycard_icon,
+.rupay_icon,
+.visa_icon,
+.info_color_icn,
+.cvv_cardicon,
+.cvv_icon_3digit,
+.cvv_icon_4digit,
+.hdfc_icon,
+.hdfc_icon2,
+.axis_icon2,
+.hsbc_icon2,
+.citibank_icon2,
+.state_icon2,
+.idbi_icon2,
+.icici_icon2,
+.indusind_icon2,
+.rbl_icon2,
+.yes_icon2,
+.kotak_icon2,
+.blank_icon,
+.fill_icon,
+.lock_smallicon,
+.security_icon,
+.hdfc,
+.axis,
+.hsbc,
+.state,
+.cbiban,
+.sbi,
+.icici,
+.iciciqc,
+.idbi,
+.indusind,
+.rbl,
+.yes,
+.kotak,
+.amex,
+.logo_symbol_icon,
+.caller_icon,
+.error_icon,
+.green_info_icon,
+.coupon_completeicon,
+.cashback_icon,
+.edit_icon,
+.delete_icon,
+.radio_option_type1,
+.close_drop,
+.deal_green_icon,
+.oneway_arrow,
+.circle,
+.traveler_icon,
+.message_icon,
+.caller_smallicon,
+.cpay_visa,
+.cpay_master_card,
+.cpay_rupay,
+.cpay_american_express,
+.cpay_jcb,
+.cpay_maestro,
+.cpay_diners_card,
+.cpay_discover_card,
+.close_overlay,
+.giftcard_icon,
+.wallet_iconone,
+.wlt_icon,
+.cod_icon,
+.emi_icon,
+.netbanking_icon,
+.netbank_icon,
+.cityreward_icon,
+.pancard_icon,
+.nc_emi_icon,
+.emi_infomark,
+.debit_icon,
+.citybank,
+.emi_drop_icon,
+.upi_icon,
+.gpay_icon,
+.icic_small,
+.send_to_icon,
+.error_compl_icn,
+.upi_sm_icon,
+.back_upi_icon,
+.amzpay_icon {
+    /* background-image: url(../images/dt_payment_sprite.png); */
+    background-size: 242.5px 400px;
+    -webkit-background-size: 242.5px 400px;
+    -moz-background-size: 242.5px 400px
+}
+
+.append_top16 {
+    margin-top: 16px
+}
+
+.append_top20 {
+    margin-top: 20px
+}
+
+.payment_container {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 9px;
+    padding-bottom: 0
+}
+
+.payment_header {
+    background: #fff
+}
+
+.payment_breadcrums {
+    margin: 6px 0 0;
+    padding: 6px 0;
+    list-style-type: none;
+    border-left: 2px solid #d5d5d5;
+    padding-left: 15px;
+    margin-left: 15px
+}
+
+.payment_breadcrums li {
+    float: left;
+    margin-right: 10px
+}
+
+.payment_breadcrums li a {
+    float: left;
+    font-size: 12px;
+    color: #b0b0b0;
+    line-height: 16px
+}
+
+.payment_breadcrums li a.active {
+    color: #000;
+    font-family: "lato-bold"
+}
+
+.payment_features {
+    margin: 6px 0 0;
+    padding: 0;
+    list-style-type: none
+}
+
+.payment_features li {
+    float: left;
+    margin-right: 15px;
+    border-right: 2px solid #d5d5d5;
+    padding-right: 15px
+}
+
+.payment_features li.no_border {
+    border-right: none medium;
+    margin-right: 0;
+    padding-right: 0
+}
+
+.feature_txt {
+    font-size: 12px;
+    line-height: 14px
+}
+
+.feature_icon {
+    width: 40px;
+    height: 26px;
+    float: left;
+    margin-right: 10px
+}
+
+.secure {
+    background-position: 0 0
+}
+
+.transaction {
+    background-position: -46px 0
+}
+
+.encription {
+    background-position: 0 0
+}
+
+.payment_option {
+    width: 805px
+}
+
+.top_space {
+    padding-top: 6px
+}
+
+.make_pay {
+    font-size: 20px;
+    line-height: 20px;
+    color: #4a4a4a;
+    margin-right: 8px
+}
+
+.sub_heading {
+    font-size: 12px;
+    color: #9b9b9b;
+    line-height: 20px
+}
+
+.option_tabs {
+    border: 1px solid #d8eaff;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+    background: #f9f9f9
+}
+
+.tab_section {
+    width: 183px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background: #f9f9f9;
+    min-height: 495px
+}
+
+.tab_section li {
+    display: block
+}
+
+.tab_section li.last_tab {
+    margin-bottom: 3px
+}
+
+.tab_section li a {
+    display: block;
+    padding-left: 12px;
+    min-height: 22px;
+    position: relative;
+    margin-right: -1px
+}
+
+.option_txt {
+    font-size: 13px;
+    color: #9b9b9b;
+    line-height: 14px;
+    border-bottom: 1px solid #e9e9e9;
+    width: 136px;
+    float: right;
+    padding-top: 20px;
+    padding-bottom: 20px
+}
+
+.payoption_icon {
+    width: 24px;
+    height: 24px;
+    float: left;
+    margin: 17px 10px 0 0
+}
+
+.tab_section li a.active,
+.tab_section li a:hover {
+    background-color: #fff;
+    border-bottom: 1px solid #e9e9e9;
+    border-top: 1px solid #e9e9e9;
+    color: #4a4a4a;
+    margin-top: -1px
+}
+
+
+/* .tab_section li a.active {
+border-right-color: #fff;
+width: 172px
+} */
+
+.tab_section li a:hover {
+    border-right: 1px solid #e9e9e9;
+    margin-right: -1px
+}
+
+.tab_section li a.active:hover {
+    border-right-color: #fff
+}
+
+.tab_section li a.active span.option_txt {
+    font-family: "lato-bold";
+    color: #4a4a4a;
+    line-height: 14px;
+    border-bottom: none medium;
+    width: 137px
+}
+
+.tab_section li a:hover span.option_txt {
+    border-bottom: none medium
+}
+
+.pay_icon {
+    background-position: -220px -1px
+}
+
+.netbnkng_icon {
+    background-position: 0 -32px
+}
+
+.card_icon {
+    background-position: 0 -32px
+}
+
+.other_icon {
+    background-position: 0 -32px
+}
+
+.giftcard_icon {
+    background-position: 0 -32px
+}
+
+.phpe_icon {
+    background-position: -430px -304px
+}
+
+.tab_conatiner {
+    background: #fff;
+    padding: 20px 46px 30px;
+    width: 526px;
+    min-height: 500px;
+    border-left: 1px solid #e9e9e9
+}
+
+.paypal_icon2 {
+    background-position: 0 -56px;
+    width: 111px;
+    height: 34px
+}
+
+.option_iconinfo {
+    font-size: 12px;
+    line-height: 16px;
+    color: #9b9b9b;
+    width: 381px;
+    padding-left: 12px;
+    border-left: 1px solid #dedede;
+    margin-left: 12px
+}
+
+.inner_container {
+    width: 455px
+}
+
+ul.currency_options {
+    margin: 0 0 12px 0;
+    padding: 0;
+    list-style-type: none
+}
+
+ul.currency_options li {
+    float: left
+}
+
+ul.currency_options li:nth-child(odd) {
+    margin-bottom: 10px;
+    margin-right: 15px
+}
+
+ul.currency_options li a {
+    float: left;
+    width: 186px;
+    min-height: 36px;
+    border: 1px solid #efefef;
+    padding: 10px 15px;
+    background-color: #fff;
+    border-radius: 4px
+}
+
+ul.currency_options li a:hover {
+    background-color: #f9fcff;
+    border-color: #d8eaff
+}
+
+ul.otpVerfication {
+    margin: 0 0 12px 0;
+    padding: 0;
+    list-style-type: none
+}
+
+ul.otpVerfication li {
+    float: left
+}
+
+ul.otpVerfication li:nth-child(odd) {
+    margin-bottom: 10px;
+    margin-right: 9px
+}
+
+ul.otpVerfication li a {
+    float: left;
+    width: 186px;
+    border: 1px solid #e5e5e5;
+    padding: 10px 15px;
+    min-height: 32px;
+    background-color: #fff
+}
+
+ul.otpVerfication li a:hover {
+    background-color: #f9fcff;
+    border-color: #d8eaff
+}
+
+ul.otpVerfication li.is-active a {
+    background-color: #f9fcff;
+    border-color: #d8eaff
+}
+
+ul.otpVerfication .radio_option {
+    margin-right: 10px
+}
+
+.select_icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 15px
+}
+
+.select_optioninfo {
+    width: 158px
+}
+
+.make_block {
+    display: block
+}
+
+.currency_type {
+    font-size: 14px;
+    color: #4a4a4a;
+    line-height: 14px
+}
+
+.currency_subtype {
+    font-size: 12px;
+    color: #4a4a4a;
+    line-height: 12px
+}
+
+.converter_info {
+    font-size: 11px;
+    color: #9b9b9b;
+    line-height: 13px
+}
+
+.exchnage_rateoption {
+    background: #f5f5f5;
+    padding: 10px;
+    font-size: 11px;
+    line-height: 14px;
+    color: #9b9b9b
+}
+
+.pay_amountinfo {
+    width: 210px
+}
+
+.pay_buttoninfo {
+    width: 244px
+}
+
+.total_price {
+    font-size: 20px;
+    color: #4a4a4a;
+    line-height: 30px
+}
+
+.convinience_txt {
+    font-size: 11px;
+    line-height: 16px
+}
+
+.radio_option {
+    background-position: -25px -34px;
+    width: 19px;
+    height: 18px;
+    margin-top: 6px;
+    margin-right: 12px
+}
+
+.is-active .radio_option {
+    background-position: -46px -34px
+}
+
+.rdo {
+    display: none
+}
+
+.radio_option_type1 {
+    background-position: -26px -34px;
+    width: 18px;
+    height: 18px;
+    margin-top: 6px;
+    margin-right: 12px
+}
+
+.is-active-click .radio_option_type1 {
+    background-position: -47px -34px
+}
+
+ul.currency_options li.is-active a {
+    background-color: #f9fcff;
+    border-color: #008cff
+}
+
+.pay_button_noCost {
+    background: #eb2026;
+    padding: 10px 10px;
+    border-radius: 2px;
+    border: 1px solid #bc0006;
+    margin-left: 313px;
+    margin-top: 37px
+}
+
+.info_icon {
+    background-position: -72px -34px;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    margin-left: 5px
+}
+
+.pay_button {
+    border-radius: 19.6px;
+    /* background-image: linear-gradient(96deg, #53b2fe, #065af3); */
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2);
+    border: 0;
+    padding: 8px 20px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center
+}
+
+.lock_icon {
+    background-position: -94px -1px;
+    width: 18px;
+    height: 22px;
+    margin-right: 12px
+}
+
+.lock_txt {
+    font-size: 16px;
+    color: #fff;
+    line-height: 22px
+}
+
+.lock_txt_otp {
+    font-size: 16px;
+    color: #fff;
+    line-height: 22px
+}
+
+.paypal_smallicn {
+    background-position: -120px 0
+}
+
+.error_message {
+    border-top: 1px solid #f1f1f1;
+    padding-top: 80px;
+    width: 534px
+}
+
+.error_mascot {
+    margin-right: 50px
+}
+
+.error_message_container {
+    width: 365px;
+    padding-top: 50px
+}
+
+.error_heading {
+    font-size: 20px;
+    color: #4a4a4a;
+    line-height: 20px
+}
+
+.sub_errortxt {
+    font-size: 13px;
+    line-height: 20px;
+    color: #9b9b9b
+}
+
+.guarntee_icon {
+    background-position: -3px -94px;
+    width: 109px;
+    height: 25px;
+    margin-top: 3px
+}
+
+.wallet_icon {
+    background-position: -3px -124px
+}
+
+.paytm_icon {
+    background-position: -3px -124px
+}
+
+.freecharge_icon {
+    background-position: -37px -125px
+}
+
+.payu_icon {
+    background-position: -67px -122px
+}
+
+.amzpay_icon {
+    background-position: -212px -247px
+}
+
+.mobik_icon {
+    background-position: -96px -123px
+}
+
+.amex_icon {
+    background-position: -123px -126px
+}
+
+.ezeclick_icon {
+    background-position: -123px -126px
+}
+
+.payoption_icon.wallet_icon {
+    margin-top: 14px
+}
+
+.icon_type {
+    font-size: 13px;
+    line-height: 14px;
+    color: #4a4a4a;
+    margin-top: 9px
+}
+
+.icn_spacetype {
+    margin-right: 12px;
+    margin-top: 2px;
+    width: 25px;
+    height: 25px
+}
+
+.paypal_smallicn {
+    background-position: -184px -155px
+}
+
+.paypal_icon {
+    background-position: -184px -155px
+}
+
+.giftcard_icon {
+    background-position: -184px -187px
+}
+
+.wallet_iconone {
+    background-position: -184px -125px
+}
+
+.wlt_icon {
+    background-position: -184px -125px
+}
+
+.cod_icon {
+    background-position: -184px -95px
+}
+
+.emi_icon {
+    background-position: -185px -67px
+}
+
+.netbanking_icon {
+    background-position: -185px -37px
+}
+
+.debit_icon {
+    background-position: -185px -11px
+}
+
+.netbnkng_icon {
+    background-position: -185px -37px
+}
+
+.netbank_icon {
+    background-position: -185px -37px
+}
+
+.card_icon {
+    background-position: -185px -11px
+}
+
+.cityreward_icon {
+    background-position: -185px -215px
+}
+
+.tab_section li a.active .upi_sm_icon,
+.tab_section li a:hover .upi_sm_icon {
+    background-position: -213px -72px
+}
+
+.tab_section li a.active .paypal_smallicn,
+.tab_section li a:hover .paypal_smallicn {
+    background-position: -153px -155px
+}
+
+.tab_section li a.active .paypal_icon,
+.tab_section li a:hover .paypal_icon {
+    background-position: -153px -155px
+}
+
+.tab_section li a.active .giftcard_icon,
+.tab_section li a:hover .giftcard_icon {
+    background-position: -153px -187px
+}
+
+.tab_section li a.active .wallet_iconone,
+.tab_section li a:hover .wallet_iconone {
+    background-position: -153px -125px
+}
+
+.tab_section li a.active .wlt_icon,
+.tab_section li a:hover .wlt_icon {
+    background-position: -153px -125px
+}
+
+.tab_section li a.active .cod_icon,
+.tab_section li a:hover .cod_icon {
+    background-position: -154px -95px
+}
+
+.tab_section li a.active .emi_icon,
+.tab_section li a:hover .emi_icon {
+    background-position: -154px -67px
+}
+
+.tab_section li a.active .netbanking_icon,
+.tab_section li a:hover .netbanking_icon {
+    background-position: -154px -37px
+}
+
+.tab_section li a.active .netbnkng_icon,
+.tab_section li a:hover .netbnkng_icon {
+    background-position: -154px -37px
+}
+
+.tab_section li a.active .card_icon,
+.tab_section li a:hover .card_icon {
+    background-position: -154px -11px
+}
+
+.tab_section li a.active .phpe_icon,
+.tab_section li a:hover .phpe_icon {
+    background-position: -430px -304px
+}
+
+.tab_section li a.active .cityreward_icon,
+.tab_section li a:hover .cityreward_icon {
+    background-position: -154px -215px
+}
+
+.tab_section li a.active .debit_icon,
+.tab_section li a:hover .debit_icon {
+    background-position: -154px -11px
+}
+
+.option_iconinfo.for_debit {
+    width: 234px
+}
+
+.cd_iconspace {
+    width: 238px;
+    margin-top: 5px
+}
+
+.american_icon,
+.cpay_american_express {
+    background-position: -2px -154px;
+    width: 36px;
+    height: 24px
+}
+
+.mastercard_icon,
+.cpay_master_card,
+.master_icon {
+    background-position: -41px -154px;
+    width: 36px;
+    height: 24px
+}
+
+.maestro_icon,
+.cpay_maestro {
+    background-position: -82px -154px;
+    width: 36px;
+    height: 24px
+}
+
+.mystrycard_icon,
+.cpay_diners_card {
+    background-position: -2px -180px;
+    width: 36px;
+    height: 24px
+}
+
+.rupay_icon,
+.cpay_rupay {
+    background-position: -41px -180px;
+    width: 36px;
+    height: 24px
+}
+
+.visa_icon,
+.cpay_visa {
+    background-position: -83px -180px;
+    width: 36px;
+    height: 24px
+}
+
+.hdfc_icon {
+    background-position: -75px -210px;
+    width: 17px;
+    height: 18px
+}
+
+.cd_iconspace span {
+    margin-right: 4px
+}
+
+.cd_iconspace a {
+    margin-right: 4px
+}
+
+.cd_iconspace span.last {
+    margin-right: 0
+}
+
+.bank_icon {
+    margin: -2px 2px 0 0
+}
+
+.input_label {
+    font-size: 11px;
+    color: #9b9b9b;
+    line-height: 12px
+}
+
+.card_type_input {
+    position: relative
+}
+
+input.form-control {
+    border: 1px solid #008cff;
+    border-radius: 4px;
+    background: #fff;
+    -moz-box-shadow: inset 0 0 2px 0 #d1e2f5;
+    -webkit-box-shadow: inset 0 0 2px 0 #d1e2f5;
+    box-shadow: inset 0 0 2px 0 #d1e2f5;
+    padding: 14px 10px 11px;
+    font-family: "lato-regular";
+    font-size: 13px;
+    line-height: 14px;
+    color: #9b9b9b;
+    height: 14px
+}
+
+.card_type_input input {
+    width: 428px
+}
+
+.card_type_info {
+    position: absolute;
+    right: 3%;
+    top: 25%
+}
+
+.select_section select {
+    border: 1px solid #008cff;
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: inset 0 0 2px 0 #d1e2f5;
+    padding: 12px 0 9px;
+    font-family: "lato-regular";
+    font-size: 13px;
+    color: #9b9b9b;
+    height: 41px;
+    line-height: 40px;
+    text-indent: 5px;
+    width: 85px
+}
+
+.select_field {
+    width: 86px
+}
+
+.year_info {
+    margin-left: 15px;
+    margin-right: 25px;
+    width: 74px
+}
+
+.year_info select {
+    width: 74px
+}
+
+.cvv_info {
+    margin-right: 10px;
+    width: 68px
+}
+
+.cvv_info input {
+    width: 38px;
+    box-shadow: inset 0 0 2px 0 #edf4fb;
+    border-color: #008cff
+}
+
+.cvv_info .input_label {
+    color: #9b9b9b
+}
+
+.cvv_additionalinfo {
+    width: 175px;
+    padding-top: 16px
+}
+
+.cvv_notrequired,
+.cvv_required {
+    font-size: 12px;
+    color: #9b9b9b;
+    line-height: 12px;
+    line-height: 14px
+}
+
+.cvv_requiredinfo {
+    padding-top: 8px
+}
+
+.cvv_required {
+    width: 125px
+}
+
+.cvv_cardicon {
+    background-position: -98px -210px;
+    width: 39px;
+    height: 23px;
+    margin-right: 5px;
+    margin-top: 2px
+}
+
+.cvv_icon_3digit {
+    background-position: -98px -210px;
+    width: 39px;
+    height: 23px;
+    margin-right: 5px;
+    margin-top: 2px
+}
+
+.cvv_icon_4digit {
+    background-position: -913px -272px;
+    width: 39px;
+    height: 23px;
+    margin-right: 5px;
+    margin-top: 2px
+}
+
+.emi_cvv_info {
+    margin-right: 10px;
+    width: 68px
+}
+
+.emi_cvv_info input {
+    width: 38px;
+    box-shadow: inset 0 0 2px 0 #edf4fb;
+    border-color: #edf4fb
+}
+
+.emi_cvv_info .input_label {
+    color: #9b9b9b
+}
+
+.manitainence_info {
+    background-color: #fffdd0;
+    padding: 10px;
+    font-size: 11px;
+    line-height: 14px;
+    color: #e78f00
+}
+
+.coupon_appliedinfo {
+    background-color: #eeffdc;
+    padding: 10px;
+    font-size: 11px;
+    line-height: 14px;
+    color: #417505
+}
+
+.coupon_appliedinfo a {
+    color: #0055b7;
+    text-decoration: underline
+}
+
+.payment_details {
+    padding-top: 15px;
+    width: 465px
+}
+
+.select_section.country_name select {
+    width: 455px
+}
+
+.billing_address textarea {
+    border: 1px solid #d1e2f5;
+    border-radius: 2px;
+    background: #fff;
+    -moz-box-shadow: inset 0 0 2px 0 #d1e2f5;
+    -webkit-box-shadow: inset 0 0 2px 0 #d1e2f5;
+    box-shadow: inset 0 0 2px 0 #d1e2f5;
+    padding: 14px 10px 11px;
+    font-family: "lato-regular";
+    font-size: 13px;
+    line-height: 14px;
+    color: #9b9b9b;
+    width: 433px
+}
+
+.city_field,
+.pincode_field {
+    margin-right: 20px
+}
+
+.city_field input {
+    width: 95px
+}
+
+.pincode_field input,
+.state_field input {
+    width: 100px
+}
+
+.savecardinfotxt {
+    width: 430px;
+    line-height: 15px
+}
+
+input.checkfield {
+    margin: 0 8px 0 0
+}
+
+.verification_steps {
+    border-top: 1px solid #eaeaea;
+    padding-top: 16px
+}
+
+.lock_smallicon {
+    background-position: -123px -156px;
+    width: 13px;
+    height: 15px;
+    margin-right: 6px
+}
+
+.verification_txt {
+    line-height: 16px
+}
+
+ul.currency_options.verification_type {
+    margin-bottom: 20px
+}
+
+ul.currency_options.verification_type li {
+    margin-right: 8px;
+    margin-bottom: 0
+}
+
+ul.currency_options.verification_type li.last {
+    margin-right: 0
+}
+
+ul.currency_options.verification_type li a {
+    width: 124px;
+    padding: 10px;
+    min-height: 60px
+}
+
+.verification_type .select_optioninfo {
+    width: 94px
+}
+
+ul.currency_options .radio_option {
+    margin-right: 8px
+}
+
+.security_guarntted {
+    width: 120px;
+    padding-top: 3px
+}
+
+.security_icon {
+    background-position: -115px -33px;
+    width: 29px;
+    height: 24px
+}
+
+.security_infotxt {
+    font-size: 11px;
+    line-height: 12px;
+    width: 82px
+}
+
+ul.currency_options.netbanking {
+    margin-bottom: 0
+}
+
+ul.currency_options.netbanking .radio_option {
+    margin-right: 4px
+}
+
+ul.currency_options.netbanking li {
+    width: 230px;
+    margin-bottom: 15px;
+    margin-right: 10px!important;
+    box-sizing: border-box
+}
+
+ul.currency_options.netbanking li a {
+    width: auto;
+    border: 0;
+    background-color: transparent;
+    padding: 0;
+    float: left;
+    width: 100%;
+    min-height: 36px;
+    border: 1px solid #efefef;
+    padding: 10px 15px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-sizing: border-box
+}
+
+ul.currency_options.netbanking li.is-active a {
+    background-color: #f9fcff;
+    border-color: #008cff
+}
+
+ul.currency_options.netbanking li:nth-child(2n+1) {
+    margin-right: 0
+}
+
+ul.currency_options.netbanking li.other_bank {
+    width: 455px;
+    margin-bottom: 5px
+}
+
+ul.currency_options.netbanking li.other_bank .radio_option {
+    margin-top: 12px
+}
+
+ul.currency_options.netbanking select {
+    width: 420px
+}
+
+.bank_name {
+    font-size: 14px;
+    line-height: 26px;
+    color: #2f2f2f;
+    word-break: normal;
+    width: 144px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap
+}
+
+.netbank_icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 6px;
+    margin-top: 2px
+}
+
+.hdfc {
+    background-position: -2px -242px
+}
+
+.axis {
+    background-position: -29px -242px
+}
+
+.hsbc {
+    background-position: -56px -242px
+}
+
+.state {
+    background-position: -110px -242px
+}
+
+.cbiban {
+    background-position: -83px -242px
+}
+
+.citi {
+    background-position: -83px -242px
+}
+
+.bajajfs {
+    background-position: -49px -355px
+}
+
+.sbi {
+    background-position: -111px -241px
+}
+
+.idbi {
+    background-position: -110px -242px
+}
+
+.icici {
+    background-position: -158px -309px;
+    width: 21px;
+    height: 23px
+}
+
+.indusind {
+    background-position: -128px -355px
+}
+
+.rbl {
+    background-position: -1px -355px
+}
+
+.yes {
+    background-position: -77px -355px
+}
+
+.kotak {
+    background-position: -23px -357px
+}
+
+.amex {
+    background-position: -244px -155px
+}
+
+.iciciqc {
+    background-position: -399px -309px
+}
+
+.citibank {
+    background-position: -83px -242px;
+    width: 26px;
+    height: 24px
+}
+
+.hdfc_icon2 {
+    background-position: -2px -242px;
+    width: 26px;
+    height: 24px
+}
+
+.axis_icon2 {
+    background-position: -29px -242px;
+    width: 26px;
+    height: 24px
+}
+
+.hsbc_icon2 {
+    background-position: -56px -242px;
+    width: 26px;
+    height: 24px
+}
+
+.citibank_icon2 {
+    background-position: -83px -242px;
+    width: 26px;
+    height: 24px
+}
+
+.state_icon2 {
+    background-position: -110px -242px;
+    width: 26px;
+    height: 24px
+}
+
+.idbi_icon2 {
+    background-position: -110px -242px;
+    width: 26px;
+    height: 24px
+}
+
+.icici_icon2 {
+    background-position: -158px -309px;
+    width: 21px;
+    height: 23px
+}
+
+.indusind_icon2 {
+    background-position: -128px -355px;
+    width: 25px;
+    height: 25px
+}
+
+.rbl_icon2 {
+    background-position: -1px -355px;
+    width: 21px;
+    height: 25px
+}
+
+.yes_icon2 {
+    background-position: -77px -355px;
+    width: 24px;
+    height: 25px
+}
+
+.kotak_icon2 {
+    background-position: -23px -357px;
+    width: 25px;
+    height: 21px
+}
+
+#gift_card {
+    position: relative;
+    min-height: 445px
+}
+
+.gift_card_container {
+    position: relative;
+    z-index: 2
+}
+
+.gf_bg {
+    /* background: url(../images/bitmap.png) left top no-repeat; */
+    width: 283px;
+    height: 297px;
+    position: absolute;
+    right: -46px;
+    bottom: -30px
+}
+
+.gflogo_container {
+    width: 148px
+}
+
+.giftcardinfo {
+    width: 306px
+}
+
+.giftcardinfo .info_icon {
+    position: absolute;
+    z-index: 1
+}
+
+.logo_symbol_icon {
+    background-position: -120px -179px;
+    width: 27px;
+    height: 27px;
+    margin-right: 10px
+}
+
+.pay_button.for_gfcard {
+    padding: 0 12px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center
+}
+
+.pay_button.for_gfcard .lock_txt {
+    line-height: 27px
+}
+
+.pincode_info {
+    width: 100px
+}
+
+.pincode_info input {
+    width: 78px
+}
+
+.caller_icon {
+    background-position: 0 -271px;
+    width: 66px;
+    height: 62px;
+    margin-right: 20px
+}
+
+.caller_details {
+    padding-top: 6px
+}
+
+.mmt_assistance {
+    padding-top: 16px;
+    border-top: 1px solid #eaeaea
+}
+
+.caller_number {
+    font-size: 26px;
+    color: #1e508b;
+    line-height: 26px
+}
+
+.error_icon {
+    background-position: -74px -271px;
+    width: 19px;
+    height: 20px;
+    margin-right: 6px
+}
+
+.error_text {
+    color: #ed1300;
+    margin-top: 3px
+}
+
+.emi_error_text {
+    margin-top: 3px
+}
+
+.has_error {
+    border-color: #f11e14!important;
+    margin-bottom: 6px!important
+}
+
+.left_section {
+    width: 270px
+}
+
+.right_section {
+    width: 160px
+}
+
+.gift_label {
+    font-size: 16px;
+    line-height: 20px;
+    color: #2f2f2f
+}
+
+.dark_green {
+    color: #417505
+}
+
+.gift_price_label {
+    font-size: 20px
+}
+
+.append_bottom30 {
+    margin-bottom: 30px
+}
+
+.ghost_button {
+    border-radius: 30px;
+    border: 1px solid #008cff;
+    padding: 12px 15px;
+    display: inline-block;
+    font-size: 16px;
+    color: #008cff;
+    line-height: 16px
+}
+
+.payback_wallet_section {
+    border: 1px solid #d8eaff;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+    background: #fff
+}
+
+.pacback_info {
+    border-bottom: 1px solid #e9e9e9;
+    padding: 15px
+}
+
+.label_info {
+    width: 230px
+}
+
+.label_description {
+    width: 535px;
+    padding-top: 3px
+}
+
+.payback_icn {
+    margin-right: 15px;
+    width: 21px;
+    height: 20px
+}
+
+.label_txt {
+    line-height: 22px
+}
+
+.payback_wallet_section .info_icon {
+    margin-top: 2px
+}
+
+.left_space {
+    margin-left: 35px
+}
+
+.point_section {
+    border-right: 1px solid #dedede;
+    padding-right: 15px;
+    margin-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px
+}
+
+.ttl_ruppee {
+    font-size: 14px;
+    line-height: 14px
+}
+
+.ttl_points {
+    font-size: 12px;
+    line-height: 12px
+}
+
+.redeem_type_input input {
+    width: 120px;
+    border-right: none medium;
+    border-radius: 2px 0 0 2px
+}
+
+a.secondary_button {
+    border-radius: 30px;
+    background: #fff;
+    font-size: 12px;
+    line-height: 14px;
+    padding: 15px 15px 12px;
+    color: #008cff;
+    height: 14px;
+    border: solid 1px #008cff!important
+}
+
+.point_field a.secondary_button {
+    margin-right: 15px;
+    border-radius: 0 2px 2px 0
+}
+
+.label_description .click_info {
+    margin-top: 15px
+}
+
+.green_info_icon {
+    background-position: -119px -65px;
+    width: 14px;
+    height: 15px;
+    margin-right: 5px
+}
+
+.pin_message {
+    font-size: 11px;
+    line-height: 18px
+}
+
+.pin_message .click_info {
+    margin-top: 5px;
+    margin-left: 3px
+}
+
+.pin_message .error_text {
+    margin-top: 2px
+}
+
+.linked_section {
+    margin-right: 12px
+}
+
+.linked_section input {
+    width: 165px
+}
+
+.label_description .for_linked {
+    margin-top: 32px
+}
+
+.no_paybackfound {
+    width: 310px;
+    padding-top: 6px
+}
+
+.coupon_completeicon {
+    background-position: -97px -271px;
+    width: 24px;
+    height: 24px
+}
+
+.redeem_coupon {
+    background: #fff;
+    border: 1px dashed #579341;
+    padding: 6px 10px;
+    border-radius: 2px
+}
+
+.redeem_info {
+    margin: 7px 10px 0 0
+}
+
+.wallet_info,
+.otp_info {
+    padding: 15px
+}
+
+.leftpad {
+    padding-left: 35px
+}
+
+.label_info .type3 {
+    margin-top: 3px
+}
+
+.label_info .click_info {
+    margin-left: 5px
+}
+
+.login_label {
+    font-size: 11px;
+    line-height: 12px;
+    text-transform: uppercase
+}
+
+.email_input,
+.pass_input {
+    margin-right: 10px
+}
+
+.email_input input {
+    width: 160px
+}
+
+.pass_input input {
+    width: 100px
+}
+
+.for_login {
+    margin-right: 10px
+}
+
+.social_button {
+    border-radius: 2px;
+    padding: 16px 15px 14px;
+    color: #fff;
+    line-height: 12px;
+    text-align: center;
+    width: 60px
+}
+
+.blue {
+    background: #4665ac
+}
+
+.orange {
+    background: #e1492a
+}
+
+.fb_tab {
+    margin-right: 10px
+}
+
+.full_width {
+    width: 100%
+}
+
+.right_info {
+    border-left: 1px solid #dedede;
+    padding-left: 20px;
+    margin-left: 20px
+}
+
+.wallet_balance {
+    margin-right: 20px
+}
+
+.not_applicable {
+    font-size: 14px;
+    line-height: 22px
+}
+
+.redeem_ruppee {
+    margin-right: 10px;
+    padding-top: 10px
+}
+
+.quick_info {
+    width: 380px
+}
+
+.opt_name {
+    font-size: 14px;
+    margin-right: 5px;
+    color: #4a4a4a
+}
+
+.card_brief {
+    width: 286px
+}
+
+.card_brief .netbank_icon {
+    margin: 0
+}
+
+.card_brief .mrgn {
+    margin: 2px 8px 0 0
+}
+
+.crd_no {
+    font-size: 14px;
+    line-height: 14px;
+    color: #4a4a4a;
+    padding-top: 5px
+}
+
+.mrgn.type_1 {
+    margin-top: 2px
+}
+
+.emi_info {
+    margin-top: 25px
+}
+
+.cashback_icon {
+    background-position: -129px -272px;
+    width: 18px;
+    height: 19px;
+    margin-right: 10px
+}
+
+.cashback_info {
+    padding-left: 20px
+}
+
+.edit_cancel {
+    color: #0055b7
+}
+
+.edit_icon {
+    background-position: -76px -298px;
+    width: 15px;
+    height: 15px;
+    margin-right: 5px
+}
+
+.delete_icon {
+    background-position: -94px -298px;
+    width: 15px;
+    height: 15px;
+    margin-right: 5px
+}
+
+.edit_cancel {
+    line-height: 18px;
+    margin-right: 10px
+}
+
+.currency_options.for_frequent .left_space {
+    margin-left: 28px
+}
+
+.point_inputfield input {
+    width: 50px;
+    margin-top: -5px
+}
+
+.frequent_section {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px
+}
+
+.frequent_section .border_bottom,
+.frequent_section.border_bottom {
+    padding-bottom: 14px;
+    border-bottom-color: #f3f9ff
+}
+
+.frequent_section .verification_steps {
+    border: 0;
+    padding-top: 0
+}
+
+.card_type_details .security_icon {
+    margin-right: 18px
+}
+
+.update_tabinfo {
+    margin-right: 10px
+}
+
+.update_return_tab a.ghost_button {
+    font-size: 14px;
+    line-height: 15px
+}
+
+.card_type_delete .mrgn {
+    margin: 0 10px 0 0
+}
+
+.card_type_delete .crd_no {
+    width: 400px;
+    padding-top: 0;
+    line-height: 18px
+}
+
+.card_type_delete .left_space {
+    padding-left: 42px
+}
+
+.frequent_section .click_info {
+    width: 100px;
+    margin-right: 10px;
+    line-height: 14px;
+    text-align: right
+}
+
+.frequent_section .cvv_info {
+    margin-right: 0
+}
+
+.otp_info input {
+    width: 72px
+}
+
+.otp_information {
+    width: 90px;
+    margin-top: 20px;
+    margin-left: 10px
+}
+
+.step_heading {
+    min-height: 24px
+}
+
+.step_number {
+    border-radius: 15px;
+    width: 30px;
+    height: 23px;
+    border: 1px solid #9b9b9b;
+    text-align: center;
+    padding-top: 6px;
+    line-height: 14px;
+    font-size: 14px;
+    margin-right: 12px
+}
+
+.font_14 {
+    font-size: 14px;
+    line-height: 14px
+}
+
+.select_label {
+    padding-top: 8px;
+    margin-right: 10px
+}
+
+.select_subinfo {
+    padding-top: 8px
+}
+
+.wallet_info .wallet_iconone,
+.wlt_icon {
+    background-position: -217px -48px;
+    width: 21px;
+    height: 17px
+}
+
+.wlt_login_msg {
+    width: 390px;
+    padding-top: 6px;
+    padding-right: 12px
+}
+
+.step_details .currency_options {
+    margin-left: 42px;
+    margin-bottom: 0;
+    padding-top: 10px
+}
+
+.step_details .currency_options li {
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid #e9f3ff;
+    padding-bottom: 8px;
+    margin-bottom: 8px
+}
+
+.step_details .currency_options li a {
+    padding: 0;
+    border: 0;
+    background: #fff;
+    width: 100%
+}
+
+.step_details .currency_options li a:hover {
+    border: 0;
+    background: #fff
+}
+
+.step_details .currency_options li.is-active a {
+    border: 0;
+    background: #fff
+}
+
+.step_details .currency_options li:last-child {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border: 0
+}
+
+.step_details .currency_options .bank_name {
+    line-height: 30px
+}
+
+ul.bank_list_mirror {
+    margin: 0;
+    padding-top: 12px
+}
+
+.bank_list_mirror li {
+    list-style-type: none
+}
+
+.close_drop {
+    background-position: -125px -301px;
+    width: 9px;
+    height: 6px
+}
+
+.close_dropsection {
+    padding: 10px
+}
+
+.step_heading .coupon_completeicon {
+    margin-right: 12px
+}
+
+.monthly_info {
+    width: 58px;
+    text-align: center;
+    margin-right: 20px
+}
+
+.ineterest_info {
+    width: 38px;
+    text-align: center;
+    margin-right: 20px
+}
+
+.installment {
+    width: 59px;
+    text-align: center;
+    margin-right: 20px
+}
+
+.total_money {
+    width: 62px;
+    text-align: center;
+    margin-right: 20px
+}
+
+.interest_paid {
+    width: 64px;
+    text-align: center
+}
+
+.top_mrgn {
+    margin-top: 8px
+}
+
+.fee_headinginfo {
+    background: #f6f6f6;
+    padding: 10px 5px 10px 26px;
+    margin-top: 10px;
+    margin-left: 42px;
+    font-size: 11px
+}
+
+.addcard_info {
+    padding-left: 68px;
+    padding-top: 10px
+}
+
+.addcard_info .cvv_additionalinfo {
+    width: 130px
+}
+
+.addcard_info .year_info {
+    margin-right: 15px;
+    margin-left: 10px
+}
+
+.addcard_info .cvv_info {
+    width: 62px
+}
+
+.addcard_info .cvv_required {
+    width: 76px
+}
+
+.addcard_info .card_type_input input {
+    width: 364px
+}
+
+ul.currency_options.part_payment {
+    margin-bottom: 20px
+}
+
+ul.currency_options.part_payment li {
+    margin-bottom: 0;
+    margin-right: 15px
+}
+
+ul.currency_options.part_payment li a {
+    width: 250px
+}
+
+ul.currency_options.part_payment .select_optioninfo {
+    width: 220px
+}
+
+.partial_amount_info input {
+    width: 80px
+}
+
+.partial_labelinfo {
+    width: 100px;
+    color: #999;
+    font-size: 10px;
+    line-height: 14px;
+    margin: 6px 0 0 10px
+}
+
+.select_optioninfo .info_icon {
+    z-index: 10
+}
+
+.part_payment .tooltip_upper .tooltip_wrap {
+    left: 78%;
+    top: 35%
+}
+
+.tooltip_space {
+    padding: 10px
+}
+
+.deal_heading {
+    background: #f7ffef;
+    padding: 10px 15px;
+    border-bottom: 1px solid #dafbce;
+    font-size: 13px;
+    line-height: 18px
+}
+
+.deal_green_icon {
+    background-position: -75px -320px;
+    width: 18px;
+    height: 18px;
+    margin-right: 10px
+}
+
+.flight_section {
+    padding: 15px
+}
+
+.oneway_arrow {
+    background-position: -101px -320px;
+    width: 17px;
+    height: 13px;
+    margin: 0 12px
+}
+
+.airline_logo {
+    margin-right: 6px
+}
+
+.airline_name {
+    line-height: 32px
+}
+
+.city_time_brief {
+    width: 45px;
+    margin-right: 5px
+}
+
+.duration_brief {
+    border-bottom: 1px solid #979797;
+    padding: 0 20px;
+    margin-right: 20px;
+    margin-top: 15px;
+    position: relative;
+    width: 132px
+}
+
+.inner_txt {
+    position: absolute;
+    top: -7px;
+    width: 118px;
+    padding: 0 5px 0 10px;
+    background: #fff
+}
+
+.airline_brief {
+    padding-left: 0
+}
+
+.circle {
+    background-position: -123px -319px;
+    width: 9px;
+    height: 8px;
+    position: absolute;
+    top: -3px
+}
+
+.left_pos {
+    left: -5px
+}
+
+.right_pos {
+    right: -5px
+}
+
+.flight_section.bottom_seperation {
+    border-bottom: 1px solid #ddd
+}
+
+.traveler_icon {
+    background-position: -133px -313px;
+    width: 16px;
+    height: 20px;
+    margin-right: 10px;
+    margin-top: -5px
+}
+
+.message_icon {
+    background-position: -2px -337px;
+    width: 17px;
+    height: 12px;
+    margin-right: 10px
+}
+
+.caller_smallicon {
+    background-position: -25px -337px;
+    width: 18px;
+    height: 17px;
+    margin-right: 10px;
+    margin-top: -2px
+}
+
+.font_16 {
+    font-size: 16px;
+    line-height: 16px
+}
+
+.otp_info {
+    border-top: 1px solid #e9e9e9
+}
+
+.otp_info .label_txt {
+    margin-right: 5px
+}
+
+.otp_info .otp_information {
+    margin-top: 5px
+}
+
+.otp_info .card_brief {
+    padding-right: 30px;
+    margin-right: 30px;
+    border-right: 1px solid #ddd
+}
+
+.otp_sectionalpart {
+    margin: 0 35px
+}
+
+.otp_sectionalpart .border_bottom {
+    border-color: #e9e9e9
+}
+
+.otp_sectionalpart .pay_buttoninfo {
+    width: 350px
+}
+
+.otp_sectionalpart .pay_button {
+    margin-right: 10px
+}
+
+.continue_info {
+    padding-top: 16px
+}
+
+.mrgntop {
+    margin-top: 15px
+}
+
+.caller_smallicon {
+    background-position: -25px -338px;
+    width: 17px;
+    height: 16px;
+    margin-right: 10px;
+    margin-top: -2px
+}
+
+.point_inputfield {
+    position: relative
+}
+
+.point_inputfield input {
+    padding-left: 20px;
+    width: 50px;
+    margin-top: -3px;
+    padding-right: 14px
+}
+
+.point_inputfield .INR {
+    position: absolute;
+    left: 4px;
+    font-size: 13px;
+    top: 10px;
+    color: #9b9b9b
+}
+
+.hover_state_red {
+    background: #ffeded
+}
+
+.forget_pin {
+    /* background-image: url(../images/ajax-loader.gif); */
+    width: 32px;
+    height: 32px;
+    float: right;
+    margin: 5px 0 0 8px
+}
+
+.forget_pin_redeem {
+    margin-top: 15px!important
+}
+
+.forget_pin_fetch {
+    margin-top: 30px!important
+}
+
+.summry_info {
+    font-size: 14px;
+    line-height: 16px;
+    color: #2f2f2f
+}
+
+.booking_summary {
+    width: 370px;
+    margin-top: 12px
+}
+
+.summary_description {
+    background: #fff;
+    min-height: 400px;
+    border: 1px solid #d8eaff;
+    border-radius: 2px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.1)
+}
+
+.hotel_description {
+    padding: 15px;
+    border-bottom: 1px solid #ddd
+}
+
+.hotel_name {
+    font-size: 16px;
+    color: #4a4a4a
+}
+
+.hotel_location {
+    font-size: 12px;
+    color: #9b9b9b
+}
+
+.click_info {
+    font-size: 11px;
+    color: #008cff;
+    line-height: 12px
+}
+
+.border_bottom {
+    border-bottom: 1px solid #e9f3ff;
+    padding-bottom: 16px
+}
+
+.labelinfo {
+    font-size: 11px;
+    color: #9b9b9b;
+    line-height: 12px
+}
+
+.checkin_time {
+    font-size: 16px;
+    line-height: 18px;
+    color: #4a4a4a
+}
+
+.grey {
+    color: #9b9b9b
+}
+
+.black {
+    color: #4a4a4a
+}
+
+.adult_info {
+    font-size: 13px;
+    color: #484848;
+    line-height: 14px
+}
+
+.room_info {
+    border-right: 1px solid #dadada;
+    padding-right: 10px;
+    margin-right: 10px
+}
+
+.room_info.last {
+    border: 0;
+    margin-right: 0;
+    padding-right: 0
+}
+
+.room_heading {
+    font-size: 15px;
+    line-height: 16px
+}
+
+.traveler_name {
+    font-size: 13px;
+    line-height: 13px;
+    color: #4a4a4a
+}
+
+.contact_info {
+    font-size: 12px;
+    line-height: 12px;
+    color: #9b9b9b
+}
+
+.price_breakup {
+    background: #f9f9f9;
+    padding: 15px;
+    border-bottom: 1px solid #ddd
+}
+
+.first_part {
+    font-size: 13px;
+    color: #4a4a4a
+}
+
+.border_bottomone {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 15px
+}
+
+.border_topone {
+    border-top: 1px solid #ccc;
+    padding-top: 15px
+}
+
+.second_part {
+    font-size: 15px;
+    line-height: 15px
+}
+
+.red {
+    color: #eb2026
+}
+
+.green {
+    color: #579341
+}
+
+.total_price_info {
+    background: #fff;
+    padding: 18px 15px 16px;
+    border-bottom: 1px solid #ddd
+}
+
+.total_sumprice {
+    font-size: 20px;
+    color: #4a4a4a;
+    line-height: 20px
+}
+
+.first_label {
+    font-size: 18px;
+    color: #4a4a4a;
+    line-height: 20px
+}
+
+.total_price_LOB {
+    width: 125px;
+    height: 17px;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #4a4a4a
+}
+
+.second_label {
+    font-size: 13px;
+    color: #9b9b9b;
+    line-height: 13px
+}
+
+.cancellation_info {
+    background: #fffaf2;
+    padding: 15px
+}
+
+.cancellation_txt {
+    font-size: 12px;
+    color: #f6a623;
+    line-height: 12px
+}
+
+.coupon_code {
+    background: #fff;
+    border: 1px dashed #579341;
+    border-radius: 8px;
+    padding: 5px 10px 4px;
+    font-size: 14px;
+    line-height: 14px
+}
+
+.info_color_icn {
+    background-position: -94px -35px;
+    width: 14px;
+    height: 14px
+}
+
+.price_breakup .info_color_icn {
+    margin-left: 8px
+}
+
+.blank_icon {
+    background-position: -3px -207px;
+    width: 66px;
+    height: 12px
+}
+
+.fill_icon {
+    background-position: -3px -223px;
+    height: 12px
+}
+
+.onestar {
+    width: 14px
+}
+
+.twostar {
+    width: 25px
+}
+
+.threestar {
+    width: 39px
+}
+
+.fourstar {
+    width: 52px
+}
+
+.fivestar {
+    width: 66px
+}
+
+.loading_section {
+    height: 8px;
+    background: #f6f7f9 none repeat scroll 0 0;
+    overflow: hidden;
+    position: relative
+}
+
+.loading_animation {
+    -webkit-animation: loadinganimation 1.2s infinite linear;
+    -moz-animation: loadinganimation 1.2s infinite linear;
+    -o-animation: loadinganimation 1.2s infinite linear;
+    animation: loadinganimation 1.2s infinite linear;
+    background: rgba(0, 0, 0, 0) linear-gradient(to right, #f3f4f7 10%, #e4e4e4 52%, #f3f4f7 100%) repeat scroll 0 0;
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#f3f4f7', endColorstr='#e4e4e4', GradientType=0);
+    position: absolute;
+    width: 50%;
+    height: 8px
+}
+
+.type1 {
+    width: 398px
+}
+
+.type2 {
+    width: 337px
+}
+
+.type3 {
+    width: 158px
+}
+
+a.loading,
+input.loading,
+button.loading,
+a.loading:active,
+input.loading:active,
+button.loading:active {
+    background-image: -webkit-linear-gradient(-45deg, rgba(255, 255, 255, 0.3) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0.3) 75%, transparent 75%, transparent);
+    background-image: -moz-linear-gradient(-45deg, rgba(255, 255, 255, 0.3) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.4) 50%, rgba(255, 255, 255, 0.4) 75%, transparent 75%, transparent);
+    background-image: linear-gradient(-45deg, rgba(255, 255, 255, 0.3) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0.3) 75%, transparent 75%, transparent);
+    -webkit-transition: width .3s ease-in-out;
+    -moz-transition: width .3s ease-in-out;
+    -o-transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+    -webkit-background-size: 20px 20px;
+    background-size: 20px 20px;
+    -moz-animation: loading-stripes 2s infinite linear;
+    -webkit-animation: loading-stripes 2s infinite linear;
+    -o-animation: loading-stripes 2s infinite linear;
+    -ms-animation: loading-stripes 2s infinite linear;
+    animation: loading-stripes 2s infinite linear;
+    cursor: default;
+    box-shadow: none;
+    background-color: #008cff
+}
+
+button {
+    cursor: pointer
+}
+
+a.loading:disabled,
+input.loading:disabled,
+button.loading:disabled,
+a.loading[disabled="disabled"],
+input.loading[disabled="disabled"],
+button.loading[disabled="disabled"] {
+    cursor: default;
+    opacity: .5
+}
+
+.tooltip_upper {
+    position: relative
+}
+
+.tooltip_wrap {
+    display: none;
+    position: absolute;
+    width: 270px;
+    background: #fff;
+    border: 1px solid #d8eaff;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1
+}
+
+.hotel_type .tooltip_wrap,
+.cancellation_info .tooltip_wrap {
+    right: 0;
+    top: 40px
+}
+
+.tooltip_uparrow {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-bottom: 7px solid #d8eaff;
+    top: -7px
+}
+
+.hotel_room_details .tooltip_wrap {
+    left: 0;
+    top: 25px
+}
+
+.cancellation_info .tooltip_uparrow {
+    right: 20%
+}
+
+.hotel_type .tooltip_uparrow {
+    right: 10%
+}
+
+.hotel_room_details .tooltip_uparrow {
+    left: 60%
+}
+
+.hotel_room_details .tooltip_wrap {
+    width: 230px
+}
+
+.price_breakup .tooltip_wrap {
+    left: 0;
+    top: 25px;
+    width: 330px
+}
+
+.price_breakup .tooltip_uparrow {
+    left: 20%
+}
+
+.label_description .tooltip_wrap {
+    left: -5%;
+    top: 35px;
+    width: 330px
+}
+
+.label_description .tooltip_uparrow {
+    left: 10%
+}
+
+.tooltip_wrap ul {
+    padding: 0;
+    margin: 0 0 10px 28px;
+    list-style: disc
+}
+
+.tooltip_wrap li {
+    font-size: 11px;
+    color: #9b9b9b;
+    line-height: 14px;
+    padding: 10px 10px 0 0
+}
+
+.tooltip_trigger {
+    color: #0055b7
+}
+
+.tooltip_info {
+    padding: 15px 15px 10px 15px
+}
+
+.tooltip_info ul {
+    margin: 0 0 10px 14px
+}
+
+.tooltip_info li {
+    padding: 0 10px 0 0;
+    margin-bottom: 10px
+}
+
+.tooltip_heading {
+    font-size: 13px;
+    color: #4a4a4a
+}
+
+.tooltip_text {
+    font-size: 11px;
+    color: #909090;
+    margin-bottom: 6px
+}
+
+.tooltip_wrap .bdrbtm_line {
+    border-bottom: solid 1px #d9d9d9;
+    padding-bottom: 10px
+}
+
+.tooltip_info__taxes {
+    background: #f9f9f9;
+    padding: 10px 15px;
+    font-size: 14px
+}
+
+.tooltip_info__subtotal {
+    font-size: 15px;
+    padding: 0 15px
+}
+
+.tooltip_bonus__left {
+    width: 40%
+}
+
+.tooltip_bonus__middle {
+    width: 25%
+}
+
+.tooltip_bonus__right {
+    width: 35%
+}
+
+.grey_color {
+    color: #9b9b9b
+}
+
+.reward_points__section {
+    margin-left: 20px
+}
+
+.reward_points__text {
+    font-size: 14px
+}
+
+.rewards_info {
+    width: 100px;
+    font-size: 11px
+}
+
+.rewards_info__points {
+    font-size: 16px;
+    margin-left: 6px
+}
+
+.sidebar {
+    width: 270px
+}
+
+.sidebar ul {
+    padding: 0;
+    margin: 0 0 10px 28px;
+    list-style: disc
+}
+
+.sidebar li {
+    font-size: 11px;
+    color: #9b9b9b;
+    line-height: 14px;
+    padding: 10px 10px 0 0
+}
+
+.airline_brief.for_bus {
+    padding-left: 0
+}
+
+.airline_brief.for_bus .city_time_brief {
+    width: 28%
+}
+
+.airline_brief.for_bus .duration_brief {
+    width: 20%
+}
+
+.airline_brief.for_bus .inner_txt {
+    width: 50%
+}
+
+.overlay_content_noCost {
+    background: #fff;
+    width: 707px;
+    padding: 20px;
+    border-radius: 2px;
+    position: relative
+}
+
+.overlay_content {
+    background: #fff;
+    width: 360px;
+    padding: 20px;
+    border-radius: 2px;
+    position: relative
+}
+
+.close_overlay {
+    position: absolute;
+    right: 20px;
+    background-position: -217px -27px;
+    width: 15px;
+    height: 15px;
+    top: 16px
+}
+
+.overlay_content ul.currency_options {
+    margin-bottom: 0
+}
+
+.overlay_content ul.currency_options li {
+    margin-bottom: 15px;
+    display: block;
+    width: 100%
+}
+
+.overlay_content ul.currency_options li a {
+    width: 100%;
+    border: 0;
+    background-color: transparent;
+    padding: 0
+}
+
+.overlay_content ul.currency_options li.is-active a {
+    background-color: transparent
+}
+
+.overlay_content ul.currency_options li:nth-child(2n+1) {
+    margin-right: 0
+}
+
+.overlay_content ul.currency_options li.last {
+    margin-bottom: 0
+}
+
+.overlay_content .bank_optinf {
+    width: 280px
+}
+
+.overlay_content .radio_option {
+    margin-top: 0
+}
+
+.overlay_content .button_info {
+    padding-left: 28px;
+    margin-top: 10px
+}
+
+.clearLeft {
+    padding-left: 0!important
+}
+
+.overlay_content .lock_txt {
+    font-size: 13px;
+    line-height: 15px
+}
+
+.overlay_content .pay_button {
+    margin-right: 10px;
+    padding: 12px 15px 12px
+}
+
+.overlay_content a.secondary_button {
+    padding: 12px 15px 11px
+}
+
+.font_11 {
+    font-size: 11px;
+    line-height: 14px
+}
+
+.font_12 {
+    font-size: 12px;
+    line-height: 14px
+}
+
+.leftpad {
+    color: #9b9b9b
+}
+
+.change_couponinfo {
+    color: #0055b7;
+    margin-left: 5px
+}
+
+.cpay_removePrompt {
+    display: none
+}
+
+.cpay_addPrompt {
+    display: block
+}
+
+.overflow_120 {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 120px
+}
+
+.edit_cancel_section {
+    margin-top: 10px
+}
+
+p.cdfUserMessageSection {
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0
+}
+
+.payment_breadcrums li a {
+    cursor: default!important
+}
+
+.chf_logopart {
+    cursor: default!important
+}
+
+.pancard_section {
+    border: 1px solid #e5e5e5;
+    padding: 20px
+}
+
+.pancard_section a.info_icon {
+    margin-top: -3px
+}
+
+.pancard_input {
+    position: relative
+}
+
+.pancard_input input {
+    width: 220px
+}
+
+.pancard_icon {
+    background-position: -149px -242px;
+    width: 34px;
+    height: 22px;
+    margin: 10px 0 0 10px
+}
+
+.pancard_input .coupon_completeicon {
+    position: absolute;
+    right: 10px;
+    top: 8px
+}
+
+.pancard_input .loader_animation {
+    position: absolute;
+    right: 10px;
+    top: 10px
+}
+
+.loader_animation img {
+    width: 20px;
+    height: 20px
+}
+
+.append_top20 {
+    margin-top: 20px
+}
+
+.error_txt {
+    color: #ed1300;
+    margin-top: 3px
+}
+
+.bankName {
+    margin-left: 40px;
+    margin-top: -5px;
+    color: #878787;
+    font-size: 9px;
+    font-weight: normal
+}
+
+.card_type_edit,
+.card_type_delete {
+    padding-bottom: 14px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    border-bottom-color: #f3f9ff
+}
+
+.hotel_leftpart {
+    width: 270px
+}
+
+.otpSubHead,
+.otphead {
+    font-family: Roboto;
+    font-style: normal;
+    font-stretch: normal;
+    text-align: left
+}
+
+.otpSubHead,
+.otphead,
+.resendOTP {
+    text-align: left
+}
+
+.otphead {
+    font-size: 14px;
+    font-weight: 700;
+    color: #4a4a4a
+}
+
+.otpSubHead {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.27;
+    color: #9b9b9b
+}
+
+.slimInput {
+    width: 175px;
+    letter-spacing: 20px;
+    border-bottom: solid 2px #dcdcdc;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    margin-left: 15px;
+    display: inline-block;
+    box-shadow: none!important;
+    font-weight: bolder;
+    font-size: 22px
+}
+
+.slimInput::-webkit-input-placeholder {
+    letter-spacing: normal;
+    font-weight: 100;
+    font-size: 12px
+}
+
+.slimInput::-moz-placeholder {
+    letter-spacing: normal;
+    font-weight: 100;
+    font-size: 12px
+}
+
+.slimInput:-ms-input-placeholder {
+    letter-spacing: normal;
+    font-weight: 100;
+    font-size: 12px
+}
+
+.slimInput:-moz-placeholder {
+    letter-spacing: normal;
+    font-weight: 100;
+    font-size: 12px
+}
+
+.blueButton,
+.resendOTP {
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-stretch: normal;
+    color: #0055b7
+}
+
+.noMargLeft {
+    margin-left: 0!important
+}
+
+.otpborder {
+    border: 1px solid #e1e1e1;
+    padding: 12px 20px 12px
+}
+
+.append_bottom20 {
+    margin-bottom: 20px
+}
+
+.append_bottom10 {
+    margin-bottom: 10px
+}
+
+.append_bottom35 {
+    margin-bottom: 35px
+}
+
+.append_top10 {
+    margin-top: 10px
+}
+
+.append_top20 {
+    margin-top: 20px
+}
+
+.resendOTP {
+    font-weight: 400
+}
+
+.lineSeparator {
+    height: 2px;
+    opacity: .3;
+    border: 1px solid #979797
+}
+
+.or_icon {
+    background-position: 0 -154px;
+    width: 32px;
+    height: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -17px;
+    display: block
+}
+
+.blueButton {
+    height: 39px;
+    border-radius: 2px;
+    border: 1px solid #0055b7;
+    background-color: #fff;
+    font-weight: 700;
+    text-align: center
+}
+
+.view_details {
+    margin-top: 4px
+}
+
+.save_txt {
+    line-height: 12px
+}
+
+.cvv_txt {
+    color: #c0c0c0;
+    line-height: 15px;
+    font-size: 11px;
+    margin: 2px 0 0
+}
+
+.pay_with {
+    background: #f6f6f6;
+    padding: 15px 10px 0;
+    margin: 0
+}
+
+.pay_with input {
+    float: left;
+    outline: none!important
+}
+
+.pay_with label {
+    width: 100%;
+    margin: 0
+}
+
+.label_outer {
+    width: 91%;
+    margin: 0 0 0 7px;
+    float: left
+}
+
+.pay_with__head {
+    color: #2f2f2f;
+    font-size: 14px;
+    font-weight: 500
+}
+
+.pay_with__desc {
+    color: #9b9b9b;
+    font-weight: normal;
+    font-size: 12px
+}
+
+.light-grey {
+    color: #9b9b9b
+}
+
+.otp-validation-section {
+    border: 1px solid #e1e1e1;
+    padding: 21px 18px;
+    color: #4a4a4a;
+    margin-bottom: 20px
+}
+
+.otp-error-text {
+    color: #d0021b;
+    line-height: 14px;
+    display: none
+}
+
+.error .otp-error-text {
+    display: block
+}
+
+.error form {
+    margin-bottom: 14px
+}
+
+.otp-input input {
+    border: 0;
+    border-bottom: 2px solid #dcdcdc;
+    width: 30px;
+    padding-left: 10px;
+    outline: 0;
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 18px
+}
+
+.otp-input.error input {
+    border-color: #d0021b
+}
+
+a.resend-otp-btn {
+    color: #0055b7
+}
+
+.or-division {
+    background: #f0f0f0;
+    border: 1px solid #ccc;
+    height: 14px;
+    width: 19px;
+    padding: 8px 6px;
+    border-radius: 100%;
+    display: inline-block;
+    font-weight: bold;
+    position: relative;
+    z-index: 2
+}
+
+.or-division-section {
+    position: relative;
+    text-align: center;
+    margin-bottom: 26px
+}
+
+.or-division-section .horizontal-divide {
+    position: absolute;
+    left: 0;
+    top: 16px;
+    border-top: 1px solid rgba(151, 151, 151, 0.3);
+    width: 100%;
+    z-index: 1
+}
+
+.continue-btn {
+    color: #0055b7;
+    border: 1px solid #0055b7;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 9px 6px 9px
+}
+
+.bold {
+    font-weight: 900
+}
+
+.success_txt {
+    color: green;
+    font-size: 12px;
+    margin: 8px 0;
+    display: block
+}
+
+.inactiveLink {
+    pointer-events: none;
+    cursor: default
+}
+
+.behaveAsLink:link {
+    color: #1e52a4;
+    border-bottom: 1px solid #1e52a4
+}
+
+.behaveAsLink:visited {
+    color: #1e52a4;
+    border-bottom: 1px solid #1e52a4
+}
+
+.behaveAsLink:active {
+    color: #1e52a4;
+    border-bottom: 1px solid #1e52a4
+}
+
+.behaveAsLink:hover {
+    color: #1e52a4;
+    border-bottom: 2px solid #1e52a4
+}
+
+#SC_pancard {
+    margin-left: 14px
+}
+
+#type3 {
+    opacity: 1;
+    visibility: visible;
+    display: inline-block;
+    outline: 0;
+    transition: all .3s;
+    text-align: left;
+    position: relative;
+    vertical-align: middle
+}
+
+#type3_wrapper {
+    opacity: 1;
+    visibility: visible;
+    position: fixed;
+    overflow: auto;
+    z-index: 100001;
+    transition: all .3s;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    text-align: center;
+    display: block
+}
+
+.input_label_GC {
+    font-size: 14px!important;
+    padding-bottom: 6px;
+    padding-top: 6px
+}
+
+.margL15 {
+    margin-left: 15px
+}
+
+.forgot_popup .modal-header,
+.one_time_passwd_popup .modal-header {
+    padding: 0
+}
+
+.forgot_popup .popup_heading_info,
+.one_time_passwd_popup .popup_heading_info {
+    width: auto;
+    font-size: 18px;
+    background: #e8e7e4;
+    line-height: 24px;
+    -webkit-border-radius: 3px 3px 0 0;
+    -moz-border-radius: 3px 3px 0 0;
+    -o-border-radius: 3px 3px 0 0;
+    border-radius: 3px 3px 0 0;
+    padding: 6px 15px
+}
+
+.forgot_popup .popup_details,
+.one_time_passwd_popup .popup_details {
+    padding: 10px 15px
+}
+
+.forgot_popup .success_mark {
+    width: 26px;
+    height: 26px;
+    margin-right: 10px
+}
+
+.forgot_popup .password_heading {
+    font-size: 14px
+}
+
+.forgot_popup .passwd_info {
+    width: 85%
+}
+
+.mWidth150 {
+    min-width: 150px;
+    display: inline-block
+}
+
+.classExpired {
+    width: 370px!important
+}
+
+.no_cost_emi {
+    background: #f8f8f8;
+    padding: 10px;
+    border-radius: 3px
+}
+
+.nc_emi_icon {
+    background-position: -156px -272px;
+    width: 25px;
+    height: 26px;
+    margin-right: 10px
+}
+
+.interest_info {
+    margin-top: 8px
+}
+
+.no_emitab {
+    border: 1px solid #5d9be5;
+    padding: 5px 8px;
+    line-height: 16px
+}
+
+.no_cost_emi_section {
+    margin-left: 42px;
+    color: #e78f00
+}
+
+.emi_infomark {
+    background-position: -189px -244px;
+    width: 15px;
+    height: 15px;
+    margin-right: 10px
+}
+
+.no_cost_emi_section .inner_txtpart {
+    width: 380px
+}
+
+.mrgn_top8 {
+    margin-top: 8px
+}
+
+.my_cash {
+    width: 55px;
+    margin-right: 15px
+}
+
+.usable_balance {
+    width: 120px
+}
+
+.bonus {
+    border-left: 1px solid #dedede;
+    padding: 0 8px 0 15px;
+    margin-right: 15px;
+    width: 120px
+}
+
+.wallet_cash {
+    width: 125px
+}
+
+.initial_amount {
+    margin-left: 3px
+}
+
+.amount_fieldtxt {
+    border: 0;
+    border-bottom: 2px solid #dedede;
+    width: 99px;
+    margin-left: 3px;
+    font-size: 14px;
+    line-height: 14px;
+    background-color: transparent;
+    margin-top: -1px
+}
+
+.leftmarginwalletPlus {
+    margin-left: 50px
+}
+
+.walletPlusBorder {
+    border-right: 1px solid #dedede
+}
+
+.font_13 {
+    font-size: 13px;
+    line-height: 14px
+}
+
+.pay_button_walletPlus {
+    background: #9e9e9e;
+    padding: 10px 10px;
+    border-radius: 2px;
+    border: 1px solid #9e9e9e
+}
+
+.upi_icon {
+    background-position: -179px -327px;
+    width: 62px;
+    height: 26px
+}
+
+.gpay_icon {
+    background-position: -209px -300px;
+    width: 33px;
+    height: 26px
+}
+
+.upi_sm_icon {
+    background-position: -213px -99px;
+    width: 24px;
+    height: 24px
+}
+
+.option_iconinfo.upi {
+    width: 388px
+}
+
+.upi_steps_list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none
+}
+
+.upi_steps_list li {
+    float: left;
+    text-align: center;
+    width: 146px;
+    min-height: 138px;
+    margin-right: 25px;
+    margin-bottom: 25px
+}
+
+.upi_contn {
+    padding-top: 20px
+}
+
+.upi_contn a.pay_button {
+    width: 140px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center
+}
+
+.upi_steps_type .step_number {
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    padding-top: 0
+}
+
+.upi_steps_type .select_label,
+.upi_steps_type .select_subinfo {
+    padding-top: 2px
+}
+
+.step_details.fr_upi {
+    margin-left: 32px
+}
+
+.no_step_details .step_details,
+.no_step_details .heading_2 {
+    display: none
+}
+
+.no_step_details .heading_1 {
+    display: block
+}
+
+.heading_1 {
+    display: none
+}
+
+.steps_completed .heading_2 {
+    display: none
+}
+
+.upi_steps_type a.pay_button {
+    padding: 8px 20px;
+    margin-left: 10px
+}
+
+.upi_steps_type .selection_complete {
+    display: none
+}
+
+.steps_completed .selection_complete,
+.steps_completed .typing_icon {
+    display: block
+}
+
+.steps_completed .before_selection,
+.steps_completed .step_number {
+    display: none
+}
+
+.upi_steps_type .coupon_completeicon {
+    background-position: -155px -335px;
+    width: 19px;
+    height: 19px
+}
+
+.steps_completed .pay_button {
+    display: none
+}
+
+.steps_completed input.form-control {
+    background-color: #f2f2f2;
+    width: 160px
+}
+
+.upi_steps_type .field_info {
+    position: relative
+}
+
+.typing_icon {
+    position: absolute;
+    top: 22%;
+    left: 36%;
+    display: none
+}
+
+.icic_small {
+    background-position: -158px -309px;
+    width: 21px;
+    height: 23px
+}
+
+.sending_request,
+.authorized_payment_request,
+.booking_your_ticket {
+    background: #f5fcff;
+    padding: 15px 50px 8px;
+    width: 325px
+}
+
+.send_to_icon {
+    background-position: -217px -130px;
+    width: 12px;
+    height: 9px;
+    margin: 25px 45px 0
+}
+
+.sending_request .mmt_logo {
+    margin-top: 10px
+}
+
+.steps_completed .sending_request {
+    display: none
+}
+
+.request_failed .sending_request {
+    display: none
+}
+
+.request_failed_section {
+    background: #ffeded;
+    line-height: 20px;
+    padding: 5px 5px 5px 5px;
+    width: 385px;
+    display: none
+}
+
+.request_failed .request_failed_section {
+    display: block
+}
+
+.upi_status_icon {
+    margin-right: 20px
+}
+
+.rmning_time {
+    margin-top: 27px
+}
+
+.request_timed_out_section {
+    background-color: #ffeded;
+    padding: 15px 25px 8px;
+    width: 335px;
+    display: none
+}
+
+.rqust_timed_txt {
+    width: 230px
+}
+
+.rqust_failed_txt {
+    width: 230px
+}
+
+.request_timed_out .request_timed_out_section {
+    display: block
+}
+
+.request_failed .authorized_payment_request {
+    display: none
+}
+
+.payment_failed_section {
+    background-color: #ffeded;
+    padding: 15px 25px 8px;
+    width: 335px;
+    display: none
+}
+
+.payment_rejected_section {
+    background-color: #ffeded;
+    padding: 15px 25px 8px;
+    width: 335px;
+    display: none
+}
+
+.request_failed .payment_failed_section {
+    display: block
+}
+
+.request_rejected .payment_rejected_section {
+    display: block
+}
+
+.request_rejected .authorized_payment_request {
+    display: none
+}
+
+.request_timed_out .authorized_payment_request {
+    display: none
+}
+
+.steps_completed .authorized_payment_request {
+    display: none
+}
+
+.sending_request .loader_icon {
+    margin: 20px 10px 0 0;
+    height: 16px;
+    width: 16px
+}
+
+.booking_your_ticket .loader_icon {
+    margin: 20px 20px 0 0;
+    height: 55px
+}
+
+.booking_your_ticket {
+    display: none
+}
+
+.steps_completed .booking_your_ticket {
+    display: block
+}
+
+.booking_failed {
+    background-color: #ffeded;
+    padding: 15px 25px 8px;
+    width: 335px;
+    display: none
+}
+
+.steps_completed_booking_failed .booking_failed {
+    display: block
+}
+
+.steps_completed_booking_failed .booking_your_ticket {
+    display: none
+}
+
+.error_compl_icn {
+    background-position: -135px -334px;
+    width: 20px;
+    height: 20px;
+    display: none;
+    margin-right: 12px
+}
+
+.request_failed .error_compl_icn {
+    display: block
+}
+
+.request_timed_out .error_compl_icn {
+    display: block
+}
+
+.request_rejected .error_compl_icn {
+    display: block
+}
+
+.request_failed .fr_mmt {
+    display: none
+}
+
+.request_failed .step_number {
+    display: none
+}
+
+.request_timed_out .step_number {
+    display: none
+}
+
+.request_rejected .step_number {
+    display: none
+}
+
+.back_upi_click {
+    border-left: 1px solid #dedede;
+    padding: 7px 0 7px 13px;
+    margin-left: 12px
+}
+
+.back_upi_icon {
+    background-position: -217px -158px;
+    width: 19px;
+    height: 19px
+}
+
+.summary_description_ancillary {
+    background: #fff;
+    border: 1px solid #d8eaff;
+    border-radius: 2px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.1)
+}
+
+.total_label {
+    margin-top: 8px
+}
+
+.scrolling_sticky {
+    position: sticky;
+    position: -webkit-sticky;
+    position: -moz-sticky;
+    position: -ms-sticky;
+    position: -o-sticky;
+    top: 0
+}
+
+.pymt-htlInfo-loc,
+.pymt-htlInfo-name {
+    width: 210px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis
+}
+
+input:focus:not(.chf_emailEvent):not(.chf_pwd),
+select:focus,
+textarea:focus {
+    outline: none!important;
+    border-color: #7ebaef;
+    box-shadow: 0 0 2px #7ebaef;
+    border-radius: 2px;
+    border-width: 2px
+}
+
+input::-webkit-input-placeholder {
+    color: #d5d5d5
+}
+
+input:-moz-placeholder {
+    color: #d5d5d5
+}
+
+input::-moz-placeholder {
+    color: #d5d5d5
+}
+
+input:-ms-input-placeholder {
+    color: #d5d5d5
+}
+
+textarea::-webkit-input-placeholder {
+    color: #d5d5d5
+}
+
+textarea:-moz-placeholder {
+    color: #d5d5d5
+}
+
+textarea::-moz-placeholder {
+    color: #d5d5d5
+}
+
+textarea:-ms-input-placeholder {
+    color: #d5d5d5
+}
+
+.otp_details {
+    margin: 0 auto;
+    width: 415px
+}
+
+.overlay_content_otp {
+    width: 850px;
+    padding: 20px;
+    border-radius: 2px;
+    position: relative
+}
+
+.otp_wrap {
+    margin: 0 auto;
+    padding-top: 20px
+}
+
+.otp_input {
+    width: 212px;
+    border-radius: 3px;
+    background-color: #fff;
+    box-shadow: inset 0 1px 0 0 #ececec;
+    border: solid 1px #ccc;
+    text-align: center;
+    height: 50px;
+    font-size: 18px;
+    color: #4a4a4a
+}
+
+.hdfc_logo {
+    /* background: url(../images/hdfc_logo.png) no-repeat; */
+    width: 190px;
+    height: 35px
+}
+
+.otp_logo {
+    /* background: url(../images/header_footer/mmt_logo.png?v=1) no-repeat; */
+    width: 190px;
+    height: 35px
+}
+
+.verified_img {
+    /* background: url(../images/verified_visa.png) no-repeat; */
+    width: 115px;
+    height: 50px
+}
+
+.otp_wrap a.pay_button {
+    display: inline-block;
+    width: 170px;
+    padding-left: 28px
+}
+
+.otp_wrap .payback_wallet_section {
+    padding: 25px 18px 0
+}
+
+.Bajaj_otp,
+.master_otp,
+.visa_otp {
+    /* background-image: url(../images/otp_sprite.png); */
+    background-size: 590px 390px;
+    -webkit-background-size: 452px 268px;
+    -moz-background-size: 240px 390px
+}
+
+.Citibank_otp {
+    /* background-image: url(../images/otp_sprite.png); */
+    background-size: 590px 390px;
+    -webkit-background-size: 364px 276px;
+    -moz-background-size: 240px 390px
+}
+
+.HDFC_otp {
+    /* background-image: url(../images/otp_sprite.png); */
+    background-size: 590px 390px;
+    -webkit-background-size: 388px 268px;
+    -moz-background-size: 240px 390px
+}
+
+.ICICI_otp {
+    /* background-image: url(../images/otp_sprite.png); */
+    background-size: 590px 390px;
+    -webkit-background-size: 388px 276px;
+    -moz-background-size: 240px 390px
+}
+
+.ICICI_otp {
+    display: block;
+    height: 36px;
+    width: 180px;
+    background-position: -209px -1px
+}
+
+.NB_otp {
+    /* background-image: url(../images/otp_sprite.png); */
+    background-size: 590px 390px;
+    -webkit-background-size: 325px 269px;
+    -moz-background-size: 240px 390px
+}
+
+.NB_otp {
+    display: block;
+    height: 49px;
+    width: 221px;
+    background-position: 15px -213px
+}
+
+.Citibank_otp {
+    display: block;
+    height: 40px;
+    width: 50px;
+    background-position: -0px -44px
+}
+
+.HDFC_otp {
+    display: block;
+    height: 35px;
+    width: 197px;
+    background-position: 0 0
+}
+
+.Bajaj_otp {
+    display: block;
+    height: 40px;
+    width: 180px;
+    background-position: -75px -43px
+}
+
+.visa_otp {
+    display: block;
+    height: 70px;
+    width: 131px;
+    background-position: 0 -86px
+}
+
+.master_otp {
+    display: block;
+    height: 70px;
+    width: 164px;
+    background-position: -190px -150px
+}
+
+.BAJAJFS_otp {
+    /* background-image: url(../images/otp_sprite.png); */
+    background-size: 590px 390px;
+    -webkit-background-size: 291px 267px;
+    -moz-background-size: 240px 390px
+}
+
+.BAJAJFS_otp {
+    display: block;
+    height: 48px;
+    width: 190px;
+    background-position: 2px -215px
+}
+
+.otp_details {
+    margin: 0 auto;
+    width: 415px
+}
+
+.overlay_content_otp {
+    width: 850px;
+    padding: 20px;
+    border-radius: 2px;
+    position: relative
+}
+
+.otp_wrap {
+    margin: 0 auto;
+    padding-top: 20px
+}
+
+.otp_input {
+    width: 212px;
+    border-radius: 3px;
+    background-color: #fff;
+    box-shadow: inset 0 1px 0 0 #ececec;
+    border: solid 1px #ccc;
+    text-align: center;
+    height: 50px;
+    font-size: 18px;
+    color: #4a4a4a
+}
+
+.hdfc_logo {
+    /* background: url(../images/hdfc_logo.png) no-repeat; */
+    width: 190px;
+    height: 35px
+}
+
+.verified_img {
+    /* background: url(../images/verified_visa.png) no-repeat; */
+    width: 115px;
+    height: 50px
+}
+
+.Axis_otp {
+    display: block;
+    height: 41px;
+    width: 160px;
+    background-position: -204px -56px
+}
+
+.Axis_otp {
+    /* background-image: url(../images/otp_sprite.png); */
+    background-size: 590px 390px;
+    -webkit-background-size: 374px 328px;
+    -moz-background-size: 240px 390px
+}
+
+.otp_wrap a.pay_button {
+    display: inline-flex;
+    width: 170px;
+    padding-left: 28px;
+    align-items: center;
+    justify-content: center
+}
+
+.otp_wrap .payback_wallet_section {
+    padding: 25px 18px 0
+}
+
+.overlay_cross {
+    font-size: 20px;
+    color: #999;
+    position: absolute;
+    top: 3px;
+    right: 10px
+}
+
+.make_relative {
+    position: relative
+}
+
+currency_options.paypal li.first_block a {
+    display: block;
+    width: 300px
+}
+
+currency_options.paypal li {
+    margin-right: 15px
+}
+
+ul.currency_options.paypal li:nth-child(odd) {
+    margin-bottom: 10px;
+    margin-right: 0
+}
+
+ul.currency_options.paypal li:nth-child(even) {
+    margin-bottom: 10px;
+    margin-right: 15px
+}
+
+ul.currency_options.paypal li.first_block a {
+    width: 423px
+}
+
+ul.currency_options.paypal li.first_block {
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 18px;
+    margin-bottom: 18px
+}
+
+ul.currency_options.paypal li {
+    position: relative
+}
+
+.or_info {
+    border: 1px solid #e5e5e5;
+    padding: 4px 6px;
+    display: block;
+    width: 18px;
+    position: absolute;
+    left: 46%;
+    bottom: -18%;
+    border-radius: 4px;
+    background-color: #fff
+}
+
+ul.currency_options.paypal li.first_block .select_optioninfo {
+    width: 380px
+}
+
+.upi_icn {
+    /* background: url('../images/UPI.png') no-repeat 0 0; */
+    width: 27px;
+    height: 27px;
+    background-size: 100% 100%
+}
+
+.errorSectionSC {
+    background: #f8f8f8;
+    padding: 10px;
+    border-radius: 3px
+}
+
+.accordian_details {
+    display: none
+}
+
+.option_tabs .for_mobile {
+    display: none
+}
+
+.for_mobile {
+    display: none
+}
+
+.up_arrow {
+    border: solid #9b9b9b;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-top: 22px;
+    margin-right: 15px
+}
+
+.up_arrow {
+    border: solid #9b9b9b;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-top: 22px;
+    margin-right: 15px
+}
+
+.up_arrow {
+    border: solid #9b9b9b;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-top: 22px;
+    margin-right: 15px
+}
+
+.up_arrow {
+    border: solid #9b9b9b;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-top: 22px;
+    margin-right: 15px
+}
+
+.up_arrow {
+    border: solid #9b9b9b;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-top: 22px;
+    margin-right: 15px
+}
+
+.direction {
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg)
+}
+
+.active .direction {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg)
+}
+
+.active .up_arrow {
+    border-color: #000
+}
+
+.booking_summary_wrap {
+    display: none
+}
+
+.booking_summary_parent {
+    display: none
+}
+
+.backArrowLink {
+    display: none
+}
+
+.for_dt {
+    display: block
+}
+
+.mobileView {
+    display: none
+}
+
+a.secondary_login_button {
+    border-radius: 30px;
+    background: #008cff;
+    font-size: 12px;
+    line-height: 14px;
+    padding: 15px 15px 12px;
+    color: #fff;
+    height: 14px
+}
+
+.nb_inner_container {
+    width: 100%!important
+}
+
+.wallet_details_right {
+    width: calc(100% - 50px)
+}
+
+@media screen and (max-width:768px) {
+    .overlay_content .pay_button {
+        padding: 12px 12px
+    }
+    .pay_button {
+        border-radius: 19.6px;
+        background-image: linear-gradient(96deg, #53b2fe, #065af3);
+        box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2);
+        border: 0;
+        padding: 5px 15px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center
+    }
+    .mb_m_r15 {
+        margin-right: 15px
+    }
+    .mb_width49 {
+        width: 49%!important
+    }
+    .mb_fixed_btm {
+        position: fixed!important;
+        right: 10px!important;
+        bottom: 7px!important;
+        z-index: 2!important
+    }
+    .mb_otp_header {
+        float: none!important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column
+    }
+    .mb_otp_card_amount {
+        text-align: left;
+        width: 100px
+    }
+    .mb_otp_logo {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin-top: 15px;
+        float: left
+    }
+    .otp_wrap .payback_wallet_section {
+        padding: 25px 18px 26px
+    }
+    .mobileView {
+        display: block
+    }
+    .city_field input {
+        width: 92%
+    }
+    .mb_citi_reward {
+        width: 95px!important
+    }
+    .mb_m_l30 {
+        margin-left: 30px!important
+    }
+    .pincode_field {
+        width: 100%!important;
+        margin-right: 0;
+        margin-bottom: 10px
+    }
+    .pincode_field input,
+    .state_field input {
+        width: 92%!important
+    }
+    .pull-left.state_field {
+        width: 100%!important;
+        float: left!important;
+        margin-bottom: 10px
+    }
+    .error_text {
+        color: #ed1300;
+        margin-top: 3px;
+        width: 80%!important
+    }
+    .mb_verification_label {
+        width: 100%!important;
+        float: left;
+        margin-top: 5px
+    }
+    .mb_state_field_select {
+        width: 100%!important
+    }
+    .select_section select {
+        width: 100%!important;
+        margin-bottom: 10px!important
+    }
+    .mb_vpa_input {
+        width: 90%!important;
+        box-sizing: border-box;
+        height: auto!important
+    }
+    .mb_pull_right {
+        float: right!important
+    }
+    .mb_pull_left {
+        float: left!important
+    }
+    .mb_txt_l {
+        text-align: left!important
+    }
+    .mb_m_b10 {
+        margin-bottom: 10px!important
+    }
+    .booking_summary {
+        margin-top: 0!important
+    }
+    .mb_m_t16 {
+        margin-top: 16px!important
+    }
+    .mb_m_t10 {
+        margin-top: 16px!important
+    }
+    .payment_details.append_bottom20 {
+        margin-bottom: 0!important
+    }
+    .mb_payment_details.append_bottom20 {
+        margin-bottom: 0!important
+    }
+    .mb_gcButton {
+        white-space: nowrap;
+        width: auto!important
+    }
+    .chf_account_links {
+        margin-top: 10px;
+        text-align: left!important
+    }
+    .chf_links_right {
+        float: left!important;
+        padding-left: 0!important
+    }
+    .request_failed .sending_request {
+        text-align: center
+    }
+    .sending_request {
+        text-align: center
+    }
+    .sending_request .loader_icon {
+        margin: 0 0 15px 0;
+        width: 100%
+    }
+    .send_to_icon {
+        margin: 20px 0;
+        transform: rotate(90deg);
+        float: none!important;
+        display: inline-block
+    }
+    .upi_bank {
+        width: 100%
+    }
+    .sending_request .mmt_logo {
+        width: 100%
+    }
+    .mb_gotopage {
+        width: 100%;
+        float: left;
+        text-align: center;
+        margin-top: 10px
+    }
+    .duration_brief {
+        border-bottom: 1px solid #979797;
+        padding: 0 20px;
+        margin-right: 20px;
+        margin-top: 15px;
+        position: relative;
+        width: 132px;
+        margin-bottom: 10px!important
+    }
+    .tab_section_li_a {
+        display: inline!important;
+        border: none medium!important;
+        padding-left: 0!important
+    }
+    .mb_m_l0 {
+        margin-left: 0!important
+    }
+    .crd_no {
+        font-size: 11px;
+        line-height: 18px;
+        width: 100%!important
+    }
+    .tab_section li a.pay_button.for_gfcard {
+        padding: 3px 15px!important
+    }
+    .mb_width45 {
+        width: 45%!important
+    }
+    .mb_wallet_width {
+        width: 50%!important;
+        box-sizing: border-box
+    }
+    .mb_p_l10 {
+        padding-left: 10px!important
+    }
+    .bonus {
+        border-left: none medium;
+        padding: 0 10px 0 0;
+        margin-right: 0;
+        width: 50%;
+        margin-bottom: 20px;
+        box-sizing: border-box
+    }
+    .mb_widthfull {
+        width: 100%
+    }
+    .mb_padR15 {
+        padding-right: 15px
+    }
+    .leftpad {
+        padding-left: 0;
+        padding-bottom: 10px
+    }
+    .mb_leftpad {
+        padding-left: 35px!important
+    }
+    .payment_details {
+        height: 50px!important;
+        position: fixed;
+        padding: 10px;
+        bottom: 0;
+        left: 0;
+        z-index: 99999!important;
+        background: #303030;
+        width: 100%;
+        box-sizing: border-box
+    }
+    .mb_payment_details {
+        height: 50px!important;
+        position: fixed;
+        padding: 10px;
+        bottom: 0;
+        left: 0;
+        z-index: 1!important;
+        background: #303030;
+        width: 100%;
+        box-sizing: border-box
+    }
+    .pay_amountinfo {
+        padding-top: 6px;
+        width: 40%;
+        color: #fff;
+        margin-bottom: 0;
+        padding-left: 10px
+    }
+    .total_price {
+        color: #fff;
+        margin-bottom: 0;
+        line-height: 18px
+    }
+    .mb_total_price {
+        color: #4a4a4a!important;
+        margin-bottom: 0;
+        line-height: 18px
+    }
+    .payment_details .append_bottom6 {
+        margin-bottom: 0
+    }
+    .mb_payment_details .append_bottom6 {
+        margin-bottom: 0
+    }
+    .payment_detail .lato-bold {
+        font-weight: normal!important
+    }
+    .mb_payment_details .lato-bold {
+        font-weight: normal!important
+    }
+    .chf_unified_case.chf_login_short_gplus {
+        width: 90%!important
+    }
+    .expened .up_arrow {
+        transform: rotate(45deg)
+    }
+    .sending_request,
+    .authorized_payment_request,
+    .booking_your_ticket {
+        background: #f5fcff;
+        padding: 15px 50px 8px;
+        width: 64%!important
+    }
+    #chf_overlay {
+        width: 90%!important;
+        top: 12px!important
+    }
+    .chf_unified_case .chf_div_social_1 {
+        width: 90%
+    }
+    #chf_login_benefits {
+        width: 90%!important;
+        float: left!important;
+        margin-top: 30px
+    }
+    .chf_div_social_1 {
+        width: 250px;
+        margin: 0 auto;
+        min-height: 150px;
+        padding-right: 0!important;
+        border-right: solid 0 #f2f2f2!important
+    }
+    .chf_benefits_hdng,
+    .chf_benefits_loginList,
+    .chf_countryNavItem.last,
+    .rs_new_red_bg,
+    div.chf_intl_flt .chf_intl_caller,
+    div.chf_rail_hdr .chf_irctc {
+        display: block!important
+    }
+    .for_dt {
+        display: none
+    }
+    .wlt_login_msg {
+        width: 100%
+    }
+    .booking_summary_wrap {
+        background: #fff;
+        width: 100%;
+        float: left;
+        box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.1);
+        display: block
+    }
+    .booking_summary_wrap .booking_summary {
+        position: relative
+    }
+    .booking_summary_title {
+        display: block;
+        color: #000;
+        width: 100%
+    }
+    .booking_summary_title .booking_summary_right {
+        width: 50px;
+        padding: 10px
+    }
+    .booking_summary_title .booking_summary_left {
+        width: -WebKit-clac(100% - 100px);
+        padding: 15px;
+        width: calc(100% - 100px)
+    }
+    .booking_summary_title .airlineinfo {
+        padding-left: 15px
+    }
+    .booking_summary_title .airline_brief {
+        padding-left: 15px;
+        padding-bottom: 15px
+    }
+    .booking_summary_right .up_arrow {
+        margin-top: 3px;
+        margin-right: 0
+    }
+    .booking_summary_wrap .summry_info {
+        padding: 0 15px
+    }
+    .mb_hide {
+        display: none!important
+    }
+    .booking_summary_wrap .booking_summary_mob_details {
+        width: 100%;
+        float: left;
+        display: block
+    }
+    .mb_pull_right {
+        float: right!important
+    }
+    .otp_details {
+        margin: 0 auto!important;
+        width: auto!important
+    }
+    .tab_section li a.border_none {
+        border: none medium
+    }
+    .tab_section li a.pay_button.active,
+    .tab_section li a.pay_button:hover {
+        background-color: #008cff!important;
+        color: #fff!important;
+        margin-top: -1px!important
+    }
+    .authorized_payment_request,
+    .booking_your_ticket {
+        background: #f5fcff;
+        padding: 15px 50px 8px;
+        width: auto
+    }
+    .payment_details {
+        width: 100%!important
+    }
+    .mb_payment_details {
+        width: 100%!important
+    }
+    .not_applicable {
+        width: auto!important;
+        text-align: center;
+        margin-right: 8px;
+        min-height: 48px
+    }
+    .mb_m_b_10 {
+        margin-bottom: 10px!important
+    }
+    .mb_b_none {
+        border: none!important
+    }
+    .mb_m_b0 {
+        margin-bottom: 0!important
+    }
+    .mb_before_selection {
+        width: 220px!important
+    }
+    .summary_description img {
+        width: 100%!important
+    }
+    .not_applicable_mobile {
+        width: auto!important;
+        text-align: center;
+        margin-right: 8px;
+        min-height: 48px
+    }
+    .wallet_login.SC_login,
+    .wallet_login {
+        width: 100%
+    }
+    .cpay_addPrompt.SC_password {
+        margin-left: 0!important
+    }
+    .bank_name {
+        font-size: 10px;
+        line-height: 26px;
+        color: #2f2f2f;
+        word-break: normal;
+        width: 106px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap
+    }
+    .for_desktop {
+        display: none
+    }
+    .for_mobile {
+        display: block
+    }
+    .accordian_details {
+        display: block!important
+    }
+    .payment_section {
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-bottom: 20vh
+    }
+    .accordian_details {
+        display: block
+    }
+    .payment_container {
+        width: 100%
+    }
+    .payment_option {
+        width: 100%
+    }
+    .tab_section {
+        width: 100%
+    }
+    .tab_conatiner {
+        display: none
+    }
+    .option_tabs.for_large {
+        display: none
+    }
+    .option_tabs.for_mobile {
+        display: block
+    }
+    .option_tabs {
+        border: none medium;
+        box-shadow: none
+    }
+    .inner_container {
+        width: 100%
+    }
+    .option_iconinfo {
+        width: auto;
+        margin-left: 0;
+        padding-left: 0;
+        border: 0
+    }
+    .card_brief {
+        width: 88%
+    }
+    .option_txt {
+        float: left;
+        border: none medium;
+        padding-top: 18px;
+        padding-bottom: 18px
+    }
+    .tab_section {
+        background-color: #f2f2f2
+    }
+    .tab_section li {
+        margin-bottom: 6px;
+        background-color: #fff
+    }
+    .tab_section li a {
+        border: 1px solid #e9e9e9
+    }
+    .accordian_details {
+        padding: 12px
+    }
+    .security_guarntted {
+        margin-bottom: 8px
+    }
+    .login_label {
+        line-height: 16px
+    }
+    .email_input,
+    .pass_input {
+        width: 100%!important;
+        margin-bottom: 8px;
+        margin-right: 0
+    }
+    .email_input input,
+    .pass_input input {
+        width: 92.5%
+    }
+    .tab_section li a {
+        min-height: 14px
+    }
+    input.form-control {
+        padding-top: 11px;
+        padding-bottom: 12px
+    }
+    a.secondary_button {
+        padding: 13px 15px 10px
+    }
+    .tab_section li a.secondary_login_button.active,
+    .tab_section li a.secondary_login_button:hover {
+        background-color: #008cff!important;
+        color: #fff!important
+    }
+    .tab_section li a.click_info {
+        border: 0;
+        padding-left: 0;
+        margin-top: 8px
+    }
+    .social_button {
+        padding: 4% 5.5% 3%;
+        width: 37%
+    }
+    .no_cost_emi_details {
+        width: 86%
+    }
+    .no_cost_emi {
+        padding: 10px 7px
+    }
+    .tab_section li a.active {
+        width: 96%
+    }
+    .tab_section li a.active:hover {
+        border-right-color: #e9e9e9
+    }
+    .accordian_details {
+        border: 1px solid #e9e9e9;
+        border-top: none medium;
+        width: 92.7%
+    }
+    .security_infotxt {
+        font-size: 11px;
+        line-height: 22px;
+        width: 185px;
+        float: left!important;
+        margin-left: 10px
+    }
+    .security_guarntted {
+        width: 280px
+    }
+    .frequent_section {
+        padding: 10px 7px
+    }
+    .verification_txt {
+        line-height: 14px;
+        float: left;
+        width: 245px
+    }
+    ul.currency_options.verification_type li {
+        width: 93.5%;
+        margin-bottom: 10px
+    }
+    ul.currency_options.verification_type li a {
+        width: 93.5%;
+        min-height: 36px
+    }
+    .verification_type .select_optioninfo {
+        width: 88%
+    }
+    ul.currency_options.verification_type_two li {
+        width: 94%;
+        margin-right: 0
+    }
+    ul.currency_options li a {
+        width: 89.5%
+    }
+    .edit_cancel,
+    .change_couponinfo,
+    a.info_icon {
+        border: none!important;
+        padding-left: 0!important;
+        margin-left: 0
+    }
+    .cashback_info {
+        padding-left: 0
+    }
+    .for_mobile_cpn {
+        width: 90%
+    }
+    .emi_info {
+        margin-top: 10px
+    }
+    .crd_no {
+        font-size: 11px;
+        line-height: 18px
+    }
+    .manitainence_info.append_bottom25 {
+        margin-bottom: 10px
+    }
+    .pay_buttoninfo {
+        width: 50%
+    }
+    .for_login {
+        width: 90.2%;
+        text-align: center
+    }
+    .overlay_content {
+        width: 88%;
+        padding: 5% 3%
+    }
+    .overlay_content .bank_optinf {
+        width: 90%
+    }
+    .font_18 {
+        font-size: 14px
+    }
+    .emi_to_be_like li {
+        width: 45%;
+        margin-bottom: 12px
+    }
+    .tab_section li a.card_type_info {
+        position: absolute;
+        border: none medium
+    }
+    .card_type_input input {
+        width: 93%
+    }
+    .savecardinfotxt {
+        width: 250px;
+        line-height: 14px
+    }
+    .verification_steps.append_bottom30 {
+        margin-bottom: 20px
+    }
+    ul.currency_options.paypal li.first_block .select_optioninfo {
+        width: 222px
+    }
+    ul.currency_options.paypal li {
+        width: 100%
+    }
+    ul.currency_options.paypal li.first_block a {
+        width: 90%
+    }
+    ul.currency_options.paypal li a {
+        width: 90%
+    }
+    .cd_iconspace {
+        width: auto;
+        margin-top: 0;
+        margin-bottom: 10px
+    }
+    .tab_section li .cd_iconspace a,
+    .tab_section li .coupon_appliedinfo a,
+    .tab_section li .close_dropsection {
+        border: none medium;
+        padding-left: 0
+    }
+    .option_iconinfo.for_debit {
+        width: auto
+    }
+    .pancard_input input {
+        width: 92%
+    }
+    .pancard_input,
+    .pancard_details {
+        width: 100%
+    }
+    .pancard_section a.info_icon {
+        margin-left: 10px
+    }
+    .pancard_icon {
+        display: none
+    }
+    .select_section.country_name select {
+        width: 100%
+    }
+    .select_section select {
+        padding-top: 8px
+    }
+    .input_section .city_field {
+        width: 100%;
+        margin-bottom: 20px;
+        margin-right: 0
+    }
+    .input_section.verification_steps .city_field,
+    #citibank_rewards .input_section .city_field {
+        width: 58%;
+        margin-bottom: 0;
+        margin-right: 20px
+    }
+    .billing_address textarea {
+        width: 93%
+    }
+    .mb_button_info {
+        width: 100%;
+        float: left;
+        padding: 0!important
+    }
+    .mb_m_r0 {
+        margin-right: 0!important
+    }
+    .overlay_content .pay_button {
+        margin-right: 0!important
+    }
+    .overlay_content .lock_txt {
+        font-size: 12px!important;
+        margin-left: 5px!important
+    }
+    .input_section.verification_steps .city_field input {
+        width: 93%;
+        margin-bottom: 20px
+    }
+    .reward_points__section {
+        margin-left: 0!important
+    }
+    .pincode_field {
+        width: 48%;
+        margin-right: 0
+    }
+    .pull-left.state_field {
+        width: 48%;
+        float: right!important
+    }
+    .pincode_field input,
+    .state_field input {
+        width: 85%
+    }
+    .convinience_txt span {
+        width: 96px
+    }
+    .convinience_txt .info_icon {
+        float: left!important;
+        margin-top: 8px
+    }
+    ul.currency_options.netbanking li {
+        width: 100%
+    }
+    ul.currency_options.netbanking li a {
+        width: 100%
+    }
+    ul.currency_options.netbanking li.other_bank {
+        width: 100%
+    }
+    ul.currency_options.netbanking li.other_bank a {
+        width: auto
+    }
+    ul.currency_options.netbanking li.other_bank select {
+        width: 96%
+    }
+    ul.currency_options.netbanking li.other_bank .select_section {
+        width: 86%
+    }
+    .quick_info {
+        width: 90%
+    }
+    .verification_steps.append_bottom30 {
+        margin-bottom: 5px
+    }
+    .total_price {
+        float: left;
+        margin-right: 15px
+    }
+    .convinience_txt {
+        float: left
+    }
+    .tab_section li a.pay_button {
+        float: left!important;
+        display: flex;
+        border: none medium;
+        width: 93%;
+        padding: 5px 15px!important;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box
+    }
+    .lato-normal-italic.text-right {
+        text-align: left
+    }
+    .step_number {
+        width: 18px;
+        height: 18px;
+        padding-top: 0;
+        line-height: 18px;
+        font-size: 12px
+    }
+    .select_label {
+        padding-top: 0
+    }
+    .selection_complete .select_label {
+        padding-top: 3px
+    }
+    .step_details .currency_options {
+        margin-left: 0;
+        padding-top: 15px
+    }
+    .bank_list_mirror li {
+        float: left;
+        width: 100%
+    }
+    .bank_list_mirror li a,
+    .bank_list_mirror li a:hover,
+    .emi_payment_info li a,
+    .tab_section li a.back_upi_click {
+        border: none medium;
+        padding-left: 0
+    }
+    .select_subinfo {
+        padding-top: 3px
+    }
+    .step_heading .coupon_completeicon {
+        margin-right: 5px
+    }
+    .font_14.select_label {
+        font-size: 12px
+    }
+    .select_subinfo {
+        font-size: 11px;
+        width: 55%
+    }
+    .tab_section li .close_dropsection {
+        min-height: auto;
+        margin-top: -4px
+    }
+    .before_selection {
+        margin-top: 3px
+    }
+    .no_cost_emi_section {
+        margin-left: 0
+    }
+    .no_cost_emi_section .inner_txtpart {
+        width: 85%
+    }
+    .currency_options.bank_list_info li a .font_14 {
+        font-size: 11px
+    }
+    .monthly_info {
+        width: 46px;
+        margin-right: 8px
+    }
+    .ineterest_info {
+        width: 38px;
+        margin-right: 7px
+    }
+    .installment {
+        width: 59px;
+        text-align: center;
+        margin-right: 10px
+    }
+    .fee_headinginfo {
+        padding: 10px 5px 10px 26px;
+        margin-left: 0
+    }
+    .interest_paid {
+        width: 47px
+    }
+    .total_money {
+        width: 58px;
+        margin-right: 8px
+    }
+    .no_cost_emi_sectn .inner_txtpart {
+        width: 88%
+    }
+    .addcard_info {
+        padding-left: 0
+    }
+    .addcard_info .card_type_input input {
+        width: 93%
+    }
+    .add_card_tab .card_brief {
+        width: 64%
+    }
+    ul.currency_options li {
+        width: 100%
+    }
+    .emi_payment_info {
+        width: 238px;
+        z-index: 4
+    }
+    .select_optioninfo {
+        width: 194px
+    }
+    .error_txt {
+        width: 89%
+    }
+    .pincode_info {
+        width: 100%
+    }
+    ul.bank_list_mirror {
+        padding-left: 0!important
+    }
+    .bank_list_mirror .font_14 {
+        font-size: 11px
+    }
+    .step_heading a.active,
+    .step_heading a:hover {
+        border: none medium!important
+    }
+    .guarntee_icon {
+        margin-bottom: 10px
+    }
+    ul.currency_options li {
+        margin-bottom: 10px
+    }
+    ul.currency_options li a:hover {
+        margin-top: 0
+    }
+    .option_iconinfo.upi {
+        margin-left: 10px;
+        width: 62%
+    }
+    .upi_steps_list li {
+        margin-bottom: 15px;
+        width: 46%;
+        margin-right: 15px
+    }
+    .upi_steps_list li:nth-child(even) {
+        margin-right: 0
+    }
+    .upi_steps_type .select_subinfo {
+        width: 62%
+    }
+    .step_details.fr_upi {
+        margin-left: 0
+    }
+    .steps_completed input.form-control {
+        width: 50%;
+        margin-bottom: 10px
+    }
+    .typing_icon {
+        position: absolute;
+        top: 8%;
+        left: 42%
+    }
+    .upi_steps_type a.pay_button {
+        margin-left: 0
+    }
+    .step_details.fr_upi a.pay_button {
+        width: 90%;
+        padding: 0 10px;
+        align-items: center;
+        justify-content: center
+    }
+    .request_failed_section {
+        background: #ffeded;
+        line-height: 60px;
+        width: auto
+    }
+    .booking_your_ticket {
+        background: #f5fcff;
+        padding: 0 50px 0;
+        width: auto
+    }
+    .option_txt {
+        font-size: 14px;
+        color: #4a4a4a
+    }
+    .tab_section li a {
+        border-color: #e1e1e1
+    }
+    .tab_section li a:hover .paypal_smallicn {
+        background-position: -184px -155px
+    }
+    .tab_section li a:hover .giftcard_icon {
+        background-position: -184px -187px
+    }
+    .tab_section li a:hover .wallet_iconone {
+        background-position: -184px -125px
+    }
+    .tab_section li a:hover .cod_icon {
+        background-position: -184px -95px
+    }
+    .tab_section li a:hover .emi_icon {
+        background-position: -185px -67px
+    }
+    .tab_section li a:hover .netbanking_icon {
+        background-position: -185px -37px
+    }
+    .tab_section li a:hover .debit_icon {
+        background-position: -185px -11px
+    }
+    .tab_section li a:hover .cityreward_icon {
+        background-position: -185px -215px
+    }
+    .tab_section li a:hover .upi_sm_icon {
+        background-position: -213px -99px;
+        width: 24px;
+        height: 24px
+    }
+    .payback_wallet_section .label_info {
+        width: 68%
+    }
+    .payback_wallet_section .label_description {
+        width: 32%
+    }
+    .label_txt {
+        font-size: 11px;
+        margin-right: 5px;
+        line-height: 13px
+    }
+    .otp_sectionalpart {
+        margin: 0
+    }
+    .otp_info .card_brief {
+        margin-right: 0;
+        margin-bottom: 10px;
+        padding-right: 0;
+        border-right: none medium
+    }
+    .otp_sectionalpart .pay_buttoninfo {
+        width: 100%
+    }
+    .otp_sectionalpart .pay_button {
+        width: 93%
+    }
+    .continue_info {
+        padding-top: 8px
+    }
+    .pacback_info .label_info {
+        width: 100%;
+        margin-bottom: 10px
+    }
+    .pacback_info .label_description {
+        width: 89%
+    }
+    .type1,
+    .type2 {
+        width: auto
+    }
+    .point_main_section {
+        width: 62%
+    }
+    .redeem_type_input {
+        margin-bottom: 10px
+    }
+    .point_field a.secondary_button {
+        width: 60%;
+        margin-right: 0;
+        text-align: center
+    }
+    .redeem_type_input input {
+        border-right: 1px solid #d1e2f5
+    }
+    .label_description .click_info {
+        margin-top: 0
+    }
+    .point_main_section .error_txt {
+        width: 84%
+    }
+    .point_main_section .error_field .error_container {
+        margin-top: 6px
+    }
+    .error_field .redeem_type_input input {
+        border-right: 1px solid #f11e14
+    }
+    .linked_section,
+    .point_field {
+        float: none!important;
+        margin-right: 0;
+        margin-bottom: 10px
+    }
+    .linked_section input {
+        width: 93%
+    }
+    .no_paybackfound {
+        width: auto;
+        padding-top: 0;
+        margin-bottom: 8px
+    }
+    .wallet_info .label_info {
+        width: 100%;
+        margin-bottom: 8px
+    }
+    .wallet_info .label_description {
+        float: none;
+        width: 100%
+    }
+    .wallet_info .email_input,
+    .wallet_info .pass_input {
+        margin-bottom: 12px
+    }
+    .wallet_info .label_description .click_info {
+        padding-top: 8px
+    }
+    .wallet_info .social_button {
+        width: 36%
+    }
+    .wallet_login {
+        width: 87%
+    }
+    .right_info {
+        border: none medium;
+        padding-left: 0;
+        margin-left: 0;
+        width: 100%
+    }
+    .wallet_info .lato-normal-italic.text-right {
+        margin-bottom: 8px
+    }
+    .wallet_info .point_main_section {
+        width: 66%
+    }
+    .not_applicable {
+        width: 25%;
+        text-align: center;
+        margin-right: 8px;
+        min-height: 48px
+    }
+    ul.currency_options.part_payment li {
+        width: 94%
+    }
+    ul.currency_options.part_payment li a {
+        width: 96%;
+        margin-bottom: 10px
+    }
+    .make_pay {
+        width: 100%;
+        margin-bottom: 8px
+    }
+    .booking_summary_parent {
+        display: inline-block
+    }
+    .backArrowLink {
+        display: inline-block
+    }
+    .booking_summary_heading {
+        margin: 10px 0 5px 0
+    }
+    #leavePagePopUp .modal-title {
+        font-size: 15px;
+        font-weight: 900
+    }
+    #leavePagePopUp .modal-body {
+        font-size: 13px;
+        padding: 20px 0
+    }
+    #leavePagePopUp .resume_booking_button {
+        color: black
+    }
+    #leavePagePopUp .cancel_booking_button {
+        color: red
+    }
+    #leavePagePopUp .modal-footer {
+        padding-top: 20px;
+        border-top: 1px solid lightgray
+    }
+    .headerBack {
+        transform: rotate(180deg);
+        background-position: -450px -120px;
+        width: 26px;
+        height: 25px;
+        position: relative;
+        top: 9px;
+        margin-right: 5px
+    }
+    .sub_heading {
+        float: none!important;
+        line-height: 10px
+    }
+    .booking_summary {
+        width: 100%
+    }
+    .booking_summary img {
+        width: 100%;
+        height: auto
+    }
+    .tooltip_upper .cancellation_txt {
+        width: 70%;
+        line-height: 14px
+    }
+    .pacback_info.hover_state .label_info,
+    .wallet_info.hover_state .label_info {
+        width: 67%
+    }
+    .pacback_info.hover_state .label_description.special,
+    .wallet_info.hover_state .label_description.special {
+        width: 30%
+    }
+    .pacback_info.hover_state .info_icon {
+        margin-top: 0
+    }
+    .payback_wallet_section .info_icon {
+        margin-top: 0
+    }
+    .payback_icn {
+        margin-right: 14px
+    }
+    .price_breakup .tooltip_wrap {
+        width: 282px
+    }
+    .for_mobile_emi {
+        width: 90%;
+        margin-top: 10px
+    }
+    .tab_section .for_mobile_cpn a.change_couponinfo {
+        display: inline
+    }
+}
+
+.lato-black {
+    font-family: 'lato-black', Arial, Helvetica, sans-serif
+}
+
+.lato-bold {
+    font-family: 'lato-bold', Arial, Helvetica, sans-serif
+}
+
+.lato-light {
+    font-family: 'lato-light', Arial, Helvetica, sans-serif
+}
+
+.lato-medium {
+    font-family: 'lato-medium', Arial, Helvetica, sans-serif
+}
+
+.lato-normal-italic {
+    font-family: 'lato-normal-italic', Arial, Helvetica, sans-serif
+}
+
+.lato-regular {
+    font-family: 'lato-regular', Arial, Helvetica, sans-serif
+}
+
+.lato-semibold {
+    font-family: 'lato-semibold', Arial, Helvetica, sans-serif
+}
+
+.INR {
+    font-family: 'webRupee'
+}
+
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 9px 12px;
+    font-size: 14px;
+    line-height: 16px;
+    border-radius: 2px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+.btn:active,
+.btn.active,
+.btn:hover,
+.btn:focus,
+.btn.focus {
+    color: #0055b7;
+    text-decoration: none
+}
+
+.btn.disabled,
+.btn[disabled],
+fieldset[disabled] .btn {
+    cursor: not-allowed;
+    -ms-filter: "alpha(opacity=65)";
+    -moz-opacity: .65;
+    -khtml-opacity: .65;
+    opacity: .65;
+    filter: alpha(opacity=65);
+    -webkit-box-shadow: none;
+    box-shadow: none
+}
+
+a.btn.disabled,
+fieldset[disabled] a.btn {
+    pointer-events: none
+}
+
+.btn-default {
+    color: #0055b7;
+    background-color: #fff;
+    border-color: #c4c4c4
+}
+
+.btn-default:focus,
+.btn-default.focus {
+    color: #0055b7;
+    background-color: #eff6ff;
+    border-color: #c5deff
+}
+
+.btn-default:hover {
+    color: #0055b7;
+    background-color: #eff6ff;
+    border-color: #c5deff
+}
+
+.btn-default:active,
+.btn-default.active,
+.open>.btn-default.dropdown-toggle {
+    color: #0055b7;
+    background-color: #eff6ff;
+    border-color: #c5deff
+}
+
+.btn-default:active:hover,
+.btn-default:active:focus,
+.btn-default:active.focus,
+.btn-default.active:hover,
+.btn-default.active:focus,
+.btn-default.active.focus,
+.open>.btn-default.dropdown-toggle:hover,
+.open>.btn-default.dropdown-toggle:focus,
+.open>.btn-default.dropdown-toggle.focus {
+    color: #0055b7;
+    background-color: #eff6ff;
+    border-color: #c5deff
+}
+
+.btn-default:active,
+.btn-default.active,
+.open>.btn-default.dropdown-toggle {
+    background-image: none
+}
+
+.btn-default.disabled:hover,
+.btn-default.disabled:focus,
+.btn-default.disabled.focus,
+.btn-default[disabled]:hover,
+.btn-default[disabled]:focus,
+.btn-default[disabled].focus,
+fieldset[disabled] .btn-default:hover,
+fieldset[disabled] .btn-default:focus,
+fieldset[disabled] .btn-default.focus {
+    background-color: #fff;
+    border-color: #c4c4c4
+}
+
+.btn-default .badge {
+    color: #fff;
+    background-color: #0055b7
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #eb2026;
+    border-color: #bc0006
+}
+
+.btn-primary:focus,
+.btn-primary.focus {
+    color: #fff;
+    background-color: #ff4d53;
+    border-color: #db0006
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #ff4d53;
+    border-color: #db0006
+}
+
+.btn-primary:active,
+.btn-primary.active,
+.open>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #ff4d53;
+    border-color: #db0006
+}
+
+.btn-primary:active:hover,
+.btn-primary:active:focus,
+.btn-primary:active.focus,
+.btn-primary.active:hover,
+.btn-primary.active:focus,
+.btn-primary.active.focus,
+.open>.btn-primary.dropdown-toggle:hover,
+.open>.btn-primary.dropdown-toggle:focus,
+.open>.btn-primary.dropdown-toggle.focus {
+    color: #fff;
+    background-color: #ff4d53;
+    border-color: #db0006
+}
+
+.btn-primary:active,
+.btn-primary.active,
+.open>.btn-primary.dropdown-toggle {
+    background-image: none
+}
+
+.btn-primary.disabled:hover,
+.btn-primary.disabled:focus,
+.btn-primary.disabled.focus,
+.btn-primary[disabled]:hover,
+.btn-primary[disabled]:focus,
+.btn-primary[disabled].focus,
+fieldset[disabled] .btn-primary:hover,
+fieldset[disabled] .btn-primary:focus,
+fieldset[disabled] .btn-primary.focus {
+    background-color: #eb2026;
+    border-color: #bc0006
+}
+
+.btn-primary .badge {
+    color: #eb2026;
+    background-color: #fff
+}
+
+.btn-info {
+    color: #fff;
+    background-color: #87a1bf;
+    border-color: #7694b6
+}
+
+.btn-info:focus,
+.btn-info.focus {
+    color: #fff
+}
+
+.btn-info:hover {
+    color: #fff
+}
+
+.btn-info:active,
+.btn-info.active,
+.open>.btn-info.dropdown-toggle {
+    color: #fff
+}
+
+.btn-info:active:hover,
+.btn-info:active:focus,
+.btn-info:active.focus,
+.btn-info.active:hover,
+.btn-info.active:focus,
+.btn-info.active.focus,
+.open>.btn-info.dropdown-toggle:hover,
+.open>.btn-info.dropdown-toggle:focus,
+.open>.btn-info.dropdown-toggle.focus {
+    color: #fff
+}
+
+.btn-info:active,
+.btn-info.active,
+.open>.btn-info.dropdown-toggle {
+    background-image: none
+}
+
+.btn-info.disabled:hover,
+.btn-info.disabled:focus,
+.btn-info.disabled.focus,
+.btn-info[disabled]:hover,
+.btn-info[disabled]:focus,
+.btn-info[disabled].focus,
+fieldset[disabled] .btn-info:hover,
+fieldset[disabled] .btn-info:focus,
+fieldset[disabled] .btn-info.focus {
+    background-color: #87a1bf;
+    border-color: #7694b6
+}
+
+.btn-info .badge {
+    color: #87a1bf;
+    background-color: #fff
+}
+
+.btn-ghost-info {
+    color: #fff;
+    background-color: transparent;
+    border-color: #87a1bf
+}
+
+.btn-ghost-info:focus,
+.btn-ghost-info.focus {
+    color: #fff;
+    background-color: #87a1bf;
+    border-color: #87a1bf
+}
+
+.btn-ghost-info:hover {
+    color: #fff;
+    background-color: #87a1bf;
+    border-color: #87a1bf
+}
+
+.btn-ghost-info:active,
+.btn-ghost-info.active,
+.open>.btn-ghost-info.dropdown-toggle {
+    color: #fff;
+    background-color: #87a1bf;
+    border-color: #87a1bf
+}
+
+.btn-ghost-info:active:hover,
+.btn-ghost-info:active:focus,
+.btn-ghost-info:active.focus,
+.btn-ghost-info.active:hover,
+.btn-ghost-info.active:focus,
+.btn-ghost-info.active.focus,
+.open>.btn-ghost-info.dropdown-toggle:hover,
+.open>.btn-ghost-info.dropdown-toggle:focus,
+.open>.btn-ghost-info.dropdown-toggle.focus {
+    color: #fff;
+    background-color: #87a1bf;
+    border-color: #87a1bf
+}
+
+.btn-ghost-info:active,
+.btn-ghost-info.active,
+.open>.btn-ghost-info.dropdown-toggle {
+    background-image: none
+}
+
+.btn-ghost-info.disabled:hover,
+.btn-ghost-info.disabled:focus,
+.btn-ghost-info.disabled.focus,
+.btn-ghost-info[disabled]:hover,
+.btn-ghost-info[disabled]:focus,
+.btn-ghost-info[disabled].focus,
+fieldset[disabled] .btn-ghost-info:hover,
+fieldset[disabled] .btn-ghost-info:focus,
+fieldset[disabled] .btn-ghost-info.focus {
+    background-color: transparent;
+    border-color: #87a1bf
+}
+
+.btn-ghost-info .badge {
+    color: transparent;
+    background-color: #fff
+}
+
+.btn-ghost-default {
+    color: #0055b7;
+    background-color: transparent;
+    border-color: #c4c4c4
+}
+
+.btn-ghost-default:focus,
+.btn-ghost-default.focus {
+    color: #0055b7;
+    background-color: #eff6ff;
+    border-color: #c4c4c4
+}
+
+.btn-ghost-default:hover {
+    color: #0055b7;
+    background-color: #eff6ff;
+    border-color: #c4c4c4
+}
+
+.btn-ghost-default:active,
+.btn-ghost-default.active,
+.open>.btn-ghost-default.dropdown-toggle {
+    color: #0055b7;
+    background-color: #eff6ff;
+    border-color: #c4c4c4
+}
+
+.btn-ghost-default:active:hover,
+.btn-ghost-default:active:focus,
+.btn-ghost-default:active.focus,
+.btn-ghost-default.active:hover,
+.btn-ghost-default.active:focus,
+.btn-ghost-default.active.focus,
+.open>.btn-ghost-default.dropdown-toggle:hover,
+.open>.btn-ghost-default.dropdown-toggle:focus,
+.open>.btn-ghost-default.dropdown-toggle.focus {
+    color: #0055b7;
+    background-color: #eff6ff;
+    border-color: #c4c4c4
+}
+
+.btn-ghost-default:active,
+.btn-ghost-default.active,
+.open>.btn-ghost-default.dropdown-toggle {
+    background-image: none
+}
+
+.btn-ghost-default.disabled:hover,
+.btn-ghost-default.disabled:focus,
+.btn-ghost-default.disabled.focus,
+.btn-ghost-default[disabled]:hover,
+.btn-ghost-default[disabled]:focus,
+.btn-ghost-default[disabled].focus,
+fieldset[disabled] .btn-ghost-default:hover,
+fieldset[disabled] .btn-ghost-default:focus,
+fieldset[disabled] .btn-ghost-default.focus {
+    background-color: transparent;
+    border-color: #c4c4c4
+}
+
+.btn-ghost-default .badge {
+    color: transparent;
+    background-color: #0055b7
+}
+
+.btn-link {
+    color: #0055b7;
+    font-weight: normal;
+    border-radius: 0
+}
+
+.btn-link,
+.btn-link:active,
+.btn-link.active,
+.btn-link[disabled],
+fieldset[disabled] .btn-link {
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none
+}
+
+.gpay_icon {
+    background-position: -210px -299px;
+    width: 27px;
+    height: 26px
+}
+
+.btn-link,
+.btn-link:hover,
+.btn-link:focus,
+.btn-link:active {
+    border-color: transparent
+}
+
+.btn-link:hover,
+.btn-link:focus {
+    color: #0055b7;
+    text-decoration: none;
+    background-color: transparent
+}
+
+.btn-link[disabled]:hover,
+.btn-link[disabled]:focus,
+fieldset[disabled] .btn-link:hover,
+fieldset[disabled] .btn-link:focus {
+    color: #777;
+    text-decoration: none
+}
+
+.btn-lg {
+    padding: 10px 16px;
+    font-size: 14px;
+    line-height: 1.33333;
+    border-radius: 5px
+}
+
+.btn-sm {
+    padding: 5px 10px;
+    font-size: 11px;
+    line-height: 1.5;
+    border-radius: 3px
+}
+
+.btn-xs {
+    padding: 1px 5px;
+    font-size: 11px;
+    line-height: 1.5;
+    border-radius: 3px
+}
+
+.btn-block {
+    display: block;
+    width: 100%
+}
+
+.btn-block+.btn-block {
+    margin-top: 5px
+}
+
+input[type="submit"].btn-block,
+input[type="reset"].btn-block,
+input[type="button"].btn-block {
+    width: 100%
+}
+
+.chf_logopart {
+    /* background: url("../images/header_footer/mmt_logo.png?v=1") 0 0 no-repeat; */
+    width: 128px;
+    height: 50px
+}
+
+.chf_logopart {
+    background-position: 0 0;
+    width: 162px
+}
+
+.chf_logo .chf_logopart {
+    width: 122px
+}
+
+div,
+p,
+span,
+a,
+button,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li:focus {
+    outline: none!important
+}
+
+.append_right17 {
+    margin-right: 17px
+}
+
+.summary_heading {
+    font-size: 14px;
+    color: #4a4a4a
+}
+
+.border_bottomhalf {
+    border-bottom: .5px solid #ccc;
+    padding-bottom: 15px
+}
+
+.bus_description,
+.rail_description {
+    border-bottom: 1px solid #ccc;
+    padding: 15px
+}
+
+.price_breakup_header {
+    padding-top: 15px;
+    padding-left: 15px
+}
+
+.price_breakup_nopadding {
+    background: #f9f9f9;
+    padding: 0;
+    border-bottom: 1px solid #ddd
+}
+
+.rightArrow {
+    width: 18px;
+    height: 2px;
+    display: inline-block;
+    background-color: #9b9b9b;
+    position: relative;
+    top: -4px
+}
+
+.rightArrow::after {
+    content: "";
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-color: #9b9b9b;
+    position: absolute;
+    top: -3px;
+    right: 0;
+    width: 6px;
+    height: 7px;
+    border-style: solid;
+    transform: rotate(45deg);
+    border-bottom: 0;
+    border-left: none
+}
+
+.stationName {
+    font-size: 16px;
+    color: #4a4a4a
+}
+
+.busIcon {
+    width: 16px;
+    height: 16px;
+    display: inline-block
+}
+
+.busDescription {
+    line-height: 18px
+}
+
+.bus_description .traveler_details,
+.rail_description .traveler_details {
+    padding: 10px 0 0
+}
+
+.bus_price .first_part {
+    color: #484848
+}
+
+.price_breakup.bus_price {
+    border-bottom: 1px solid #ccc
+}
+
+.busOwner {
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #4a4a4a
+}
+
+.busDetails {
+    color: #878787;
+    font-size: 14px
+}
+
+.lightGreyColor {
+    color: #878787
+}
+
+.font12 {
+    font-size: 12px
+}
+
+.font13 {
+    font-size: 13px
+}
+
+.font20 {
+    font-size: 20px
+}
+
+.font16 {
+    font-size: 16px
+}
+
+.darkGreyText {
+    color: #4a4a4a
+}
+
+.bus_route_details {
+    margin: 0 -15px;
+    padding: 0 15px 15px 15px;
+    border-bottom: solid 1px #ccc;
+    position: relative
+}
+
+.duration {
+    color: #979797;
+    position: relative;
+    line-height: 40px;
+    position: absolute;
+    top: 35%;
+    left: 46%;
+    transform: translate(-50%, -50%)
+}
+
+.duration .hours {
+    position: relative;
+    top: 2px
+}
+
+.durationBar-left {
+    margin-right: 2px
+}
+
+.durationBar-right {
+    margin-left: 2px
+}
+
+.durationBar-left,
+.durationBar-right {
+    width: 30px;
+    display: inline-block;
+    border: 1px solid #979797
+}
+
+.rail_description .durationBar-left,
+.rail_description .durationBar-right {
+    width: 8px
+}
+
+.append_right15 {
+    margin-right: 15px
+}
+
+.durationBar-left:before {
+    position: absolute;
+    left: -7px;
+    top: 19px
+}
+
+.durationBar-right:after {
+    position: absolute;
+    right: -7px;
+    top: 19px
+}
+
+.durationBar-left:before,
+.durationBar-right:after {
+    content: "";
+    width: 6px;
+    height: 6px;
+    border: solid 1px #979797;
+    background-color: #d8d8d8;
+    border-radius: 50%
+}
+
+.bus_route_details .tooltip_wrap {
+    width: 212px
+}
+
+.bus_route_details .drop-point.tooltip_wrap {
+    left: -85%
+}
+
+.bus_route_details .tooltip_wrap {
+    top: -50px
+}
+
+.bus_route_details .drop-point .tooltip_uparrow {
+    left: 45%
+}
+
+.bus_route_details .tooltip_uparrow {
+    left: 20%;
+    top: auto;
+    Transform: rotate(180deg);
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #d8eaff
+}
+
+.capText {
+    text-transform: uppercase
+}
+
+.contact_text {
+    font-size: 13px;
+    line-height: 22px;
+    color: #4a4a4a
+}
+
+.contactIcon {
+    /* background-image: url(../images/dt_payment_sprite.png); */
+    background-size: 241.5px 400px;
+    -webkit-background-size: 241.5px 400px;
+    -moz-background-size: 241.5px 400px;
+    display: inline-block
+}
+
+.contactIcon.emailIcon {
+    background-position: -3px -338px;
+    width: 17px;
+    height: 11px;
+    margin-top: 5px
+}
+
+.contactIcon.phoneIcon {
+    background-position: -26px -337px;
+    width: 17px;
+    height: 17px;
+    margin-top: 3px
+}
+
+.tooltip_content {
+    padding: 17px 15px 12px 17px;
+    border-bottom: solid 1px #ccc
+}
+
+.discounts {
+    padding: 8px 15px 8px 17px;
+    border-bottom: solid 1px #ccc
+}
+
+.fare_breakup {
+    color: #989898;
+    line-height: 16px
+}
+
+.amount_payable {
+    padding: 9px 15px 14px 17px
+}
+
+.price_breakup.bus_price .tooltip_uparrow {
+    top: 100%;
+    left: 30%;
+    Transform: rotate(180deg);
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #d8eaff
+}
+
+.seat_availability {
+    padding: 15px 15px 8px;
+    border-bottom: solid 1px #ccc
+}
+
+.availablity_text {
+    font-size: 20px;
+    line-height: 20px;
+    color: #00a19c
+}
+
+.rail_availability_content {
+    max-width: 210px
+}
+
+.timerText {
+    color: #fff;
+    font-size: 14px;
+    line-height: 16px;
+    padding-top: 3px
+}
+
+.duration_timer {
+    border-radius: 18px;
+    /* background-image: linear-gradient(253deg, #ff3e5e, #ff7f3f); */
+    padding: 9px 22px 9px 9px;
+    margin-bottom: 17px
+}
+
+.clockIcon {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    border-radius: 100%;
+    border: 1px solid white;
+    position: relative
+}
+
+.clockIcon::after {
+    content: "";
+    width: 6px;
+    height: 6px;
+    top: 4px;
+    left: 7px;
+    position: absolute;
+    border-bottom: 1px solid white;
+    border-left: 1px solid white
+}
+
+.tab_list {
+    width: 300px;
+    height: 36px;
+    background: #fff;
+    box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.2);
+    padding: 0;
+    border-radius: 34px;
+    list-style-type: none;
+    margin: 0 auto 20px
+}
+
+.tab_list li {
+    float: left
+}
+
+.tab_list li a {
+    color: #4a4a4a;
+    font-size: 12px;
+    font-family: "lato-black";
+    width: 145px;
+    text-align: center;
+    margin: 5px 0;
+    display: inline-block;
+    height: 26px;
+    position: relative
+}
+
+.tab_list li a .blue_tick {
+    display: none
+}
+
+.tab_list li a.selected {
+    padding: 5px 0 0 5px;
+    margin-left: 5px;
+    border-radius: 13px;
+    background-color: #008cff;
+    text-align: unset;
+    height: 21px;
+    color: #fff
+}
+
+.tab_list li:nth-last-child(1) a.selected {
+    margin-left: 0
+}
+
+.tab_list li a.selected .blue_tick {
+    display: inline-block;
+    margin-right: 9px;
+    width: 15px;
+    height: 16px;
+    border-radius: 100%;
+    background: #fff;
+    position: relative
+}
+
+.tab_list li a.selected .blue_tick::after {
+    content: "";
+    border-right: 2px solid #008cff;
+    border-bottom: 2px solid #008cff;
+    left: 5px;
+    top: 3px;
+    position: absolute;
+    z-index: 1;
+    height: 7px;
+    width: 3px;
+    transform: rotate(45deg)
+}
+
+.tab-option_text {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    min-width: 80px
+}
+
+.tab_list li a.selected .tab-option_text {
+    transform: translate(0%, -50%)
+}
+
+@media only screen and (min-width:320px) and (max-width:767px) {
+    .bus_route_details .drop-point.tooltip_wrap {
+        left: -126%
+    }
+    .bus_route_details .drop-point .tooltip_uparrow {
+        left: 65%
+    }
+    .rail_availability_content {
+        max-width: 190px
+    }
+    .tab_list li {
+        width: 50%;
+        margin-bottom: 0;
+        height: 36px;
+        background: 0
+    }
+    .tab_list {
+        width: 100%
+    }
+    .tab_list li a {
+        width: 93%;
+        border: 0;
+        padding-left: 0
+    }
+    .tab_list li a:hover {
+        border: 0;
+        margin-top: 5px;
+        outline: 0
+    }
+    @media only screen and (min-width:320px) and (max-width:359px) {
+        .busOwner {
+            margin-right: 0
+        }
+        .boarding-point {
+            width: 25%
+        }
+        .duration {
+            margin-right: 35px
+        }
+        .durationBar-left,
+        .durationBar-right {
+            width: 20px
+        }
+        .bus_route_details .dropping-point {
+            width: 22%
+        }
+        .dropping-point {
+            width: 30%
+        }
+        .bus_route_details .tooltip_wrap {
+            top: -35px
+        }
+        .bus_route_details .boarding-point .tooltip_uparrow {
+            left: 10%
+        }
+        .bus_route_details .drop-point.tooltip_wrap {
+            left: -225%
+        }
+        .price_breakup.bus_price .tooltip_wrap {
+            left: 5%
+        }
+        .price_breakup.bus_price .tooltip_uparrow {
+            left: 40%
+        }
+        .rail_availability_content {
+            max-width: 150px
+        }
+    }
+    .aircarnival,
+    .trujet,
+    .jetairways,
+    .jetair,
+    .sahara,
+    .airdeccan,
+    .kingfisher,
+    .indian_airlines,
+    .spicejet,
+    .airindia,
+    .indigo,
+    .goair,
+    .gobusiness,
+    .paramount,
+    .mdlr,
+    .buslogo,
+    .OP_Small,
+    .goaircomfort,
+    .jetkonnect,
+    .jetlitespecial,
+    .airindiaexpress,
+    .spacer,
+    .opaque,
+    .others,
+    .MA,
+    .venturaairconnect,
+    .deccanshuttles,
+    .mmtsaver,
+    .airasia,
+    .airasiaindia,
+    .vistara,
+    .airpegasus {
+        /* background: transparent url("../images/flightimg_new.png?v=4") 0 0 no-repeat */
+    }
+    .aircarnival_mobile,
+    .trujet_mobile,
+    .jetairways_mobile,
+    .jetair_mobile,
+    .sahara_mobile,
+    .airdeccan_mobile,
+    .kingfisher_mobile,
+    .indian_airlines_mobile,
+    .spicejet_mobile,
+    .airindia_mobile,
+    .indigo_mobile,
+    .goair_mobile,
+    .gobusiness_mobile,
+    .paramount_mobile,
+    .mdlr_mobile,
+    .buslogo_mobile,
+    .OP_Small_mobile,
+    .goaircomfort_mobile,
+    .jetkonnect_mobile,
+    .jetlitespecial_mobile,
+    .airindiaexpress_mobile,
+    .spacer_mobile,
+    .opaque_mobile,
+    .others_mobile,
+    .MA_mobile,
+    .venturaairconnect_mobile,
+    .deccanshuttles_mobile,
+    .mmtsaver_mobile,
+    .airasia_mobile,
+    .airasiaindia_mobile,
+    .vistara_mobile,
+    .airpegasus_mobile {
+        /* background: transparent url("../images/flightimg_new.png?v=4") 0 0 no-repeat */
+    }
+    .ddn_closerow {
+        /* background: url(../images/new_common_sprite.png) left top no-repeat; */
+        font-size: 0
+    }
+    .indigo {
+        background-position: 0 -29px;
+        width: 36px;
+        height: 26px;
+        display: block;
+        margin: 0
+    }
+    .jetairways {
+        background-position: -38px 1px;
+        width: 36px;
+        height: 28px;
+        display: block
+    }
+    .jetair {
+        background-position: -38px -1px;
+        width: 36px;
+        height: 26px;
+        display: block
+    }
+    .sahara {
+        background-position: 0 -143px;
+        width: 36px;
+        height: 25px;
+        display: block
+    }
+    .airdeccan {
+        background-position: 0 -112px;
+        width: 36px;
+        height: 30px;
+        display: block
+    }
+    .kingfisher {
+        background-position: -38px -28px;
+        width: 36px;
+        height: 28px;
+        display: block
+    }
+    .indian_airlines {
+        background-position: 0 -170px;
+        width: 36px;
+        height: 25px;
+        display: block
+    }
+    .spicejet {
+        background-position: -37px -114px;
+        width: 36px;
+        height: 23px;
+        display: block
+    }
+    .airindia {
+        background-position: 0 -170px;
+        width: 36px;
+        height: 25px;
+        display: block
+    }
+    .goair {
+        background-position: 0 -85px;
+        width: 36px;
+        height: 26px;
+        display: block
+    }
+    .gobusiness {
+        background-position: 0 -85px;
+        width: 36px;
+        height: 26px;
+        display: block
+    }
+    .paramount {
+        background-position: -76px -172px;
+        width: 36px;
+        height: 25px;
+        display: block
+    }
+    .mdlr {
+        background-position: 0 -114px;
+        width: 36px;
+        height: 25px;
+        display: block
+    }
+    .buslogo {
+        background-position: -67px -27px;
+        width: 36px;
+        height: 25px;
+        display: block
+    }
+    .OP_Small {
+        background-position: 0 -172px;
+        width: 36px;
+        height: 25px;
+        display: block
+    }
+    .goaircomfort {
+        background-position: 0 -56px;
+        width: 36px;
+        height: 25px;
+        display: block
+    }
+    .jetkonnect {
+        background-position: 0 -59px;
+        width: 36px;
+        height: 24px;
+        display: block
+    }
+    .jetlitespecial {
+        background-position: 0 -59px;
+        width: 36px;
+        height: 30px;
+        display: block
+    }
+    .airindiaexpress {
+        background-position: -38px -172px;
+        width: 36px;
+        height: 25px;
+        display: block
+    }
+    .venturaairconnect {
+        background-position: -38px -58px;
+        width: 36px;
+        height: 25px;
+        display: block
+    }
+    .airasia,
+    .airasiaindia {
+        background-position: 0 -194px;
+        width: 36px;
+        height: 25px;
+        display: block
+    }
+    .deccanshuttles {
+        background-position: 0 -112px;
+        width: 36px;
+        height: 25px;
+        display: block
+    }
+    .spacer {
+        background-position: -153px -143px;
+        width: 71px;
+        height: 25px;
+        display: block
+    }
+    .opaque {
+        background-position: 0 -172px;
+        width: 74px;
+        height: 25px;
+        display: block
+    }
+    .others {
+        background-position: -154px -115px;
+        width: 74px;
+        height: 25px;
+        display: block
+    }
+    .MA {
+        background-position: -38px -87px;
+        width: 36px;
+        height: 24px;
+        display: block
+    }
+    .mmtsaver {
+        background-position: -152px -176px;
+        width: 75px;
+        height: 19px;
+        display: block
+    }
+    .vistara {
+        background-position: -1px -401px;
+        width: 34px;
+        height: 34px;
+        display: block
+    }
+    .airpegasus {
+        background-position: -38px -401px;
+        width: 34px;
+        height: 34px;
+        display: block
+    }
+    .trujet {
+        background-position: -38px -450px;
+        width: 33px;
+        height: 18px;
+        display: block
+    }
+    .aircarnival {
+        background-position: 0 -482px;
+        width: 35px;
+        height: 12px;
+        display: block
+    }
+    .aircarnival_mobile {
+        background-position: 0 -482px;
+        width: 35px;
+        height: 12px;
+        display: block
+    }
+    .indigo_mobile {
+        background-position: -7px -254px;
+        width: 20px;
+        height: 15px;
+        margin: 0
+    }
+    .jetairways_mobile {
+        background-position: -47px -226px;
+        width: 20px;
+        height: 20px
+    }
+    .jetair_mobile {
+        background-position: -47px -226px;
+        width: 20px;
+        height: 20px
+    }
+    .spicejet_mobile {
+        background-position: -44px -302px;
+        width: 20px;
+        height: 15px
+    }
+    .airindia_mobile {
+        background-position: -7px -341px;
+        width: 20px;
+        height: 12px
+    }
+    .goair_mobile {
+        background-position: -5px -302px;
+        width: 20px;
+        height: 16px
+    }
+    .gobusiness_mobile {
+        background-position: -5px -302px;
+        width: 20px;
+        height: 16px
+    }
+    .jetkonnect_mobile {
+        background-position: -6px -278px;
+        width: 20px;
+        height: 18px
+    }
+    .airindiaexpress_mobile {
+        background-position: -46px -345px;
+        width: 20px;
+        height: 6px
+    }
+    .venturaairconnect_mobile {
+        background-position: -46px -276px;
+        width: 15px;
+        height: 20px
+    }
+    .airasia_mobile,
+    .airasiaindia_mobile {
+        background-position: -44px -325px;
+        width: 20px;
+        height: 9px
+    }
+    .deccanshuttles_mobile {
+        background-position: -8px -324px;
+        width: 20px;
+        height: 10px
+    }
+    .MA_mobile {
+        background-position: -10px -360px;
+        width: 20px;
+        height: 12px
+    }
+    .vistara_mobile {
+        background-position: -7px -376px;
+        width: 20px;
+        height: 20px
+    }
+    .airpegasus_mobile {
+        background-position: -44px -376px;
+        width: 20px;
+        height: 20px
+    }
+    .trujet_mobile {
+        background-position: -7px -459px;
+        width: 19px;
+        height: 10px
+    }
+    .qtip {
+        position: absolute;
+        left: -28000px;
+        top: -28000px;
+        display: none;
+        max-width: 280px;
+        min-width: 50px;
+        font-size: 10.5px;
+        line-height: 12px;
+        direction: ltr;
+        box-shadow: none;
+        padding: 0
+    }
+    .qtip-content {
+        position: relative;
+        padding: 5px 9px;
+        overflow: hidden;
+        text-align: left;
+        word-wrap: break-word
+    }
+    .qtip-titlebar {
+        position: relative;
+        padding: 5px 35px 5px 10px;
+        overflow: hidden;
+        border-width: 0 0 1px;
+        font-weight: bold
+    }
+    .qtip-titlebar+.qtip-content {
+        border-top-width: 0!important
+    }
+    .qtip-close {
+        position: absolute;
+        right: -9px;
+        top: -9px;
+        z-index: 11;
+        cursor: pointer;
+        outline: medium none;
+        border: 1px solid transparent
+    }
+    .qtip-titlebar .qtip-close {
+        right: 4px;
+        top: 50%;
+        margin-top: -9px
+    }
+    * html .qtip-titlebar .qtip-close {
+        top: 16px
+    }
+    .qtip-titlebar .ui-icon,
+    .qtip-icon .ui-icon {
+        display: block;
+        text-indent: -1000em;
+        direction: ltr
+    }
+    .qtip-icon,
+    .qtip-icon .ui-icon {
+        -moz-border-radius: 3px;
+        -webkit-border-radius: 3px;
+        border-radius: 3px;
+        text-decoration: none
+    }
+    .qtip-icon .ui-icon {
+        width: 18px;
+        height: 14px;
+        line-height: 14px;
+        text-align: center;
+        text-indent: 0;
+        font: normal bold 10px/13px Tahoma, sans-serif;
+        color: inherit;
+        background: transparent none no-repeat -100em -100em
+    }
+    .qtip-default {
+        border: 1px solid #f1d031;
+        background-color: #ffffa3;
+        color: #555
+    }
+    .qtip-default .qtip-titlebar {
+        background-color: #ffef93
+    }
+    .qtip-default .qtip-icon {
+        border-color: #CCC;
+        background: #f1f1f1;
+        color: #777
+    }
+    .qtip-default .qtip-titlebar .qtip-close {
+        border-color: #AAA;
+        color: #111
+    }
+    /*! Light tooltip style */
+    .qtip-light {
+        background: #fff;
+        border: 1px solid #d8eaff;
+        border-radius: 3px;
+        -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+        -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+        z-index: 1
+    }
+    .qtip-light .qtip-titlebar {
+        background-color: #f1f1f1
+    }
+    .qtip .qtip-tip {
+        margin: 0 auto;
+        overflow: hidden;
+        z-index: 10
+    }
+    x:-o-prefocus,
+    .qtip .qtip-tip {
+        visibility: hidden
+    }
+    .qtip .qtip-tip,
+    .qtip .qtip-tip .qtip-vml,
+    .qtip .qtip-tip canvas {
+        position: absolute;
+        color: #123456;
+        background: transparent;
+        border: 0 dashed transparent
+    }
+    .qtip .qtip-tip canvas {
+        top: 0;
+        left: 0
+    }
+    .qtip .qtip-tip .qtip-vml {
+        behavior: url(#default#VML);
+        display: inline-block;
+        visibility: visible
+    }
+}
