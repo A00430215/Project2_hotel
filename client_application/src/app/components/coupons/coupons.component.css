@@ -1,0 +1,44 @@
+._AvailableDeals .dealRow {
+    padding: 18px;
+    border-radius: 4px;
+    display: flex;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+._AvailableDeals .dealRow.selectedDeal {
+    background: #f0fdfc;
+    border-color: #b5f1ec;
+}
+
+._AvailableDeals .dealApplied {
+    height: 16px;
+    border-radius: 14px;
+    background-image: linear-gradient(82deg, #43e1a8, #28beb2);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+    flex-shrink: 0;
+}
+
+._AvailableDeals .txtInput {
+    background: none;
+    outline: 0;
+    border: 0;
+    border-bottom: 1px #c2c2c2 solid;
+    color: #c2c2c2;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 0 0 8px 0;
+    width: 100%;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0px;
+}
+
+._AvailableDeals .delCouponCode {
+    position: absolute;
+    right: -10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
