@@ -1,0 +1,308 @@
+<div class="payment_container top_space clearfix">
+
+    <div class="transaction_failed payment_sectnlinfo clearfix append_bottom10" style="display:none" id="payment_global_errormsg_ajax">
+        <p class="manitainence_info lato-regular append_bottom25 clearfix">
+            <span class="pay_error_txt pull-left">Your transaction could not be processed!</span><br>
+            <span id="newPageErrorMessagePopUp"></span><br>
+            <span id="newPageErrorMessage">We request you to try making the payment again.</span>
+        </p>
+    </div>
+
+    <div class="shide">
+        <a class="backArrowLink"><span class="pull-left headerBack"></span>
+            <p class="option_heading append_bottom16 clearfix booking_summary_parent"><span
+                    class="make_pay booking_summary_heading lato-bold pull-left">Select Payment Mode</span></p>
+        </a>
+        <div id="leavePageBackground" class="popup_background" style="opacity: 0.3; visibility: visible; background-color: black; position: fixed; top: 0px; right: 0px; bottom: 0px; left: 0px; z-index: 100000; transition: all 0.3s; display:none;">
+        </div>
+        <div id="leavePagePopUpWrapper" class="popup_wrapper popup_wrapper_visible" style="opacity: 1; visibility: visible; position: fixed; overflow: auto; z-index: 100001; transition: all 0.3s; width: 100%; height: 100%; top: 0px; left: 0px; text-align: center; display: none; ">
+            <div id="leavePagePopUp" class="overlay_content_noCost nocost_emi_modal popup_content" data-popup-initialized="true" aria-hidden="false" role="dialog" aria-labelledby="open_68364632" style="opacity: 1; visibility: visible; display: inline-block; outline: none; transition: all 0.3s; text-align: left; position: relative; vertical-align: middle; width:70%;"
+                tabindex="-1">
+                <div class="modal-header">
+                    <h3 class="modal-title">YOUR BOOKING IS ALMOST DONE</h3>
+                </div>
+                <div class="modal-body">
+                    We won't be able to hold this booking if you go back.
+                </div>
+                <div class="modal-footer clearfix">
+                    <p class="button_info pull-left">
+                        <a href="javascript:void(0)" class="pull-left">
+                            <span class="pull-left lato-bold resume_booking_button">RESUME BOOKING</span>
+                        </a>
+                    </p>
+                    <p class="button_info pull-right">
+                        <a href="javascript:void(0)" class="pull-left">
+                            <span class="pull-left lato-bold cancel_booking_button">BACK</span>
+                        </a>
+                    </p>
+                </div>
+
+
+
+            </div>
+            <div class="popup_align" style="display: inline-block; vertical-align: middle; height: 100%;"></div>
+        </div>
+
+
+
+
+
+
+
+
+
+        <app-booking-summary [dataInput]="data"></app-booking-summary>
+
+
+    </div>
+
+
+
+
+    <!-- Payment-Option -->
+    <div class="payment_option pull-left">
+        <!-- Option-Heading -->
+        <p class="option_heading append_bottom16 clearfix">
+            <span class="make_pay lato-bold pull-left">
+                Payment Options
+            </span>
+            <span class="sub_heading lato-normal-italic pull-left">
+
+            </span>
+            <span class="sub_heading lato-normal-italic pull-right">
+                The session will expire in:
+                <span class="green" style="padding-left: 5px; padding-right : 2px;" id="timeoutMin">27</span>min<span class="green" style="padding-left:5px; padding-right: 2px;" id="timeoutSec">15</span>sec</span>
+        </p>
+        <!-- /Option-Heading -->
+
+        <!-- Option-Tabs -->
+        <div class="option_tabs clearfix">
+
+
+            <div class="payment_widget clearfix">
+                <ul class="tab_section pull-left card_list">
+
+
+                    <li id="CC_tab">
+                        <a href="javascript:void(0)" rel="CC" class="clearfix active" id="CC">
+                            <span class="card_icon payoption_icon"></span>
+                            <span class="option_txt lato-regular">Credit/Debit Cards</span>
+                        </a>
+                        <div class="other_inside_options" id="CC_subTabs">
+                            <ul class="card_list">
+
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+
+
+                <form class="form_payment_info" #form_payment_info="ngForm" (ngSubmit)="form_payment_info.form.valid && onSubmit()" novalidate>
+                    <div class="card_details pull-left col-lg-10 col-md-10 col-sm-9 col-xs-8 tab_conatiner" id="paymentCanvas">
+                        <div class="clearfix" id="CC_section"></div>
+                        <div class="clearfix append_bottom16" id="cardSection">
+                            <div class="inner_container clearfix">
+                                <div class="input_section append_bottom20">
+                                    <p class="clearfix input_label lato-regular append_bottom8">
+                                        <label class="radio-inline" style="    display: inline-flex;
+                                        align-items: center;
+                                        justify-content: center;">
+                                            <input type="radio" style="position: relative;
+                                            left: 0;
+                                            margin: 0;"value = "Visa" [(ngModel)] = "payment_info.cardType" #optradio="ngModel" 
+                                            (change) = setCardType() checked name="optradio">Visa
+                                        </label>
+                                        <label class="radio-inline" style="    display: inline-flex;
+                                        align-items: center;
+                                        justify-content: center;">
+                                            <input type="radio" style="    position: relative;
+                                            left: 0;
+                                            margin: 0;" value = "MasterCard" [(ngModel)] = "payment_info.cardType" #optradio="ngModel" name="optradio"
+                                            (change) = setCardType() >MasterCard
+                                        </label>
+                                        <label class="radio-inline" style="    display: inline-flex;
+                                        align-items: center;
+                                        justify-content: center;">
+                                            <input type="radio" style="    position: relative;
+                                            left: 0;
+                                            margin: 0;"value = "American Express" [(ngModel)] = "payment_info.cardType" #optradio="ngModel" 
+                                            (change) = setCardType() name="optradio">American Express
+                                        </label>
+
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="inner_container clearfix">
+                                <div class="input_section append_bottom20">
+                                    <p class="clearfix input_label lato-regular append_bottom8"><label for="cardnumber">CARD
+                                            NUMBER</label></p>
+                                    <p class="clearfix card_type_input">
+
+                                        <input autocomplete="off" class="form-control" id="PAYMENT_cardNumber" maxlength="16" name="PAYMENT_cardNumber" [pattern]="pattern" [(ngModel)]="payment_info.card_num" placeholder="Enter card number here" type="text" #PAYMENT_cardNumber="ngModel" required></p>
+
+                                    <!-- card num error -->
+
+                                    <p class="PAYMENT_cardNumber_err cpay_addPrompt" id="PAYMENT_cardNumber_err"><span class="make_block error_container clearfix"><span
+                                                class="error_icon pull-left"></span><span class="error_text lato-regular pull-left">
+                                                <div
+                                                    *ngIf="PAYMENT_cardNumber.invalid && (PAYMENT_cardNumber.dirty || PAYMENT_cardNumber.touched)">
+                                                    <div *ngIf="PAYMENT_cardNumber.errors?.required">
+                                                        Card number can't be blank
+                                                    </div>
+                                                    <div
+                                                        *ngIf="PAYMENT_cardNumber.errors?.pattern && PAYMENT_cardNumber.touched">
+                                                        {{cardErrorCode}}
+                                                    </div>
+                                                </div>
+                                            </span></span>
+                                    </p>
+                                </div>
+
+                                <!-- Name on Card -->
+
+                                <div class="input_section append_bottom20">
+                                    <p class="clearfix input_label lato-regular append_bottom8"><label for="nameoncard">NAME
+                                            ON THE CARD</label></p>
+                                    <p class="clearfix card_type_input">
+                                        <input class="form-control" id="PAYMENT_nameOnCard" maxlength="40" name="PAYMENT_nameOnCard" [(ngModel)]="payment_info.nameOnCard" #PAYMENT_nameOnCard="ngModel" placeholder="Enter name here" type="text" required></p>
+
+                                    <!-- Name Error -->
+
+                                    <p class="PAYMENT_cardNumber_err cpay_addPrompt" id="PAYMENT_cardNumber_err"><span class="make_block error_container clearfix"><span
+                                                class="error_icon pull-left"></span><span class="error_text lato-regular pull-left">
+                                                <div
+                                                    *ngIf="PAYMENT_nameOnCard.invalid && (PAYMENT_nameOnCard.dirty || PAYMENT_nameOnCard.touched)">
+                                                    <div *ngIf="PAYMENT_nameOnCard.errors?.required">
+                                                        <span color:red> Name can't be blank</span>
+                                </div>
+
+                            </div>
+                            </span>
+                            </span>
+                            </p>
+
+
+                        </div>
+                        <div class="select_section clearfix append_bottom8" id="hiddenMaestroDiv"><span class="pull-left select_field">
+                                        <label class="make_block input_label append_bottom8"
+                                            for="PAYMENT_expiryMonth">EXPIRY DATE</label>
+                                        <select [(ngModel)]="payment_info.exp_month" class="form-control"
+                                            id="PAYMENT_expiryMonth" name="PAYMENT_expiryMonth" tabindex="9">
+                                            <option value="" ng-reflect-value="">Month</option>
+                                            <option *ngFor="let month of exp_month" [value]="month"
+                                                ng-reflect-value="month">{{month}}</option>
+                                        </select></span>
+                            <span class="pull-left year_info"><span
+                                            class="make_block input_label append_bottom8">&nbsp;</span>
+                            <select class="form-control" id="PAYMENT_expiryYear" name="PAYMENT_expiryYear" [(ngModel)]="payment_info.exp_year">
+                                            <option value="" ng-reflect-value="">Year</option>
+                                            <option *ngFor="let year of exp_year" [value]="year" ng-reflect-value="year"
+                                                required>{{year}}</option>
+                                        </select></span>
+
+                            <div class="mb_pull_left"><span class="pull-left cvv_info">
+                                            <label class="make_block input_label append_bottom8" for="PAYMENT_cvv">CVV
+                                                CODE</label>
+                                            <input autocomplete="off" class="input-lg form-control"
+                                                [(ngModel)]="payment_info.cvv" #PAYMENT_cvv="ngModel" id="PAYMENT_cvv"
+                                                maxlength="3" name="PAYMENT_cvv" pattern="[0-9]*" placeholder="CVV"
+                                                type="password" required></span>
+
+                                <span class="pull-left cvv_additionalinfo"><span
+                                                class="make_block cvv_requiredinfo clearfix"><span
+                                                    class="pull-left cvv_icon_3digit" id="cvv_small_icon"></span><span class="cvv_required lato-normal-italic pull-left"><span
+                                                        class="cvvText">3</span>
+                                <span class="cvv_required_info" style="margin-left:2px;">digits
+                                                        printed
+                                                        on the back of the card<span></span></span>
+                                </span>
+                                </span>
+                                </span>
+                                <p class="PAYMENT_cardNumber_err cpay_addPrompt"><span class="make_block error_container clearfix"><span
+                                                    class="error_icon pull-left"></span><span class="error_text lato-regular pull-left">
+                                                    <div
+                                                        *ngIf="PAYMENT_cvv.invalid && (PAYMENT_cvv.dirty || PAYMENT_cvv.touched)">
+                                                        <div *ngIf="PAYMENT_cvv.errors?.required">
+                                                            CVV can't be blank
+                                                        </div>
+                                                        <div *ngIf="PAYMENT_cvv.errors?.pattern && PAYMENT_cvv.touched">
+                                                            Not a valid CVV
+                                                        </div>
+                                                    </div>
+                                                </span></span>
+                                </p>
+                            </div>
+
+
+                        </div>
+
+                        <!-- <div class="clearfix" id="showScSection">
+                            <p class="clearfix append_bottom20 append_top20"><input checked="" class="pull-left checkfield active" id="saveCardCheckBox" name="PAYMENT_preferred" type="checkbox" value="save"><label class="pull-left lato-normal-italic savecardinfotxt" for="selectCheckBox">Save
+                                            your card details for faster checkout. CVV is not saved.</label></p>
+                        </div> -->
+                    </div>
+            </div>
+            <div class="payment_details clearfix" id="paySubmitSection" style="display: block;">
+                <div class="pay_amountinfo pull-left">
+                    <p class="lato-bold total_price append_bottom5 total_amount" style="height: 20px;"><span class="payable-booing-amt-text"><span class="payable-amount-currency"><span
+                                                class="INR">Rs.</span></span><span class="formattedCurrency payable-Booking-amount" id="PAYMENT_amount">{{totalPrice}}</span></span>
+                    </p>
+                    <p class="lato-normal-italic convinience_txt mb_hide" style="height: 20px;"><span class="pull-left">Total in <span class="currencyText">INR</span></span>
+                    </p>
+                </div>
+                <div class="pull-right">
+                    <p class="clearfix append_bottom6">
+
+                        <button class="pull-right btn btn-primary" [disabled]="!form_payment_info.form.valid" type="submit"><span
+                                            class="pull-left lock_txt lato-bold">Make Payment
+                                        </span></button>
+                    </p>
+                    <p class="lato-normal-italic text-right buttonRedirectText mb_hide">You will be redirected to your bank</p>
+                    <p class="lato-normal-italic text-right buttonRedirectTextOTP mb_hide" style="display:none;">This is the final step. You will be not be redirected.</p>
+                </div>
+            </div>
+        </div>
+        </form>
+
+
+
+    </div>
+    <!-- /Payment-Widget -->
+
+
+
+
+
+</div>
+<!-- /Option-Tabs -->
+</div>
+<!-- /Payment-Option -->
+<div id="cdfView">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Overlay-Content -->
+
+    <!-- /Overlay-Content -->
+
+</div>
+
+
+
+
+
+</div>
