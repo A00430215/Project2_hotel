@@ -1,0 +1,36 @@
+<div class="hotelReviewRight appendLeft20">
+    <div class="_PaymentDetails bdr bxPayNow">
+        <div class="btnPayNowOuter padding20">
+            <a class="primaryBtn btnPayNow">
+                <div (click)="onPayNowClick()">PAY NOW</div>
+            </a>
+        </div>
+    </div>
+    <div class="hide">
+
+    </div>
+    <div class="_PaymentDetails bdr noTopBorder">
+        <div class="padding20 bdrBottom">
+
+            <p id="priceRow" class="priceRow appendBottom10 bdrBottom"><span>Base Price  {{new}}</span><span>{{roomOption.real_price}}</span></p>
+            <div id="promoCodeRow" class="makeFlex spaceBetween appendTop10">
+                <div>
+                    <p class="greenText capText appendBottom5 makeFlex hrtlCenter">{{promo.name}} <span class="sprite deleteIcon appendLeft5"></span></p>
+                    <p class="font11 grayText lineHight14">Congratulations! Coupon applied successfully.</p>
+                </div><span class="noShrink greenText">- {{promo.discount}}</span></div>
+        </div>
+        <div class="discountedPrice paddingLR20 paddingTB10 bdrBottom">
+            <div id="priceAfterDiscountRow" class="makeFlex spaceBetween appendBottom10 bdrBottom paddingB10"><span class="latoBold">Price after discount</span>
+                <div class="noShrink textRight">
+                    <p class="latoBold appendBottom5" id="revpg_price_before_taxes">{{roomOption.discounted_price}}</p>
+                    <p class="font11 grayText">{{roomOption.discounted_price}} x {{ diffDays }} Night</p>
+                </div>
+            </div>
+
+        </div>
+        <div id="totalPaymentRow" class="totalPayble paddingLR20">
+            <div class="makeFlex flexOne spaceBetween appendBottom3"><span class="latoBlack font16">Total Payable</span><span class="latoBlack font16" id="revpg_total_payable_amt">₹ {{totalPrice}} </span></div>
+        </div>
+    </div>
+    <div class="appendTop20"></div>
+</div>

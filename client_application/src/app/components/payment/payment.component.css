@@ -1,0 +1,184 @@
+._PaymentDetails .btnPayNowOuter {
+    background: #f2f9ff;
+    box-shadow: 0 4px 8px 0 rgba(138, 107, 118, 0.08);
+    border-radius: 4px 4px 0 0;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 78px;
+    z-index: 1;
+}
+
+._PaymentDetails.radius4 {
+    overflow: unset;
+}
+
+.primaryBtn.btnPayNow {
+    border-radius: 4px;
+    height: 45px;
+    display: flex;
+    font-size: 16px;
+    align-items: center;
+    justify-content: center;
+}
+
+.primaryBtn.btnPayNow.btnGreen {
+    background-image: linear-gradient(81deg, #43e1a8, #219393);
+}
+
+._PaymentDetails .priceRow {
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+._PaymentDetails .discountedPrice {
+    background: rgba(201, 201, 201, 0.1);
+}
+
+._PaymentDetails .totalPayble {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+._PaymentDetails .dealEndSoon {
+    background-image: linear-gradient(84deg, #43e1a8, #219393);
+    box-shadow: 0 4px 8px 0 rgba(138, 107, 118, 0.08);
+    padding: 7px 20px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.4px;
+}
+
+._PaymentDetails .dealEndSoon font {
+    color: #fff;
+}
+
+._PaymentDetails .dealEndSoon.orangeBg {
+    background-image: linear-gradient(264deg, #ff3e5e, #ff7f3f);
+}
+
+._PaymentDetails .toolTip {
+    background: #000;
+    padding: 15px;
+    position: absolute;
+    width: 100%;
+    border-radius: 4px;
+    top: 30px;
+    left: 0;
+    display: none;
+}
+
+._PaymentDetails .toolTip::after {
+    bottom: 100%;
+    left: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(0, 0, 0, 0);
+    border-bottom-color: #000;
+    border-width: 6px;
+    margin-left: -6px;
+}
+
+._PaymentDetails .noCreditCard {
+    cursor: pointer;
+}
+
+._PaymentDetails .noCreditCard:hover .toolTip {
+    display: block;
+}
+
+._PaymentDetails .serviceCharge {
+    cursor: pointer;
+}
+
+._PaymentDetails .serviceChargeTooltip {
+    background: #000;
+    padding: 15px 15px 10px 15px;
+    position: absolute;
+    width: 100%;
+    border-radius: 4px;
+    top: 20px;
+    left: 0;
+    display: none;
+}
+
+._PaymentDetails .serviceChargeTooltip::after {
+    bottom: 100%;
+    left: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(0, 0, 0, 0);
+    border-bottom-color: #000;
+    border-width: 6px;
+    margin-left: -6px;
+}
+
+._PaymentDetails .serviceCharge:hover .serviceChargeTooltip {
+    display: block;
+}
+
+._PaymentDetails .applyingCoupon {
+    padding: 10px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+._PaymentDetails.noTopBorder {
+    border-top: 0;
+}
+
+._PaymentDetails.bxPayNow {
+    background: #f2f9ff;
+    box-shadow: 0 4px 8px 0 rgba(138, 107, 118, 0.08);
+    border-radius: 4px 4px 0 0;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 64px;
+    z-index: 1;
+}
+
+._PaymentDetails.bxRequest {
+    background: #fffbf8;
+    box-shadow: 0 4px 8px 0 rgba(138, 107, 118, 0.08);
+    border-radius: 4px 4px 0 0;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 64px;
+    z-index: 1;
+}
+
+._PaymentDetails.bxRequest .btnPayNowOuter {
+    background: #fffbf8;
+}
+
+.primaryBtn.btnRequestApproval {
+    border-radius: 4px;
+    height: 45px;
+    display: flex;
+    font-size: 16px;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(94deg, #f0772c, #f95776);
+}
+
+.btnSkipApproval {
+    border-radius: 4px;
+    height: 45px;
+    display: flex;
+    font-size: 16px;
+    align-items: center;
+    justify-content: center;
+    border: 2px #f17335 solid;
+    color: #f17432;
+    font-weight: 900;
+}
