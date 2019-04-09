@@ -1,0 +1,39 @@
+<div class="_HotelReview" *ngIf="showDesk">
+    <div class="hotelReviewHeader">
+        <div class="container">
+            <div class="makeFlex hrtlCenter spaceBetween">
+                <h4 class="font22 latoBold whiteText">Review your booking</h4>
+                <ul class="reviewStatus step2">
+                    <li><span class="numbering completed">1</span><span class="reviewText grayText font12">Select Room</span></li>
+                    <li><span class="numbering progress">2</span><span class="reviewText grayText font12 active">Review</span></li>
+                    <li><span class="numbering">3</span><span class="reviewText grayText font12">Make Payment</span></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div></div>
+    <div class="reviewMainContainer">
+        <div class="container makeFlex">
+            <app-booking [data]="data"></app-booking>
+            <app-payment [data]="data"></app-payment>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="reviewMobile" *ngIf="!showDesk">
+    <div>
+        <div>
+            <app-booking></app-booking>
+            <div>
+                <div class="bottomBarWrap paddingLR20 paddingTB12 hrtlCenter">
+                    <div class="makeFlex column"><span class="lightGreyText lineThrough font11">₹ 14,053</span>
+                        <p class="makeFlex hrtlCenter"><span class="makeFlex column noShrink"><span class="whiteText font14 whiteText latoBold appendRight8">₹ 13,503</span></span><span class="offerTag font10">1 Offer <span class="offerTagArrow appendLeft4">&nbsp;</span></span>
+                        </p>
+                    </div><a class="blueBtn pushRight paddingLR20 paddingTB12 latoBold continueLoader" routerLink="/pay-mob"><span> CONTINUE </span></a></div>
+                <div class="bottomBarGutter">&nbsp;</div>
+            </div>
+        </div>
+    </div>
+</div>
