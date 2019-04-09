@@ -1,0 +1,317 @@
+<div class="forDesk">
+    <div class="main_Wrapper">
+        <div class="container">
+            <div class="prependTop20 appendBottom20">
+                <ul class="_BreadCrumbs breadCrumbs font12" id="detpg_bread_crumbs">
+                    <li><a>The Lalit Golf &amp; Spa Resort</a></li>
+                </ul>
+            </div>
+            <div class="relative">
+                <div class="hotelPageHeading makeFlex">
+                    <div class="flexOne"><span class="txtHeading font22 latoBlack blackText">
+            <h1 class="txtHeading font22 latoBlack blackText" id="detpg_hotel_name">The Lalit Golf &amp; Spa Resort</h1>
+            <span class="sprite rating_blank appendLeft10"><span class="sprite rating_fill ratingFive"></span></span>
+                        </span><span class="latoBold blueText pointer" id="detpg_hotel_location">Raj Baga, Canacona, Goa
+          </span></div>
+                </div>
+                <div class="bottomPadding appendTop20">
+                    <div class="_Header">
+                        <div class="hotelHeader">
+                            <div class="hotelHeaderLeft">
+
+                                <div class="sliderOuter" id="detpg_headerleft_image_slider">
+                                    <div>
+                                        <slideshow [height]="height" [minHeight]="'525px'" [autoPlay]="true" [showArrows]="false" [imageUrls]="imageUrlArray"></slideshow>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hotelHeaderMiddle">
+                                <div class="videoCont video" id="detpg_headermiddle_video">
+                                    <div style="width: 340px; height: 190px;"><video preload="auto" controls="" src="blob:https://www.makemytrip.com/ab62d448-c151-467a-b616-274dbc165139" style="width: 100%; height: 100%;"></video></div>
+                                </div>
+                                <div class="restoBar">
+                                    <div class="restoBox appendRight10 loadingElm">
+                                        <p>Room Images</p>
+                                        <a href="#"><img class="fitImage" src="//r1imghtlak.mmtcdn.com/a0d124ea71c911e79d84025f77df004f.jpg?&amp;output-quality=75&amp;downsize=*:550&amp;crop=720:550;176,0&amp;output-format=jpg" alt=""></a>
+                                    </div>
+                                    <div class="barRight"><a class="mapCont" id="detpg_headermiddle_hotel_location"><span
+                      class="mapLocationIcon"><img src="//imgak.mmtcdn.com/pwa_v3/pwa_hotel_assets/web/mapIcon.png"
+                        alt=""></span></a>
+                                        <div>
+                                            <div class="walletBalance loadingElm">
+                                                <div class="walletBalanceLeft">
+                                                    <p class="latoBlack blackText font12">Special secret deal for you</p>
+                                                    <p class="latoBold font11 lineHight16 darkText"><a href="#">UNLOCK NOW</a></p>
+                                                </div><span class="sprite giftIcon appendLeft10"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hotelHeaderRight">
+                                <p class="lastFewRoom">Hurry! Last few rooms remaining for your dates</p>
+                                <div class="stdRoom">
+                                    <div class="_StandardRoom standardRoom ">
+                                        <div class="makeFlex">
+                                            <div class="srLeft"><a class="srHeading" id="detpg_headerright_room_type">{{room.roomType}}</a>
+                                                <ul class="srList font12">
+                                                    <li *ngIf="roomOption.nonRefundable"><span class="sprite tickMark appendRight5"></span> <span class="redText">Non
+                            Refundable</span></li>
+                                                    <li *ngIf="roomOption.breakfast"><span class="sprite tickMark appendRight5"></span> <span class="greenText">Breakfast</span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="srRight">
+                                                <p class="font11 grayText">Price Per Night for</p>
+                                                <p class="latoBold font11 appendBottom15">{{guestCount}} Adults</p>
+                                                <p class="font12 lineThrough appendBottom5">{{roomOption.real_price}}</p>
+                                                <p class="latoBlack font20 blueText" id="detpg_headerright_room_price">{{roomOption.discounted_price}}</p>
+                                                <div class="priceBreakupTooltip whiteText">
+                                                    <div class="tooltipTop">
+                                                        <p class="font14 latoBold">Price Per Night</p>
+                                                        <ul class="priceTop">
+                                                            <li><span>For {{guestCount}} Adults</span><span class="font14">{{roomOption.real_price}}</span></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="priceBreakupOuter">
+                                                        <div class="priceBreakupInner">
+                                                            <p class="makeFlex spaceBetween latoBold hrtlCenter appendBottom10"><span class="font12">Promo Discount</span><span class="font14">- {{promo.discount}}</span></p>
+                                                            <div class="deal">
+                                                                <div class="dealLeft">
+                                                                    <p class="font12 latoBold appendBottom5">Deal Code <span class="greenText">{{promo.name}}</span>
+                                                                    </p>
+                                                                </div><span class="dealRight"></span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="totalPayble"><span class="latoBold font14 ">Total (Taxes Extra)</span><span class="latoBold font16">{{roomOption.discounted_price}}</span></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="rowRight">
+                                            <p class="latoBold font11 redText">Saving {{promo.discount}}</p>
+                                            <p><span class="font11">Code Used <span class="latoBold font12">{{promo.name}}</span></span>
+                                            </p>
+                                        </div>
+                                        <p class="otherRoom"><a class="latoBold font12 blueText" id="detpg_headerright_other_rooms">OTHER
+                      ROOMS</a><a class="primaryBtn " (click)="goToReviewBooking()" id="detpg_headerright_book_now">BOOK THIS NOW</a></p>
+                                    </div>
+                                </div>
+                                <div class="whatGuestsSaid appendBottom15 makeFlex column">
+                                    <a id="guest_said_more_reviews">
+                                        <div class="makeFlex hrtlCenter  appendBottom10">
+                                            <div class="makeFlex column">
+                                                <p><span class="latoBlack font20">What Guests Said</span></p>
+                                                <p class="lightGreyText">Based on 923 Reviews</p>
+                                            </div><span class="rating whiteText pushRight lightGreenBg">4.2</span>
+                                        </div>
+                                        <ul class="verifiedReviews font12 blackText">
+                                            <li><span class="sprite appendRight5 roomSelectIcon"></span><span title="Near Beach">Near
+                        Beach</span></li>
+                                            <li><span class="sprite appendRight5 roomSelectIcon"></span><span title="Good Room">Good Room</span>
+                                            </li>
+                                            <li><span class="sprite appendRight5 roomSelectIcon"></span><span title="Courteous Staff">Courteous
+                        Staf...</span></li>
+                                            <li><span class="sprite appendRight5 roomSelectIcon"></span><span title="Good Food">Good Food</span>
+                                            </li>
+                                        </ul>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="appendTop25">
+                <div class="whyBookSlider">
+                    <div class="slick-slider slick-initialized" dir="ltr"><button type="button" data-role="none" class="slick-arrow slick-prev slick-disabled" style="display: block;"> Previous</button>
+                        <div class="slick-list">
+                            <div class="slick-track" style="width: 1425px; opacity: 1; transform: translate3d(0px, 0px, 0px);">
+                                <div data-index="0" class="slick-slide slick-active slick-current" tabindex="-1" aria-hidden="false" style="outline: none; width: 285px;">
+                                    <div>
+                                        <div class="whyBookSliderItem" tabindex="-1" style="width: 100%; display: inline-block;">
+                                            <div><span class="wbth_sprite Default"></span>
+                                                <p class="appendLeft10">Sports complex: 2 lawn tennis courts &amp; 2 air-conditioned squash courts
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div data-index="1" class="slick-slide slick-active" tabindex="-1" aria-hidden="false" style="outline: none; width: 285px;">
+                                    <div>
+                                        <div class="whyBookSliderItem" tabindex="-1" style="width: 100%; display: inline-block;">
+                                            <div><span class="wbth_sprite Location"></span>
+                                                <p class="appendLeft10">A double-tee 9-hole links golf course</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div data-index="2" class="slick-slide slick-active" tabindex="-1" aria-hidden="false" style="outline: none; width: 285px;">
+                                    <div>
+                                        <div class="whyBookSliderItem" tabindex="-1" style="width: 100%; display: inline-block;">
+                                            <div><span class="wbth_sprite Default"></span>
+                                                <p class="appendLeft10">A range of on-site water sports &amp; a free-form outdoor pool with a sunken poolside bar</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div data-index="3" class="slick-slide slick-active" tabindex="-1" aria-hidden="false" style="outline: none; width: 285px;">
+                                    <div>
+                                        <div class="whyBookSliderItem" tabindex="-1" style="width: 100%; display: inline-block;">
+                                            <div><span class="wbth_sprite Default"></span>
+                                                <p class="appendLeft10">A supervised Kids' club for children aged 2-12 years</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div data-index="4" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none; width: 285px;">
+                                    <div>
+                                        <div class="whyBookSliderItem" tabindex="-1" style="width: 100%; display: inline-block;">
+                                            <div><span class="wbth_sprite MMT_ASSURED"></span>
+                                                <p class="appendLeft10">This is a MMT Assured hotel. These are hand picked hotels having awesome rooms with great service topped with our 24x7 hotline.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><button type="button" data-role="none" class="slick-arrow slick-next" style="display: block;">
+            Next</button>
+                    </div>
+                </div>
+            </div>
+            <div class="appendTop30">
+                <div class="_HotelDetails hotelDetail"><span title="Location: 5-star property with an exclusive beachfront area (1 km long), LaLiT Golf and Spa Resort Goa is known for its Portugue ">Location:
+          5-star property with an exclusive beachfront area (1 km long), LaLiT Golf and Spa Resort Goa is known for its
+          Portugue </span><a class="inlineFlex appendLeft10" id="detpg_hotel_description_read_more">Read More</a></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+<div class="forMob">
+    <header class="clearfix" id="mainImage">
+        <div class="detailsHeader makeFlex imageheader hungUp">
+            <a class="backArrowLink" href="/hotels/hotel-listing?checkin=04052019&amp;checkout=04062019&amp;city=GOI&amp;country=IN&amp;loggedIn=false&amp;pageNumber=1&amp;price=&amp;roomCount=1&amp;roomStayQualifier=2e0e&amp;searchText=Goa&amp;totalGuestCount=2&amp;type=CTY&amp;visitorId=a5806c4e-cd67-4b82-b00a-144751fefcb0"><span class="mmHeaderBackDetails "></span></a>
+            <div class="calc60 headerHotelInfo latoBold paddingL4 appendTop4 maxwidth70">
+                <p class="appendBottom4 blackText appendTop3 hotelName">Caravela Beach Resort</p>
+                <p class="font11 lightGreyText">Varca Beach</p>
+            </div><span id="pwaWebengage" class="iconFeedBack pushRight"></span></div>
+        <div class="loadingImg">
+            <a><img class="HotelDetailsBanner " alt="detailedBanner" src="//r1imghtlak.mmtcdn.com/91d99794be3d11e89f620af23595dd16.jpg?&amp;output-quality=75&amp;downsize=375:*&amp;crop=375:218;0,20&amp;output-format=jpg"></a>
+        </div>
+    </header>
+    <div></div>
+    <div class="paddingLR20 paddingT20 hotelMainCard bdrBottom1 clearfix" id="hotelMainCard">
+        <div class="hotelDetails">
+            <p class="latoBlack blackText appendBottom4 makeFlex hrtlCenter"><span class="hotelName">Caravela Beach Resort</span><span class="ratingBlank appendLeft6"><span class="ratingFill fiveStar">&nbsp;</span></span>
+            </p>
+            <p class="font11 lightGreyText appendBottom12">Varca Beach</p>
+            <ul class="hotelItinaries makeFlex latoLight font10 appendBottom14">
+                <li><span class="appendBottom4 internetIcon"></span><span class="truncate">Free Wi-fi</span></li>
+                <li><span class="appendBottom4 swmmingpoolIcon"></span><span class="truncate">Swimming Pool</span></li>
+                <li><span class="appendBottom4 miniBarIcon"></span><span class="truncate">Bar</span></li>
+                <li><span class="appendBottom4 spaIcon"></span><span class="truncate">Fitness Centre</span></li>
+            </ul>
+            <p><span class="excellentFilledRating hotelRatingTag font10 makeFlex perfectCenter hotelMainRating"><span class="font11 latoBlack">4.3</span> /5</span>
+            </p>
+        </div>
+        <div class="hotelTimeInfo makeFlex spaceBetween"><span class="font10 ">{{checkInDate}}<span class="greyDot appendLeft4 appendRight4"></span> 1 Night<span class="greyDot appendLeft4 appendRight4"></span> 2 Guests</span><a class="font10 latoBold pushRight" id="hotelModifyWidgetDiv" (click)="expandWidget()">MODIFY</a>
+            <div class="errorTooltip" style="display: none;">You just missed it. Our last room sold out. Go back to previous page to look for other hotels.</div>
+            <div id="hotelWidget" [class.active]="showWidget">
+                <div class="widgetWrap makeFlex column ">
+                    <form class="boxPadding"><a class="deepskyBlueText latoBold closeBtn " (click)="expandWidget()">CLOSE</a>
+                        <div>
+                            <div class="widgetField makeFlex column appendBottom20 "><label class="font12 appendBottom4 latoBold lightGreyText">Select Dates</label>
+                                <p class=" font14 latoBlack appendBottom14 makeFlex flexWrap deepskyBlueText"><span> {{checkInDate | date: 'dd'}}</span> - <span>{{checkOutDate | date: 'dd'}} Apr</span></p>
+                                <label for="checkin" class="lbl_input latoBold font12 blueText">CHECK-IN</label>
+                                <mat-form-field>
+                                    <input matInput [matDatepicker]="picker" [(ngModel)]="checkInDate" [min]="today"
+                                    (dateChange)="checkDate()" name = "picker" placeholder="Choose a date">
+                                    <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+                                    <mat-datepicker #picker></mat-datepicker>
+                                </mat-form-field>
+                                <label for="checkout" class="lbl_input latoBold font12 blueText">CHECK-OUT</label>
+                                <mat-form-field>
+                                    <input matInput [matDatepicker]="picker2" [(ngModel)]="checkOutDate" [min]="today"
+                                    (dateChange)="checkDate()" name = "picker2" placeholder="Choose a date">
+                                    <mat-datepicker-toggle matSuffix [for]="picker2"></mat-datepicker-toggle>
+                                    <mat-datepicker #picker2></mat-datepicker>
+                                </mat-form-field>
+                                <div class="hsw_inputBox  " id="hsw_inputBox_room_guests">
+                                        <label for="guest" class="lbl_input latoBold font12 blueText">GUESTS</label>
+                                        <input id="guest" [(ngModel)]="guestCount" (change)="guestValidations()" name="guest" type="number"
+                                            class="hsw_inputField guests font16 ">
+                                    </div>
+                                    <div class="hsw_inputBox  ">
+                                        <label for="rooms" class="lbl_input latoBold font12 blueText">ROOMS</label>
+                                        <input id="rooms" [(ngModel)]="roomCount" (change)="roomsValidations()" name="rooms" type="number"
+                                            class="hsw_inputField guests font16 ">
+                                    </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="widgetField noBdr "><label class="font12 appendBottom4 lightGreyText">GUESTS | ROOMS</label>
+                                <p class="font14 latoBlack appendBottom14 makeFlex deepskyBlueText"><span> <span class="homeSprite adultIconNew appendRight8"></span></span><span>{{guestCount}}<span class="homeSprite childIconNew appendRight8"></span></span><span>{{roomCount}}</span></p>
+                            </div>
+                        </div><a class="primaryBtn font16 makeFlex perfectCenter latoBlack ">MODIFY</a></form>
+                </div>
+            </div>
+        </div>
+        <div class="gutterSpace"></div>
+        <div class="flexSliderWrap">
+            <ul class="flexCards hotelsOthetrInfo">
+                <li><span class="greenCircle appendRight14"><span class="wbth_sprite Default"></span></span>
+                    <div class="hotelsOthetrInfoText">
+                        <p class="lightGreyText font12 lineHight16">A kids' club, wading pool &amp; beach activities for the whole family</p>
+                    </div>
+                </li>
+                <li><span class="greenCircle appendRight14"><span class="wbth_sprite Location"></span></span>
+                    <div class="hotelsOthetrInfoText">
+                        <p class="lightGreyText font12 lineHight16">A 9-hole golf course, a free-form outdoor pool &amp; Jacuzzi with sea views</p>
+                    </div>
+                </li>
+                <li><span class="greenCircle appendRight14"><span class="wbth_sprite Default"></span></span>
+                    <div class="hotelsOthetrInfoText">
+                        <p class="lightGreyText font12 lineHight16">Guided morning yoga sessions on the pristine Caravela Beach</p>
+                    </div>
+                </li>
+                <li><span class="greenCircle appendRight14"><span class="wbth_sprite COUPLE_FRIENDLY"></span></span>
+                    <div class="hotelsOthetrInfoText">
+                        <p class="lightGreyText font12 lineHight16">This is a Couple Friendly hotel. Unmarried couples are welcome here.</p>
+                    </div>
+                </li>
+                <li><span class="greenCircle appendRight14"><span class="wbth_sprite MMT_ASSURED"></span></span>
+                    <div class="hotelsOthetrInfoText">
+                        <p class="lightGreyText font12 lineHight16">This is a MMT Assured hotel. These are hand picked hotels having awesome rooms with great service topped with our 24x7 hotline.</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="boxPadding bdrBottom1">
+        <div>
+            <p class="font20 blackText latoBlack">What Guests Said</p>
+            <p class="appendBottom16">Based on 819 Verified Reviews</p>
+            <ul class="verifiedReviews latoRegular font12 blackText">
+                <a href="/hotels/user-reviews?checkin=04052019&amp;checkout=04062019&amp;city=GOI&amp;country=IN&amp;hotelId=200703241029455940&amp;loggedIn=false&amp;mtkeys=N%24%24s9rHC9RN7n%2FdaPaDa5FBfAq%2BGhQa5OWqtEHuvkQpjC2B%2Bbd4YKBvGD0kiKv%2FSFKEC4iB5%2FZRUBXuJejW0gpvSMEgg87NIorL63oKdMtw7Fz%2BuV4ka6zIxRmzKf5ahHGvj8VmqmyE4HsAQPhTokfR7zj4Y2vjkHejqN%2BhPJr%2BM6snE5OI%2BVFiSkFbSzXFwfymBRLzQMbcIeB2dxaYEpR1IBLbLzLjYFcWwXKg61viewVYwytXXtZDr5iGzPBU%2B082pkoWvGJV%2F5MACdI56eIYdDQiftYL%2FsxgCbA6msoObIro67XmHGNbu72uIkPmAjkc50S%2BZV5oVpo%3D&amp;pageNumber=1&amp;price=&amp;roomCount=1&amp;roomStayQualifier=2e0e&amp;searchText=Goa&amp;totalGuestCount=2&amp;type=CTY&amp;visitorId=a5806c4e-cd67-4b82-b00a-144751fefcb0&amp;tag=Near Beach">
+                    <li><span class="pwaSprite appendRight8 reviewTickIcon"></span>Near Beach</li>
+                </a>
+                <a href="/hotels/user-reviews?checkin=04052019&amp;checkout=04062019&amp;city=GOI&amp;country=IN&amp;hotelId=200703241029455940&amp;loggedIn=false&amp;mtkeys=N%24%24s9rHC9RN7n%2FdaPaDa5FBfAq%2BGhQa5OWqtEHuvkQpjC2B%2Bbd4YKBvGD0kiKv%2FSFKEC4iB5%2FZRUBXuJejW0gpvSMEgg87NIorL63oKdMtw7Fz%2BuV4ka6zIxRmzKf5ahHGvj8VmqmyE4HsAQPhTokfR7zj4Y2vjkHejqN%2BhPJr%2BM6snE5OI%2BVFiSkFbSzXFwfymBRLzQMbcIeB2dxaYEpR1IBLbLzLjYFcWwXKg61viewVYwytXXtZDr5iGzPBU%2B082pkoWvGJV%2F5MACdI56eIYdDQiftYL%2FsxgCbA6msoObIro67XmHGNbu72uIkPmAjkc50S%2BZV5oVpo%3D&amp;pageNumber=1&amp;price=&amp;roomCount=1&amp;roomStayQualifier=2e0e&amp;searchText=Goa&amp;totalGuestCount=2&amp;type=CTY&amp;visitorId=a5806c4e-cd67-4b82-b00a-144751fefcb0&amp;tag=Courteous Staff">
+                    <li><span class="pwaSprite appendRight8 reviewTickIcon"></span>Courteous Staff</li>
+                </a>
+                <a href="/hotels/user-reviews?checkin=04052019&amp;checkout=04062019&amp;city=GOI&amp;country=IN&amp;hotelId=200703241029455940&amp;loggedIn=false&amp;mtkeys=N%24%24s9rHC9RN7n%2FdaPaDa5FBfAq%2BGhQa5OWqtEHuvkQpjC2B%2Bbd4YKBvGD0kiKv%2FSFKEC4iB5%2FZRUBXuJejW0gpvSMEgg87NIorL63oKdMtw7Fz%2BuV4ka6zIxRmzKf5ahHGvj8VmqmyE4HsAQPhTokfR7zj4Y2vjkHejqN%2BhPJr%2BM6snE5OI%2BVFiSkFbSzXFwfymBRLzQMbcIeB2dxaYEpR1IBLbLzLjYFcWwXKg61viewVYwytXXtZDr5iGzPBU%2B082pkoWvGJV%2F5MACdI56eIYdDQiftYL%2FsxgCbA6msoObIro67XmHGNbu72uIkPmAjkc50S%2BZV5oVpo%3D&amp;pageNumber=1&amp;price=&amp;roomCount=1&amp;roomStayQualifier=2e0e&amp;searchText=Goa&amp;totalGuestCount=2&amp;type=CTY&amp;visitorId=a5806c4e-cd67-4b82-b00a-144751fefcb0&amp;tag=Good Food">
+                    <li><span class="pwaSprite appendRight8 reviewTickIcon"></span>Good Food</li>
+                </a>
+                <a href="/hotels/user-reviews?checkin=04052019&amp;checkout=04062019&amp;city=GOI&amp;country=IN&amp;hotelId=200703241029455940&amp;loggedIn=false&amp;mtkeys=N%24%24s9rHC9RN7n%2FdaPaDa5FBfAq%2BGhQa5OWqtEHuvkQpjC2B%2Bbd4YKBvGD0kiKv%2FSFKEC4iB5%2FZRUBXuJejW0gpvSMEgg87NIorL63oKdMtw7Fz%2BuV4ka6zIxRmzKf5ahHGvj8VmqmyE4HsAQPhTokfR7zj4Y2vjkHejqN%2BhPJr%2BM6snE5OI%2BVFiSkFbSzXFwfymBRLzQMbcIeB2dxaYEpR1IBLbLzLjYFcWwXKg61viewVYwytXXtZDr5iGzPBU%2B082pkoWvGJV%2F5MACdI56eIYdDQiftYL%2FsxgCbA6msoObIro67XmHGNbu72uIkPmAjkc50S%2BZV5oVpo%3D&amp;pageNumber=1&amp;price=&amp;roomCount=1&amp;roomStayQualifier=2e0e&amp;searchText=Goa&amp;totalGuestCount=2&amp;type=CTY&amp;visitorId=a5806c4e-cd67-4b82-b00a-144751fefcb0&amp;tag=Good Location">
+                    <li><span class="pwaSprite appendRight8 reviewTickIcon"></span>Good Location</li>
+                </a>
+            </ul>
+        </div>
+    </div>
+</div>
