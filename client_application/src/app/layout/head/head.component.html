@@ -1,0 +1,29 @@
+<div class="  ">
+    <div class="chHeaderWrapper  ">
+        <div class="chHeaderContainer"><span class="logoContainer"><a class="chMmtLogo" routerLink="dashboard"><img src="https://d85wutc1n854v.cloudfront.net/live/products/600x375/WB01111RN.png"  alt="MMT's LOGO"></a></span>
+            <nav>
+                <ul class="makeFlex font12">
+                    <li class=" "><a routerLink="dashboard" class=" makeFlex hrtlCenter column"><span class="chNavIcon appendBottom2 chSprite chFlights active"></span><span class="chNavText darkGreyText"> Home </span></a></li>
+                    <li class=" "><a routerLink="about" class="active makeFlex hrtlCenter column"><span class="chNavIcon appendBottom2 chSprite chHotels"></span><span class="chNavText darkGreyText"> About </span></a></li>
+                    <li *ngIf="customer.CustomerName" class=" "><a routerLink="profile" class=" makeFlex hrtlCenter column"><span class="chNavIcon appendBottom2 chSprite chHolidays "></span><span class="chNavText darkGreyText"> Profile </span></a></li>
+                </ul>
+            </nav>
+            <ul class="makeFlex hrtlCenter font10 blackText">
+
+                <li class="font12 makeRelative">
+                    <div id="loginTrigger" class="makeFlex cursorPointer"><span class="userInfoBoxLabel whiteText appendRight10 font10 latoBlack textCenter"><span class="chSprite chLoggedOutLogo chMy"></span></span>
+
+                        <div class="makeFlex hrtlCenter">
+                            <div *ngIf="!customer.CustomerName" class="makeFlex spaceBetween column"><span routerLink="login" class="latoBold appendBottom2"> Login or </span><span routerLink="signup" class="latoBold"> Create Account </span></div>
+                            <div *ngIf="customer.CustomerName" (click)="logout()" class="makeFlex spaceBetween column"><span routerLink="login" style="    display: flex;
+                                justify-content: center;
+                                align-items: center;" class="latoBold appendBottom2"><i class="material-icons">
+                                exit_to_app
+                                </i> {{customer.CustomerName}} </span></div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
