@@ -1,0 +1,134 @@
+<div class="forDesk">
+    <div class="reviewLeftSection">
+        <div class="appendBottom20">
+            <div class="_HotelHeader">
+                <div class="headerLeft"><img src="https://gos3.ibcdn.com/efc9da08bc0811e8abee0281517d0dd4.jpg" alt="hotelImage"></div>
+                <div class="headerRight">
+                    <div class="makeFlex spaceBetween appendBottom20">
+                        <div class="flexOne">
+                            <p class="latoBlack font22 appendBottom5">The Lalit Golf &amp; Spa Resort<span class="sprite rating_blank appendLeft10"><span class="sprite rating_fill ratingFive"></span></span>
+                            </p>
+                            <p class="appendBottom10">Raj Baga, Canacona, Goa , Goa, India</p>
+
+                        </div>
+                    </div>
+                    <p>Check-in:<span class="latoBold" id="revpg_check_in_datetime"> {{checkInDate | date: 'dd/MM/yyyy'}}, </span>/ Check-Out:<span class="latoBold" id="revpg_check_out_datetime"> {{checkOutDate | date: 'dd/MM/yyyy'}}</span></p>
+                </div>
+            </div>
+        </div>
+        <div class="appendBottom10">
+            <div>
+                <div class="sortInfo warning redText font12">This is a Non Refundable tariff. Here's the<span class="blueText pointer appendLeft5" id="revpg_full_policy_btn">Full Policy</span></div>
+            </div>
+        </div>
+        <div class="appendBottom20">
+            <div class="appendBottom20">
+                <div class="_RoomListing roomListing padding20 bdr" id="revpg_room_type_listing">
+                    <div class="roomColLeft">
+                        <div class="makeFlex appendBottom20">
+                            <div class="stdRoom"><a class="latoBold font18 blueText">The Lalit Legacy Suite</a>
+                                <p class="font12 appendTop5">{{guestCount}} Adults </p>
+                            </div>
+                            <div>
+                                <p class="font10 grayText capText appendBottom10">Tariff Type</p>
+                                <ul class="type font12">
+                                    <li *ngIf="roomOption.nonRefundable" class="redText">Non Refundable</li>
+                                    <li *ngIf="roomOption.breakfast">Breakfast</li>
+                                </ul>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="imgCol pointer appendLeft20" style="background-image: url(&quot;//imgak.mmtcdn.com/pwa_v3/pwa_hotel_assets/web/defaultbg.png&quot;); background-size: cover;"></div>
+                </div>
+            </div>
+        </div>
+        <app-traveler-ifo></app-traveler-ifo>
+        <div class="appendBottom30 appendTop30"></div>
+        <div class="appendBottom20"></div>
+        <app-coupons></app-coupons>
+        <app-consent></app-consent>
+    </div>
+</div>
+
+<div class="forMob">
+    <header class="reviewHeader makeSticky boxPadding">
+        <a class="makeFlex perfectCenter" routerLink="/dashboard"><span class="blackBackIcon reviewSprite">Back Arrow</span></a><span class=" latoBold marginLeft10">Review Booking</span><span id="pwaWebengage" class="iconFeedBack reviewSprite pushRight "></span>
+    </header>
+    <main>
+        <div class="reviewDetails bdrBottom1">
+            <div class="boxPadding makeFlex column bdrBottom1">
+                <p class="font16 latoBlack appendBottom4 blackText">The Lalit Golf &amp; Spa Resort</p>
+                <p class="lightGrayText font10 appendBottom14">Raj Baga, Canacona, Goa , Goa, India</p>
+                <div class="makeFlex column">
+                    <div class="flexGrow makeFlex column">
+                        <p class="latoBold blackText appendBottom4 makeFlex"><span class="flexOne appendRight10">{{roomCount}} x {{room.roomType}}</span>
+                            <a class="font10 latoBold pushRight capText appendTop4 " href="/hotels/hotel-select-room?checkin=04052019&amp;checkout=04062019&amp;city=GOI&amp;country=IN&amp;hotelId=200703241029455940&amp;loggedIn=false&amp;mtkeys=N%24%24s9rHC9RN7n%2Bt5GSlIcE34ry7Oe8YSPwQjZecwRSzYpaQNxEhdh2SvK6zWQMzfEexmycRbe9yFyYfzl7XK4bPKzFpsbrDSdyGqWtGtyMRX41CXww2ycGayQ4hAoH5otUloPLEOe4GnGcIIbCz2XjX46PgT5mKxNnInAbW%2BDF7Le0g0BwDfZu6AYFKtdIB6%2FktXFEwFxYaCE6oFo%2BwJSx4K9D4rHvUAPd46ks3oSPyZJoWaYc8Nx5AP14jeYPsrgXSJs8LSNl5MljkZV53cUwnWfuZTT6wWUDVvfZehdQ%2FIOlnpExmxLl6SP1Cxrht1x2VoC6R5lRTrgs%3D&amp;pageNumber=1&amp;price=&amp;roomCount=1&amp;roomCriteria=45000229136~%7C~990000385366%3AMSE%3A1126%3AMSE%3AINGO~%7C~2e0e&amp;roomStayQualifier=2e0e&amp;searchText=Goa&amp;searchType=E&amp;totalGuestCount=2&amp;type=CTY&amp;visitorId=a5806c4e-cd67-4b82-b00a-144751fefcb0">Change Room</a>
+                        </p>
+                        <p *ngIf="roomOption.breakfast" class="lightGrayText font10 appendBottom10">Breakfast</p>
+                    </div>
+                </div>
+                <ul class="makeFlex hrtlCenter font10 greenText latoBold appendBottom6"></ul>
+                <ul class=" amiTextWrap font10 darkGreyText">
+                    <li *ngIf="roomOption.breakfast" class="makeFlex hrtlCenter"><span class="listCircle">.</span>FREE Breakfast</li>
+                </ul>
+            </div>
+            <div class="makeFlex bdrBottom1 boxPadding spaceBetween">
+                <div class="dateSection font12">
+                    <p class="lightGreyText appendBottom4">CHECK-IN</p>
+                    <div class="makeFlex hrtlCenter"><span class="dateFont latoBold blackText appendRight8"> {{checkInDate | date : 'dd' }}</span>
+                        <div class="makeFlex column">
+                            <p class="capText"> {{checkInDate | date : 'dd-MM-yyyy'}}</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="nightNo"><span class="carveLine">/</span><span class="nighTag">1 NIGHT </span></div>
+                <div class="dateSection font12">
+                    <p class="lightGreyText appendBottom4">CHECK-OUT</p>
+                    <div class="makeFlex hrtlCenter"><span class="dateFont latoBold blackText appendRight8">{{checkOutDate | date : 'dd' }}</span>
+                        <div class="makeFlex column">
+                            <p class="capText"> {{checkInDate | date : 'MM/yy' }}</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" makeFlex paddingLR20 paddingTB12 font12 darkGreyText"><span>{{roomCount}} Room</span> <span class="paddingLR8">•</span><span>{{guestCount}} Adults</span> <a class="font10 latoBold pushRight">MODIFY DATES</a></div>
+        </div><span></span>
+        <app-traveler-ifo></app-traveler-ifo>
+        <div class="priceDetails boxPadding">
+            <h3>Price Details</h3>
+            <p class="redText font10 appendBottom8 latoBold">Non Refundable </p>
+            <div class="makeFlex column appendBottom20">
+                <div class="makeFlex column">
+                    <div class="latoBold appendBottom2 blackText makeFlex"><span class="flexOne appendRight10">{{roomCount}} x {{room.roomType}}</span><span class="latoBlack appendBottom2 blackText"> ₹&#8203; {{roomOption.real_price * roomCount}}</span></div>
+                    <p class="lightGreyText font10 makeFlex spaceBetween appendBottom10">Breakfast<a class="latoBold" href="/hotels/hotel-select-room?checkin=04052019&amp;checkout=04062019&amp;city=GOI&amp;country=IN&amp;hotelId=200703241029455940&amp;loggedIn=false&amp;mtkeys=N%24%24s9rHC9RN7n%2Bt5GSlIcE34ry7Oe8YSPwQjZecwRSzYpaQNxEhdh2SvK6zWQMzfEexmycRbe9yFyYfzl7XK4bPKzFpsbrDSdyGqWtGtyMRX41CXww2ycGayQ4hAoH5otUloPLEOe4GnGcIIbCz2XjX46PgT5mKxNnInAbW%2BDF7Le0g0BwDfZu6AYFKtdIB6%2FktXFEwFxYaCE6oFo%2BwJSx4K9D4rHvUAPd46ks3oSPyZJoWaYc8Nx5AP14jeYPsrgXSJs8LSNl5MljkZV53cUwnWfuZTT6wWUDVvfZehdQ%2FIOlnpExmxLl6SP1Cxrht1x2VoC6R5lRTrgs%3D&amp;pageNumber=1&amp;price=&amp;roomCount=1&amp;roomStayQualifier=2e0e&amp;searchText=Goa&amp;searchType=E&amp;totalGuestCount=2&amp;type=CTY&amp;visitorId=a5806c4e-cd67-4b82-b00a-144751fefcb0">CHANGE ROOM</a></p>
+                </div>
+            </div>
+            <div class="couponSection appendBottom20">
+                <p class="paddingL27"><a class="font10 latoBold deepskyBlueText CouponSection">HAVE A COUPON CODE</a></p>
+            </div>
+            <div class="makeFlex latoBold font12 blackText paddingB16 bdrBottom1 appendBottom16"><span class="pushLeft"> Promo Discount</span><span class="pushRight"> - {{promo.discount}}</span></div>
+            <div class="makeFlex latoBlack font14 blackText paddingB16 bdrBottom1 appendBottom16"><span class="pushLeft makeFlex column"> <span class="appendBottom4">Price After Discount</span><span class="lightGreyText font10">for 1 night &amp; 2 guests</span></span><span class="pushRight makeFlex column"> <span class="appendBottom4"> ₹&#8203; 10,545</span></span>
+            </div>
+            <div class="taxesSection bdrBottom1 appendBottom14">
+                <p class="makeFlex latoBold blackText font12 appendBottom10"><span>Taxes, Services &amp; GST </span><span class="iconQuestionMark ">?</span><span class="pushRight"> {{roomOption.discounted_price}}</span></p>
+            </div>
+            <div class="appendBottom20">
+                <div class="makeFlex hrtlCenter spaceBetween appendBottom14"><span class="pwaCheckmarkOuter"><input id="charity" type="checkbox" checked=""><label for="charity" class="latoBold font12 blackText">You are donating ₹5, towards a cause.</label></span><a href="//www.makemytrip.com/csr/mmt_foundation.html"
+                        target="_blank" rel="noopener noreferrer" class="latoBold font12 deepskyBlueText">T&amp;C’s</a></div>
+                <div class="charityBox appendBottom10"><span class="noShrink appendRight10"><img src="//imgak.mmtcdn.com/pwa_v3/pwa_hotel_assets/growth-icon.png" width="40" alt=""></span>
+                    <p class="font12 lineHight16 flexOne">Offset your carbon footprints by contributing to our tree plantation initiative. We have already supported plantation of over a million saplings.</p>
+                </div>
+                <div class="charityBox"><span class="noShrink appendRight10"><img src="//imgak.mmtcdn.com/pwa_v3/pwa_hotel_assets/tourism-icon.png" width="40" alt=""></span>
+                    <p class="font12 lineHight16 flexOne">Ensure responsible tourism by joining hands with us to restore, develop and protect heritage sites and monuments.</p>
+                </div>
+            </div>
+            <p class="totalAmount latoBlack font14 makeFlex "><span>Total Amount To Be Paid </span><span class="pushRight"> ₹&#8203; 13,503</span></p>
+            <p class="makeFlex hrtlCenter font12 lineHight16 paddingT16"><label><input id="terms" class="hide" name="terms" type="checkbox"><span class="checkBox"><span class="tick"></span></span></label><span>I agree to the&nbsp;<a href="//www.makemytrip.com/static/useragreement.html" target="_blank" rel="noopener noreferrer" class="deepskyBlueText ">Terms &amp; Conditions</a>&nbsp; &amp;&nbsp;<a class="deepskyBlueText ">Cancellation Policies</a> &amp;&nbsp;<a class="deepskyBlueText ">Hotel Booking Policies</a></span></p>
+
+
+        </div>
+    </main>
+</div>

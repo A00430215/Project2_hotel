@@ -1,0 +1,715 @@
+.reviewLeftSection .hotelReviewRight {
+    width: 310px;
+    flex-shrink: 0;
+}
+
+.reviewLeftSection .sortInfo {
+    border-radius: 4px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reviewLeftSection .donationOuter {
+    border-top: 5px #e7e7e7 solid;
+    padding-top: 40px;
+}
+
+.reviewLeftSection .checkTravelerDetails {
+    display: inline-flex;
+    height: 40px;
+    border-radius: 20px;
+    background-image: linear-gradient(97deg, #3023ae, #912086);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    padding: 0 24px;
+    align-items: center;
+    position: fixed;
+    left: 50%;
+    bottom: -50px;
+    transform: translateX(-50%);
+    -webkit-transition: all 600ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    transition: all 600ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.reviewLeftSection .checkTravelerDetails.visible {
+    bottom: 50px;
+}
+
+.reviewLeftSection .couponExpired {
+    width: 578px;
+    border-radius: 4px 4px 0 0;
+    background-color: rgba(0, 0, 0, 0.83);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    padding: 20px 45px;
+    position: fixed;
+    left: 50%;
+    bottom: -150px;
+    transform: translateX(-50%);
+    text-align: center;
+    -webkit-transition: all 600ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    transition: all 600ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.reviewLeftSection .couponExpired.visible {
+    bottom: 0;
+}
+
+.reviewLeftSection .btnClose {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+.reviewLeftSection .btnClose:before,
+.reviewLeftSection .btnClose:after {
+    position: absolute;
+    left: 8px;
+    content: ' ';
+    height: 18px;
+    width: 2px;
+    background-color: #9b9b9b;
+}
+
+.reviewLeftSection .btnClose:before {
+    transform: rotate(45deg);
+}
+
+.reviewLeftSection .btnClose:after {
+    transform: rotate(-45deg);
+}
+
+.reviewLeftSection .priceIncreasedToast {
+    display: inline-flex;
+    align-items: center;
+    height: 48px;
+    border-radius: 24px;
+    background-image: linear-gradient(264deg, #ffeae1, #ffe3d5);
+    border: solid 0.9px #ffa0ac;
+    position: fixed;
+    left: 50%;
+    top: -100px;
+    transform: translateX(-50%);
+    padding: 0 20px;
+    -webkit-transition: all 600ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    transition: all 600ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    z-index: 99;
+}
+
+.reviewLeftSection .priceIncreasedToast.visible {
+    top: 100px;
+}
+
+.reviewLeftSection .lookingToast {
+    display: inline-flex;
+    align-items: center;
+    height: 40px;
+    border-radius: 20px;
+    padding: 0 22px;
+    position: fixed;
+    left: 50%;
+    top: -100px;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.83);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    -webkit-transition: all 600ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    transition: all 600ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    z-index: 99;
+}
+
+.reviewLeftSection .lookingToast.visible {
+    top: 100px;
+}
+
+.reviewLeftSection .priceDecreasedToast {
+    display: inline-flex;
+    align-items: center;
+    height: 48px;
+    border-radius: 24px;
+    background: #f0fdfc;
+    border: solid 1px #b5f1ec;
+    position: fixed;
+    left: 50%;
+    top: -100px;
+    transform: translateX(-50%);
+    padding: 0 20px;
+    -webkit-transition: all 600ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    transition: all 600ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    z-index: 99;
+}
+
+.reviewLeftSection .priceDecreasedToast.visible {
+    top: 100px;
+}
+
+
+/**
+Review Page Loader
+**/
+
+.rvLoaderCont * {
+    animation: Gradient 3s ease infinite;
+}
+
+.rLoader {
+    display: flex;
+}
+
+.rLoaderLeft {
+    width: 210px;
+    height: 120px;
+    flex-shrink: 0;
+    margin-right: 20px;
+    border-radius: 4px;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-name: placeHolderShimmer;
+    animation-timing-function: linear;
+    background: #f6f7f8;
+    background: linear-gradient(to right, #ebeff2 8%, #f9fafb 18%, #ebeff2 33%);
+    background-size: 800px 104px;
+    position: relative;
+}
+
+.rLoaderRight {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ldrLeft {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.rLoader h3 {
+    height: 30px;
+    margin-bottom: 10px;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-name: placeHolderShimmer;
+    animation-timing-function: linear;
+    background: #f6f7f8;
+    background: linear-gradient(to right, #ebeff2 8%, #f9fafb 18%, #ebeff2 33%);
+    background-size: 800px 104px;
+    position: relative;
+}
+
+.rLoader p {
+    height: 10px;
+    margin-bottom: 10px;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-name: placeHolderShimmer;
+    animation-timing-function: linear;
+    background: #f6f7f8;
+    background: linear-gradient(to right, #ebeff2 8%, #f9fafb 18%, #ebeff2 33%);
+    background-size: 800px 104px;
+    position: relative;
+}
+
+.rLoader ul {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.rLoader ul li {
+    display: inline-flex;
+    width: 100px;
+    height: 25px;
+    margin-right: 10px;
+    border-radius: 20px;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-name: placeHolderShimmer;
+    animation-timing-function: linear;
+    background: #f6f7f8;
+    background: linear-gradient(to right, #ebeff2 8%, #f9fafb 18%, #ebeff2 33%);
+    background-size: 800px 104px;
+    position: relative;
+}
+
+.ldrRight {
+    width: 170px;
+    margin-left: 20px;
+}
+
+.ldrInfo {
+    height: 35px;
+    margin-top: 10px;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-name: placeHolderShimmer;
+    animation-timing-function: linear;
+    background: #f6f7f8;
+    background: linear-gradient(to right, #ebeff2 8%, #f9fafb 18%, #ebeff2 33%);
+    background-size: 800px 104px;
+    position: relative;
+}
+
+.ldrListingRoom {
+    border: solid 1px #bababa;
+    padding: 20px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ldrListingRoomCol {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.ldrListingRoomCol h3 {
+    height: 30px;
+    margin-bottom: 10px;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-name: placeHolderShimmer;
+    animation-timing-function: linear;
+    background: #f6f7f8;
+    background: linear-gradient(to right, #ebeff2 8%, #f9fafb 18%, #ebeff2 33%);
+    background-size: 800px 104px;
+    position: relative;
+}
+
+.ldrListingRoomCol p {
+    height: 10px;
+    margin-bottom: 10px;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-name: placeHolderShimmer;
+    animation-timing-function: linear;
+    background: #f6f7f8;
+    background: linear-gradient(to right, #ebeff2 8%, #f9fafb 18%, #ebeff2 33%);
+    background-size: 800px 104px;
+    position: relative;
+}
+
+.ldrListingRoomImg {
+    flex: 1;
+    margin-left: 20px;
+    height: 83px;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-name: placeHolderShimmer;
+    animation-timing-function: linear;
+    background: #f6f7f8;
+    background: linear-gradient(to right, #ebeff2 8%, #f9fafb 18%, #ebeff2 33%);
+    background-size: 800px 104px;
+    position: relative;
+    border-radius: 4px;
+}
+
+.rvLoaderRight {
+    width: 310px;
+    padding: 20px;
+    border: solid 1px #bababa;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.rvLoaderRight button {
+    height: 45px;
+    border-radius: 4px;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-name: placeHolderShimmer;
+    animation-timing-function: linear;
+    background: #f6f7f8;
+    background: linear-gradient(to right, #ebeff2 8%, #f9fafb 18%, #ebeff2 33%);
+    background-size: 800px 104px;
+    position: relative;
+    border-radius: 4px;
+    outline: 0;
+    border: 0;
+    pointer-events: none;
+    margin-bottom: 20px;
+}
+
+.rvLoaderRight ul {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.rvLoaderRight ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.rvLoaderRight ul li span:first-child {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-name: placeHolderShimmer;
+    animation-timing-function: linear;
+    background: #f6f7f8;
+    background: linear-gradient(to right, #ebeff2 8%, #f9fafb 18%, #ebeff2 33%);
+    background-size: 800px 104px;
+    position: relative;
+    margin-right: 10px;
+}
+
+.rvLoaderRight ul li span:last-child {
+    flex: 1;
+    height: 10px;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-name: placeHolderShimmer;
+    animation-timing-function: linear;
+    background: #f6f7f8;
+    background: linear-gradient(to right, #ebeff2 8%, #f9fafb 18%, #ebeff2 33%);
+    background-size: 800px 104px;
+    position: relative;
+}
+
+.rvLoaderRight p {
+    height: 10px;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-name: placeHolderShimmer;
+    animation-timing-function: linear;
+    background: #f6f7f8;
+    background: linear-gradient(to right, #ebeff2 8%, #f9fafb 18%, #ebeff2 33%);
+    background-size: 800px 104px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+@-webkit-keyframes Gradient {
+    0% {
+        background-position: -468px 0
+    }
+    100% {
+        background-position: 468px 0
+    }
+}
+
+@-moz-keyframes Gradient {
+    0% {
+        background-position: -468px 0
+    }
+    100% {
+        background-position: 468px 0
+    }
+}
+
+@keyframes Gradient {
+    0% {
+        background-position: -468px 0
+    }
+    100% {
+        background-position: 468px 0
+    }
+}
+
+.dealInput {
+    width: 425px;
+    margin-right: 20px;
+}
+
+.reviewLeftSection {
+    width: 850px;
+}
+
+
+/**
+Payment Options
+**/
+
+.paymentOptions li {
+    margin-bottom: 20px;
+}
+
+.paymentOptions li label {
+    display: flex;
+    flex-direction: column;
+}
+
+.panNo {
+    width: 414px;
+    margin: 18px 0 0 30px;
+}
+
+.paymentOptions .errorField .txtInput {
+    border-color: #d0021b;
+}
+
+.notincludedRow {
+    border-bottom: 1px #e0e0e0 solid;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.notincludedRow:last-child {
+    border-bottom: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+._HotelHeader {
+    display: flex;
+}
+
+._HotelHeader .headerLeft {
+    width: 210px;
+    margin-right: 20px;
+    max-height: 118px;
+    overflow: hidden;
+    border-radius: 4px;
+}
+
+._HotelHeader .headerLeft img {
+    vertical-align: top;
+}
+
+._HotelHeader .headerRight {
+    flex: 1;
+}
+
+._HotelHeader .ratingCont {
+    width: 210px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+._HotelHeader .tags li {
+    display: inline-block;
+    background: #ededed;
+    border-radius: 10px;
+    padding: 5px 8px;
+    margin-right: 6px;
+}
+
+._HotelHeader .rating {
+    width: 37px;
+    height: 37px;
+    border-radius: 4px;
+    background-image: linear-gradient(45deg, #26bd99, #219393);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+._HotelHeader .ratingText {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+
+/* .reviewCalender .DayPicker-NavBar{ display: block !important;}
+.reviewCalender .DayPicker-Months{ position: static; height: auto;}
+.reviewCalender .dateFiled{ border-bottom:0;}
+.reviewCalender .DayPicker-Day--disabled{ color: #dce0e0 !important;} */
+
+._HotelHeader {
+    display: flex;
+}
+
+._HotelHeader .headerLeft {
+    width: 210px;
+    margin-right: 20px;
+    max-height: 118px;
+    overflow: hidden;
+    border-radius: 4px;
+}
+
+._HotelHeader .headerLeft img {
+    vertical-align: top;
+}
+
+._HotelHeader .headerRight {
+    flex: 1;
+}
+
+._HotelHeader .ratingCont {
+    width: 210px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+._HotelHeader .tags li {
+    display: inline-block;
+    background: #ededed;
+    border-radius: 10px;
+    padding: 5px 8px;
+    margin-right: 6px;
+}
+
+._HotelHeader .rating {
+    width: 37px;
+    height: 37px;
+    border-radius: 4px;
+    background-image: linear-gradient(45deg, #26bd99, #219393);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+._HotelHeader .ratingText {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+
+/* .reviewCalender .DayPicker-NavBar{ display: block !important;}
+.reviewCalender .DayPicker-Months{ position: static; height: auto;}
+.reviewCalender .dateFiled{ border-bottom:0;}
+.reviewCalender .DayPicker-Day--disabled{ color: #dce0e0 !important;} */
+
+._RoomListing.roomListing {
+    border-radius: 4px;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+
+._RoomListing .roomColLeft {
+    flex: 1;
+}
+
+._RoomListing .stdRoom {
+    width: 200px;
+    flex-shrink: 0;
+    border-right: 1px #ececec solid;
+    margin-right: 20px;
+}
+
+._RoomListing .roomListingCol {
+    width: 230px;
+    margin-right: 30px;
+}
+
+._RoomListing .type li {
+    display: inline-flex;
+    margin: 0 30px 8px 0;
+}
+
+._RoomListing .type li::before {
+    content: '';
+    display: block;
+    width: 4px;
+    height: 8px;
+    border: solid #4a4a4a;
+    border-width: 0 1px 1px 0;
+    transform: rotate(45deg);
+    margin-right: 10px;
+    flex-shrink: 0;
+}
+
+.tarifInclusionList li {
+    display: inline-block;
+    margin: 0 30px 10px 0;
+    padding: 0 0 0 12px;
+    position: relative;
+}
+
+.tarifInclusionList li:before {
+    width: 4px;
+    height: 4px;
+    background: #878787;
+    border-radius: 50%;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 3px;
+}
+
+._RoomListing .imgCol {
+    width: 150px;
+    height: 85px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    border-radius: 4px;
+    align-self: flex-start;
+    background-size: cover;
+}
+
+._RoomListing .imgCol img {
+    vertical-align: top;
+}
+
+._RoomListing .delRoom {
+    position: absolute;
+    right: -10px;
+    top: -10px;
+}
+
+._RoomListing .infoTooltip {
+    width: 200px;
+    background: #000;
+    padding: 15px;
+    position: absolute;
+    left: 50%;
+    top: 110%;
+    font-size: 12px;
+    line-height: 16px;
+    transform: translateX(-50%);
+    border-radius: 4px;
+    display: none;
+    z-index: 1;
+}
+
+._RoomListing .infoTooltip:after {
+    bottom: 100%;
+    left: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(0, 0, 0, 0);
+    border-bottom-color: #000000;
+    border-width: 7px;
+    margin-left: -7px;
+}
+
+._RoomListing .outOfPolicy {
+    height: 20px;
+    border-radius: 10px;
+    background-color: #ec2126;
+    display: inline-flex;
+    align-items: center;
+    padding: 0 4px 0 10px;
+    position: relative;
+}
+
+._RoomListing .outOfPolicy:hover .infoTooltip {
+    display: block;
+}
