@@ -1,0 +1,262 @@
+<div class="forDesk">
+    <div>
+        <p class="latoBlack font20 prependTop20 appendBottom30 travelerInfo" id="travelerInfo">Traveller Information</p>
+        <div class="_TravelerInfo">
+            <form class="form_traveller_info" #form_traveller_info="ngForm"
+                (ngSubmit)="form_traveller_info.form.valid && onSubmit()" novalidate>
+                
+                <input name="showPanCardField1" autocomplete="off" type="hidden" value="0">
+                <div class="makeFlex appendBottom35">
+                    <div class="width88 appendRight10">
+                        <div><label class="labelText latoBold">Title</label><label for="title"
+                                class="selectWraper"><select id="title" name="title1" #title1 = "ngModel" class="txtSelect"
+                                    [(ngModel)]="travellerinfo.prefix">
+                                    <option value="Mr">Mr</option>
+                                    <option value="Mrs">Mrs</option>
+                                    <option value="Ms">Ms</option>
+                                </select></label></div>
+                    </div>
+                    <div class="flexOne appendRight10">
+                        <div class=""><label class="labelText latoBold">First Name</label>
+                            <input id="fName1" name="fName1" type="text" class="txtInput" placeholder="Enter First Name"
+                            pattern = "^[\w'\-,.][^0-9_!¡?÷?¿/\\+=@#$%ˆ&*(){}|~<>;:[\]]{2,}$" 
+                                [(ngModel)]="travellerinfo.firstName" #fName1="ngModel" required>
+                            <div class="redText"></div>
+                        </div>
+                        <div *ngIf="fName1.invalid && (fName1.dirty || fName1.touched)" class="alert alert-danger">
+                            <div *ngIf="fName1.errors?.required">
+                                First name can't be blank
+                            </div>
+                            <div *ngIf="fName1.errors?.pattern">
+                                    The First name should be atleast 3 characters and shouldnt contain special characters
+                                </div>
+                        </div>
+                    </div>
+                    <div class="flexOne">
+                        <div class=""><label class="labelText latoBold">Last Name</label>
+                            <input id="lName1" name="lName1" type="text" class="txtInput" placeholder="Enter Last Name"
+                                pattern = "^[\w'\-,.][^0-9_!¡?÷?¿/\\+=@#$%ˆ&*(){}|~<>;:[\]]{2,}$" 
+                                [(ngModel)]="travellerinfo.lastName" #lName1="ngModel" required>
+                            <div class="redText"></div>
+                        </div>
+                        <div *ngIf="lName1.invalid && (lName1.dirty || lName1.touched)" class="alert alert-danger">
+                            <div *ngIf="lName1.errors?.required">
+                                Last name can't be blank
+                            </div>
+                                <div *ngIf="lName1.errors?.pattern">
+                                        The last name should be atleast 3 characters and shouldnt contain special characters
+                                    </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="makeFlex">
+                    <div class="travelerInfoLeft">
+                        <div class="makeFlex appendBottom35">
+                            <div class="flexOne">
+                                <div class=""><label class="labelText latoBold">Email ID<span
+                                            class="appendLeft5 font12 grayText latoRegular">(Booking confirmation will
+                                            be
+                                            sent to this email ID)</span></label>
+                                    <input name="email1" id="email1" autocomplete="off" type="text" class="txtInput"
+                                        placeholder="Enter Email ID" [(ngModel)]="travellerinfo.email" #email1="ngModel"
+                                        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required>
+                                    <div class="redText"></div>
+                                </div>
+                                <div *ngIf="email1.invalid && (email1.dirty || email1.touched)" class="alert alert-danger">
+                                    <div *ngIf="email1.errors?.required">
+                                        Email field can't be blank
+                                    </div>
+                                    <div *ngIf="email1.errors?.pattern && email1.touched">
+                                        The email id doesn't seem right
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="makeFlex appendBottom35">
+                            <div class="flexOne"><label class="makeFlex latoBold appendBottom10">Contact Info</label>
+                                <div class="contactInputBox">
+                                    <div class="contactInputBoxLeft"><label for="mCode" class="selectWraper">
+                                            <!-- <select 
+                                                            id="mCode" name="mCode" class="countryCode" [(ngModel)]="travellerinfo.country_code">
+                                                            <option hidden="" value="+91" ng-reflect-value="+91">+91</option>
+                                                            <option *ngFor="let code of country_code" [value]="code.num"
+                                                            ng-reflect-value="code.num" >{{code.name}}({{code.num}})</option>
+                                                        </select> -->
+
+                                            <select class="form-control" id="mCode1" name="mCode1" class="countryCode"
+                                                [(ngModel)]="travellerinfo.country_code">
+                                                <option value="" ng-reflect-value="+1">+1</option>
+                                                <option *ngFor="let code of country_code" [value]="code.num"
+                                                    ng-reflect-value="code.num" required>{{code.num}} </option>
+                                            </select>
+
+
+                                        </label></div>
+                                    <div class="flexOne appendLeft10"><input id="mNo1" name="mNo1"
+                                            class="txtInputContactInfo txtInputContactInfo" type="text"
+                                            [(ngModel)]="travellerinfo.phone" #mNo1="ngModel" maxlength="10"
+                                            pattern="^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$"
+                                            required>
+                                    </div>
+
+                                </div>
+                                <div *ngIf="mNo1.invalid && (mNo1.dirty || mNo1.touched)" class="alert alert-danger">
+                                    <div *ngIf="mNo1.errors?.required">
+                                        Phone number field can't be blank
+                                    </div>
+                                    <div *ngIf="mNo1.errors?.pattern && mNo1.touched">
+                                        Invalid Phone number
+                                    </div>
+                                </div>
+                                <div class="redText"></div>
+                            </div>
+                        </div><span class="checkmarkOuter" id="revpg_travinfo_gst_yesno"><input name="gstopen"
+                                id="gstopen" type="checkbox" value=""><label for="gstopen" class="latoBold"><span>I have
+                                    a GST
+                                    number</span> <span class="grayText appendLeft5">(optional)</span></label>
+                        </span>
+                    </div>
+                    <div class="travelerInfoRight appendLeft30">
+                        <div class="whySignup appendTop30">
+                            <p class="latoBlack font16 blackText appendBottom10">Why <a class="underline"
+                                    id="revpg_why_sign_up_btn" routerLink="../signup">Sign up</a> or <a
+                                    class="underline" id="revpg_why_login_btn" routerLink="../login">Login</a></p>
+                            <ul class="whyLogin font12">
+                                <li>Get access to <span class="latoBold blackText appendLeft3">Secret Deals</span></li>
+                                <li><span class="latoBold blackText appendRight3">Manage your bookings</span> from one
+                                    place
+                                </li>
+                                <li><span class="latoBold blackText appendRight3">Redeem Wallet Cash</span> &amp; get
+                                    additional discount(s)!</li>
+                                <li><span class="latoBold blackText appendRight3">Book Faster</span> - we’ll save &amp;
+                                    pre-enter your details</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <button type = "submit"></button>
+            </form>
+
+        </div>
+    </div>
+</div>
+
+<!-- -------------------------mobile view------------------------------------------- -->
+
+<div class="forMob">
+   <form class="form_traveller_info_mob" #form_traveller_info_mob="ngForm"
+   (ngSubmit)="form_traveller_info_mob.form.valid && onSubmit()" novalidate>
+    <div>
+        <div class="reviewForm boxPadding">
+            <h3>Primary Guest Details<a class="pushRight font12 capText latoBold"> Login </a></h3>
+            <div class="makeFlex appendBottom20">
+                <div class="width48 pushLeft">
+                    <div class="makeFlex column formField"><label class="latoBold font12 flexOne lightGreyText"> <span
+                                class="labelInstruction"></span></label>
+                            <input id="fName" name="fName" type="text" class="font16 latoBold appendBottom4" placeholder="Enter First Name"
+                                [(ngModel)]="travellerinfo.firstName" #fName="ngModel" required>
+                            <div class="redText"></div>
+                        </div>
+                        <div *ngIf="fName.invalid && (fName.dirty || fName.touched)" class="alert alert-danger">
+                            <div *ngIf="fName.errors?.required">
+                                First name can't be blank
+                            </div>
+                            <div *ngIf="fName.errors?.pattern">
+                                    The First name should be atleast 3 characters and shouldnt contain special characters
+                                </div>
+                        </div>
+                </div>
+                <div class="width48 pushRight">
+                    <div class="makeFlex column formField"><label class="latoBold font12 flexOne lightGreyText"> <span
+                                class="labelInstruction"></span></label>
+
+                        <input id="lName" name="lName" type="text" class="font16 latoBold appendBottom4 " placeholder="Enter Last Name"
+                                [(ngModel)]="travellerinfo.lastName" #lName="ngModel" required>
+                            <div class="redText"></div>
+                        </div>
+                        <div *ngIf="lName.invalid && (lName.dirty || lName.touched)" class="alert alert-danger">
+                            <div *ngIf="lName.errors?.required">
+                                Last name can't be blank
+                            </div><div *ngIf="lName.errors?.pattern">
+                                    The last name should be atleast 3 characters and shouldnt contain special characters
+                                </div>
+
+                        </div>
+                    
+                </div>
+            </div>
+            <div class="appendBottom20">
+                <div class="makeFlex column formField"><label class="latoBold font12 flexOne lightGreyText"> <span
+                            class="labelInstruction"></span></label>
+                            
+                    <input name="email" id="email" autocomplete="off" type="text" class="font16 latoBold appendBottom4"
+                                        placeholder="Enter Email ID" [(ngModel)]="travellerinfo.email" #email="ngModel"
+                                        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required>
+                                    <div class="redText"></div>
+                                </div>
+                                <div *ngIf="email.invalid && (email.dirty || email.touched)" class="alert alert-danger">
+                                    <div *ngIf="email.errors?.required">
+                                        Email field can't be blank
+                                    </div>
+                                    <div *ngIf="email.errors?.pattern && email.touched">
+                                        The email format is not correct
+                                    </div>
+                            
+                </div>
+            </div>
+            <div class="makeFlex mobNumberSection ">
+                <div>
+                    <select id="mCode">
+                        <option value="+93">Afghanistan (+93)</option>
+                        <option value="+355">Albania (+355)</option>
+                        <option value="+213">Algeria (+213)</option>
+                        <option value="+1684">American Samoa (+1684)</option>
+                        <option value="+376">Andorra (+376)</option>
+                        <option value="+244">Angola (+244)</option>
+                        <option value="+1264">Anguilla (+1264)</option>
+                        <option value="+672">Antarctica (+672)</option>
+                        <option value="+1268">Antigua and Barbuda (+1268)</option>
+                        <option value="+54">Argentina (+54)</option>
+                        <option value="+374">Armenia (+374)</option>
+                        <option value="+297">Aruba (+297)</option>
+                        <option value="+61">Australia (+61)</option>
+                        <option value="+43">Austria (+43)</option>
+                        <option value="+994">Azerbaijan (+994)</option>
+                        <option value="+1242">Bahamas (+1242)</option>
+                        <option value="+973">Bahrain (+973)</option>
+                        <option value="+84">Vietnam (+84)</option>
+                        <option value="+681">Wallis and Futuna (+681)</option>
+                        <option value="+212">Western Sahara (+212)</option>
+                        <option value="+967">Yemen (+967)</option>
+                        <option value="+260">Zambia (+260)</option>
+                        <option value="+263">Zimbabwe (+263)</option>
+                    </select>
+                   
+                    <span class="mobCountryCode">+91 - </span>
+                </div>
+                <div class="makeFlex column formField"><label class="latoBold font12 flexOne lightGreyText"> <span
+                            class="labelInstruction"></span></label>
+                            <input id="mNo" name="mNo"
+                        class="font16 latoBold appendBottom4 " type="number" placeholder="  Enter Mobile Number"  [(ngModel)]="travellerinfo.phone" #mNo="ngModel" pattern="^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$"
+                        required>
+                    <p id="mNo_error" class="errorText font12 redText">Enter a valid number</p>
+ 
+                </div>
+            </div>
+
+            <div *ngIf="mNo.invalid && (mNo.dirty || mNo.touched)" class="alert alert-danger">
+                    <div *ngIf="mNo.errors?.required">
+                        Phone number field can't be blank
+                    </div>
+                    <div *ngIf="mNo.errors?.pattern && mNo.touched">
+                        Invalid Phone number
+                    </div>
+                </div>
+                <div class="redText"></div>
+            <p class="appendBottom10"><label class="font12"> <input id="gstopen" class="hide" type="checkbox"><span
+                        class="checkBox"><span class="tick"></span> </span> I have a GST number (optional)</label></p>
+            
+        </div>
+    </div>
+</form>
+</div>
