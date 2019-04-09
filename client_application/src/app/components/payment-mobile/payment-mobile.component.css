@@ -1,0 +1,2650 @@
+@media screen and (max-width: 1024px) {
+    .overlay_content .pay_button {
+        padding: 12px 12px
+    }
+    .pay_button {
+        border-radius: 19.6px;
+        background-image: linear-gradient(96deg, #53b2fe, #065af3);
+        box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2);
+        border: 0;
+        padding: 5px 15px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center
+    }
+    .mb_m_r15 {
+        margin-right: 15px
+    }
+    .mb_width49 {
+        width: 49%!important
+    }
+    .mb_fixed_btm {
+        position: fixed!important;
+        right: 10px!important;
+        bottom: 7px!important;
+        z-index: 2!important
+    }
+    .mb_otp_header {
+        float: none!important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column
+    }
+    .mb_otp_card_amount {
+        text-align: left;
+        width: 100px
+    }
+    .mb_otp_logo {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin-top: 15px;
+        float: left
+    }
+    .otp_wrap .payback_wallet_section {
+        padding: 25px 18px 26px
+    }
+    .mobileView {
+        display: block
+    }
+    .city_field input {
+        width: 92%
+    }
+    .mb_citi_reward {
+        width: 95px!important
+    }
+    .mb_m_l30 {
+        margin-left: 30px!important
+    }
+    .pincode_field {
+        width: 100%!important;
+        margin-right: 0;
+        margin-bottom: 10px
+    }
+    .pincode_field input,
+    .state_field input {
+        width: 92%!important
+    }
+    .pull-left.state_field {
+        width: 100%!important;
+        float: left!important;
+        margin-bottom: 10px
+    }
+    .error_text {
+        color: #ed1300;
+        margin-top: 3px;
+        width: 80%!important
+    }
+    .mb_verification_label {
+        width: 100%!important;
+        float: left;
+        margin-top: 5px
+    }
+    .mb_state_field_select {
+        width: 100%!important
+    }
+    .select_section select {
+        width: 100%!important;
+        margin-bottom: 10px!important
+    }
+    .mb_vpa_input {
+        width: 90%!important;
+        box-sizing: border-box;
+        height: auto!important
+    }
+    .mb_pull_right {
+        float: right!important
+    }
+    .mb_pull_left {
+        float: left!important
+    }
+    .mb_txt_l {
+        text-align: left!important
+    }
+    .mb_m_b10 {
+        margin-bottom: 10px!important
+    }
+    .booking_summary {
+        margin-top: 0!important
+    }
+    .mb_m_t16 {
+        margin-top: 16px!important
+    }
+    .mb_m_t10 {
+        margin-top: 16px!important
+    }
+    .payment_details.append_bottom20 {
+        margin-bottom: 0!important
+    }
+    .mb_payment_details.append_bottom20 {
+        margin-bottom: 0!important
+    }
+    .mb_gcButton {
+        white-space: nowrap;
+        width: auto!important
+    }
+    .chf_account_links {
+        margin-top: 10px;
+        text-align: left!important
+    }
+    .chf_links_right {
+        float: left!important;
+        padding-left: 0!important
+    }
+    .request_failed .sending_request {
+        text-align: center
+    }
+    .sending_request {
+        text-align: center
+    }
+    .sending_request .loader_icon {
+        margin: 0 0 15px 0;
+        width: 100%
+    }
+    .send_to_icon {
+        margin: 20px 0;
+        transform: rotate(90deg);
+        float: none!important;
+        display: inline-block
+    }
+    .upi_bank {
+        width: 100%
+    }
+    .sending_request .mmt_logo {
+        width: 100%
+    }
+    .mb_gotopage {
+        width: 100%;
+        float: left;
+        text-align: center;
+        margin-top: 10px
+    }
+    .duration_brief {
+        border-bottom: 1px solid #979797;
+        padding: 0 20px;
+        margin-right: 20px;
+        margin-top: 15px;
+        position: relative;
+        width: 132px;
+        margin-bottom: 10px!important
+    }
+    .tab_section_li_a {
+        display: inline!important;
+        border: none medium!important;
+        padding-left: 0!important
+    }
+    .mb_m_l0 {
+        margin-left: 0!important
+    }
+    .crd_no {
+        font-size: 11px;
+        line-height: 18px;
+        width: 100%!important
+    }
+    .tab_section li a.pay_button.for_gfcard {
+        padding: 3px 15px!important
+    }
+    .mb_width45 {
+        width: 45%!important
+    }
+    .mb_wallet_width {
+        width: 50%!important;
+        box-sizing: border-box
+    }
+    .mb_p_l10 {
+        padding-left: 10px!important
+    }
+    .bonus {
+        border-left: none medium;
+        padding: 0 10px 0 0;
+        margin-right: 0;
+        width: 50%;
+        margin-bottom: 20px;
+        box-sizing: border-box
+    }
+    .mb_widthfull {
+        width: 100%
+    }
+    .mb_padR15 {
+        padding-right: 15px
+    }
+    .leftpad {
+        padding-left: 0;
+        padding-bottom: 10px
+    }
+    .mb_leftpad {
+        padding-left: 35px!important
+    }
+    .payment_details {
+        height: 50px!important;
+        position: fixed;
+        padding: 10px;
+        bottom: 0;
+        left: 0;
+        z-index: 99999!important;
+        background: #303030;
+        width: 100%;
+        box-sizing: border-box
+    }
+    .mb_payment_details {
+        height: 50px!important;
+        position: fixed;
+        padding: 10px;
+        bottom: 0;
+        left: 0;
+        z-index: 1!important;
+        background: #303030;
+        width: 100%;
+        box-sizing: border-box
+    }
+    .pay_amountinfo {
+        padding-top: 6px;
+        width: 40%;
+        color: #fff;
+        margin-bottom: 0;
+        padding-left: 10px
+    }
+    .total_price {
+        color: #fff;
+        margin-bottom: 0;
+        line-height: 18px
+    }
+    .mb_total_price {
+        color: #4a4a4a!important;
+        margin-bottom: 0;
+        line-height: 18px
+    }
+    .payment_details .append_bottom6 {
+        margin-bottom: 0
+    }
+    .mb_payment_details .append_bottom6 {
+        margin-bottom: 0
+    }
+    .payment_detail .lato-bold {
+        font-weight: normal!important
+    }
+    .mb_payment_details .lato-bold {
+        font-weight: normal!important
+    }
+    .chf_unified_case.chf_login_short_gplus {
+        width: 90%!important
+    }
+    .expened .up_arrow {
+        transform: rotate(45deg)
+    }
+    .sending_request,
+    .authorized_payment_request,
+    .booking_your_ticket {
+        background: #f5fcff;
+        padding: 15px 50px 8px;
+        width: 64%!important
+    }
+    #chf_overlay {
+        width: 90%!important;
+        top: 12px!important
+    }
+    .chf_unified_case .chf_div_social_1 {
+        width: 90%
+    }
+    #chf_login_benefits {
+        width: 90%!important;
+        float: left!important;
+        margin-top: 30px
+    }
+    .chf_div_social_1 {
+        width: 250px;
+        margin: 0 auto;
+        min-height: 150px;
+        padding-right: 0!important;
+        border-right: solid 0 #f2f2f2!important
+    }
+    .chf_benefits_hdng,
+    .chf_benefits_loginList,
+    .chf_countryNavItem.last,
+    .rs_new_red_bg,
+    div.chf_intl_flt .chf_intl_caller,
+    div.chf_rail_hdr .chf_irctc {
+        display: block!important
+    }
+    .for_dt {
+        display: none
+    }
+    .wlt_login_msg {
+        width: 100%
+    }
+    .booking_summary_wrap {
+        background: #fff;
+        width: 100%;
+        float: left;
+        box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.1);
+        display: block
+    }
+    .booking_summary_wrap .booking_summary {
+        position: relative
+    }
+    .booking_summary_title {
+        display: block;
+        color: #000;
+        width: 100%
+    }
+    .booking_summary_title .booking_summary_right {
+        width: 50px;
+        padding: 10px
+    }
+    .booking_summary_title .booking_summary_left {
+        width: -WebKit-clac(100% - 100px);
+        padding: 15px;
+        width: calc(100% - 100px)
+    }
+    .booking_summary_title .airlineinfo {
+        padding-left: 15px
+    }
+    .booking_summary_title .airline_brief {
+        padding-left: 15px;
+        padding-bottom: 15px
+    }
+    .booking_summary_right .up_arrow {
+        margin-top: 3px;
+        margin-right: 0
+    }
+    .booking_summary_wrap .summry_info {
+        padding: 0 15px
+    }
+    .mb_hide {
+        display: none!important
+    }
+    .booking_summary_wrap .booking_summary_mob_details {
+        width: 100%;
+        float: left;
+        display: block
+    }
+    .mb_pull_right {
+        float: right!important
+    }
+    .otp_details {
+        margin: 0 auto!important;
+        width: auto!important
+    }
+    .tab_section li a.border_none {
+        border: none medium
+    }
+    .tab_section li a.pay_button.active,
+    .tab_section li a.pay_button:hover {
+        background-color: #008cff!important;
+        color: #fff!important;
+        margin-top: -1px!important
+    }
+    .authorized_payment_request,
+    .booking_your_ticket {
+        background: #f5fcff;
+        padding: 15px 50px 8px;
+        width: auto
+    }
+    .payment_details {
+        width: 100%!important
+    }
+    .mb_payment_details {
+        width: 100%!important
+    }
+    .not_applicable {
+        width: auto!important;
+        text-align: center;
+        margin-right: 8px;
+        min-height: 48px
+    }
+    .mb_m_b_10 {
+        margin-bottom: 10px!important
+    }
+    .mb_b_none {
+        border: none!important
+    }
+    .mb_m_b0 {
+        margin-bottom: 0!important
+    }
+    .mb_before_selection {
+        width: 220px!important
+    }
+    .summary_description img {
+        width: 100%!important
+    }
+    .not_applicable_mobile {
+        width: auto!important;
+        text-align: center;
+        margin-right: 8px;
+        min-height: 48px
+    }
+    .wallet_login.SC_login,
+    wallet_login {
+        width: 100%
+    }
+    .cpay_addPrompt.SC_password {
+        margin-left: 0!important
+    }
+    .bank_name {
+        font-size: 10px;
+        line-height: 26px;
+        color: #2f2f2f;
+        word-break: normal;
+        width: 106px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap
+    }
+    .for_desktop {
+        display: none
+    }
+    .for_mobile {
+        display: block
+    }
+    .accordian_details {
+        sdisplay: block!important
+    }
+    .payment_section {
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-bottom: 20vh
+    }
+    .accordian_details {
+        display: block
+    }
+    .payment_container {
+        width: 100%
+    }
+    .payment_option {
+        width: 100%
+    }
+    .tab_section {
+        width: 100%
+    }
+    .tab_conatiner {
+        display: none
+    }
+    .option_tabs.for_large {
+        display: none
+    }
+    .option_tabs.for_mobile {
+        display: block
+    }
+    .option_tabs {
+        border: none medium;
+        box-shadow: none
+    }
+    .inner_container {
+        width: 100%
+    }
+    .option_iconinfo {
+        width: auto;
+        margin-left: 0;
+        padding-left: 0;
+        border: 0
+    }
+    .card_brief {
+        width: 88%
+    }
+    .option_txt {
+        float: left;
+        border: none medium;
+        padding-top: 18px;
+        padding-bottom: 18px
+    }
+    .tab_section {
+        background-color: #f2f2f2
+    }
+    .tab_section li {
+        margin-bottom: 6px;
+        background-color: #fff
+    }
+    .tab_section li a {
+        border: 1px solid #e9e9e9
+    }
+    .accordian_details {
+        padding: 12px
+    }
+    .security_guarntted {
+        margin-bottom: 8px
+    }
+    .login_label {
+        line-height: 16px
+    }
+    .email_input,
+    .pass_input {
+        width: 100%!important;
+        margin-bottom: 8px;
+        margin-right: 0
+    }
+    .email_input input,
+    .pass_input input {
+        width: 92.5%
+    }
+    .tab_section li a {
+        min-height: 14px
+    }
+    input.form-control {
+        padding-top: 11px;
+        padding-bottom: 12px
+    }
+    a.secondary_button {
+        padding: 13px 15px 10px
+    }
+    .tab_section li a.secondary_login_button.active,
+    .tab_section li a.secondary_login_button:hover {
+        background-color: #008cff!important;
+        color: #fff!important
+    }
+    .tab_section li a.click_info {
+        border: 0;
+        padding-left: 0;
+        margin-top: 8px
+    }
+    .social_button {
+        padding: 4% 5.5% 3%;
+        width: 37%
+    }
+    .no_cost_emi_details {
+        width: 86%
+    }
+    .no_cost_emi {
+        padding: 10px 7px
+    }
+    .tab_section li a.active {
+        width: 96%
+    }
+    .tab_section li a.active:hover {
+        border-right-color: #e9e9e9
+    }
+    .accordian_details {
+        border: 1px solid #e9e9e9;
+        border-top: none medium;
+        width: 92.7%
+    }
+    .security_infotxt {
+        font-size: 11px;
+        line-height: 22px;
+        width: 185px;
+        float: left!important;
+        margin-left: 10px
+    }
+    .security_guarntted {
+        width: 280px
+    }
+    .frequent_section {
+        padding: 10px 7px
+    }
+    .verification_txt {
+        line-height: 14px;
+        float: left;
+        width: 245px
+    }
+    ul.currency_options.verification_type li {
+        width: 93.5%;
+        margin-bottom: 10px
+    }
+    ul.currency_options.verification_type li a {
+        width: 93.5%;
+        min-height: 36px
+    }
+    .verification_type .select_optioninfo {
+        width: 88%
+    }
+    ul.currency_options.verification_type_two li {
+        width: 94%;
+        margin-right: 0
+    }
+    ul.currency_options li a {
+        width: 89.5%
+    }
+    .edit_cancel,
+    .change_couponinfo,
+    a.info_icon {
+        border: none!important;
+        padding-left: 0!important;
+        margin-left: 0
+    }
+    .cashback_info {
+        padding-left: 0
+    }
+    .for_mobile_cpn {
+        width: 90%
+    }
+    .emi_info {
+        margin-top: 10px
+    }
+    .crd_no {
+        font-size: 11px;
+        line-height: 18px
+    }
+    .manitainence_info.append_bottom25 {
+        margin-bottom: 10px
+    }
+    .pay_buttoninfo {
+        width: 50%
+    }
+    .for_login {
+        width: 90.2%;
+        text-align: center
+    }
+    .overlay_content {
+        width: 88%;
+        padding: 5% 3%
+    }
+    .overlay_content .bank_optinf {
+        width: 90%
+    }
+    .font_18 {
+        font-size: 14px
+    }
+    .emi_to_be_like li {
+        width: 45%;
+        margin-bottom: 12px
+    }
+    .tab_section li a.card_type_info {
+        position: absolute;
+        border: none medium
+    }
+    .card_type_input input {
+        width: 93%
+    }
+    .savecardinfotxt {
+        width: 250px;
+        line-height: 14px
+    }
+    .verification_steps.append_bottom30 {
+        margin-bottom: 20px
+    }
+    ul.currency_options.paypal li.first_block .select_optioninfo {
+        width: 222px
+    }
+    ul.currency_options.paypal li {
+        width: 100%
+    }
+    ul.currency_options.paypal li.first_block a {
+        width: 90%
+    }
+    ul.currency_options.paypal li a {
+        width: 90%
+    }
+    .cd_iconspace {
+        width: auto;
+        margin-top: 0;
+        margin-bottom: 10px
+    }
+    .tab_section li .cd_iconspace a,
+    .tab_section li .coupon_appliedinfo a,
+    .tab_section li .close_dropsection {
+        border: none medium;
+        padding-left: 0
+    }
+    .option_iconinfo.for_debit {
+        width: auto
+    }
+    .pancard_input input {
+        width: 92%
+    }
+    .pancard_input,
+    .pancard_details {
+        width: 100%
+    }
+    .pancard_section a.info_icon {
+        margin-left: 10px
+    }
+    .pancard_icon {
+        display: none
+    }
+    .select_section.country_name select {
+        width: 100%
+    }
+    .select_section select {
+        padding-top: 8px
+    }
+    .input_section .city_field {
+        width: 100%;
+        margin-bottom: 20px;
+        margin-right: 0
+    }
+    .input_section.verification_steps .city_field,
+    #citibank_rewards .input_section .city_field {
+        width: 58%;
+        margin-bottom: 0;
+        margin-right: 20px
+    }
+    .billing_address textarea {
+        width: 93%
+    }
+    .mb_button_info {
+        width: 100%;
+        float: left;
+        padding: 0!important
+    }
+    .mb_m_r0 {
+        margin-right: 0!important
+    }
+    .overlay_content .pay_button {
+        margin-right: 0!important
+    }
+    .overlay_content .lock_txt {
+        font-size: 12px!important;
+        margin-left: 5px!important
+    }
+    .input_section.verification_steps .city_field input {
+        width: 93%;
+        margin-bottom: 20px
+    }
+    .reward_points__section {
+        margin-left: 0!important
+    }
+    .pincode_field {
+        width: 48%;
+        margin-right: 0
+    }
+    .pull-left.state_field {
+        width: 48%;
+        float: right!important
+    }
+    .pincode_field input,
+    .state_field input {
+        width: 85%
+    }
+    .convinience_txt span {
+        width: 96px
+    }
+    .convinience_txt .info_icon {
+        float: left!important;
+        margin-top: 8px
+    }
+    ul.currency_options.netbanking li {
+        width: 100%
+    }
+    ul.currency_options.netbanking li a {
+        width: 100%
+    }
+    ul.currency_options.netbanking li.other_bank {
+        width: 100%
+    }
+    ul.currency_options.netbanking li.other_bank a {
+        width: auto
+    }
+    ul.currency_options.netbanking li.other_bank select {
+        width: 96%
+    }
+    ul.currency_options.netbanking li.other_bank .select_section {
+        width: 86%
+    }
+    .quick_info {
+        width: 90%
+    }
+    .verification_steps.append_bottom30 {
+        margin-bottom: 5px
+    }
+    .total_price {
+        float: left;
+        margin-right: 15px
+    }
+    .convinience_txt {
+        float: left
+    }
+    .tab_section li a.pay_button {
+        float: left!important;
+        display: flex;
+        border: none medium;
+        width: 93%;
+        padding: 5px 15px!important;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box
+    }
+    .lato-normal-italic.text-right {
+        text-align: left
+    }
+    .step_number {
+        width: 18px;
+        height: 18px;
+        padding-top: 0;
+        line-height: 18px;
+        font-size: 12px
+    }
+    .select_label {
+        padding-top: 0
+    }
+    .selection_complete .select_label {
+        padding-top: 3px
+    }
+    .step_details .currency_options {
+        margin-left: 0;
+        padding-top: 15px
+    }
+    .bank_list_mirror li {
+        float: left;
+        width: 100%
+    }
+    .bank_list_mirror li a,
+    .bank_list_mirror li a:hover,
+    .emi_payment_info li a,
+    .tab_section li a.back_upi_click {
+        border: none medium;
+        padding-left: 0
+    }
+    .select_subinfo {
+        padding-top: 3px
+    }
+    .step_heading .coupon_completeicon {
+        margin-right: 5px
+    }
+    .font_14.select_label {
+        font-size: 12px
+    }
+    .select_subinfo {
+        font-size: 11px;
+        width: 55%
+    }
+    .tab_section li .close_dropsection {
+        min-height: auto;
+        margin-top: -4px
+    }
+    .before_selection {
+        margin-top: 3px
+    }
+    .no_cost_emi_section {
+        margin-left: 0
+    }
+    .no_cost_emi_section .inner_txtpart {
+        width: 85%
+    }
+    .currency_options.bank_list_info li a .font_14 {
+        font-size: 11px
+    }
+    .monthly_info {
+        width: 46px;
+        margin-right: 8px
+    }
+    .ineterest_info {
+        width: 38px;
+        margin-right: 7px
+    }
+    .installment {
+        width: 59px;
+        text-align: center;
+        margin-right: 10px
+    }
+    .fee_headinginfo {
+        padding: 10px 5px 10px 26px;
+        margin-left: 0
+    }
+    .interest_paid {
+        width: 47px
+    }
+    .total_money {
+        width: 58px;
+        margin-right: 8px
+    }
+    .no_cost_emi_sectn .inner_txtpart {
+        width: 88%
+    }
+    .addcard_info {
+        padding-left: 0
+    }
+    .addcard_info .card_type_input input {
+        width: 93%
+    }
+    .add_card_tab .card_brief {
+        width: 64%
+    }
+    ul.currency_options li {
+        width: 100%
+    }
+    .emi_payment_info {
+        width: 238px;
+        z-index: 4
+    }
+    .select_optioninfo {
+        width: 194px
+    }
+    .error_txt {
+        width: 89%
+    }
+    .pincode_info {
+        width: 100%
+    }
+    ul.bank_list_mirror {
+        padding-left: 0!important
+    }
+    .bank_list_mirror .font_14 {
+        font-size: 11px
+    }
+    .step_heading a.active,
+    .step_heading a:hover {
+        border: none medium!important
+    }
+    .guarntee_icon {
+        margin-bottom: 10px
+    }
+    ul.currency_options li {
+        margin-bottom: 10px
+    }
+    ul.currency_options li a:hover {
+        margin-top: 0
+    }
+    .option_iconinfo.upi {
+        margin-left: 10px;
+        width: 62%
+    }
+    .upi_steps_list li {
+        margin-bottom: 15px;
+        width: 46%;
+        margin-right: 15px
+    }
+    .upi_steps_list li:nth-child(even) {
+        margin-right: 0
+    }
+    .upi_steps_type .select_subinfo {
+        width: 62%
+    }
+    .step_details.fr_upi {
+        margin-left: 0
+    }
+    .steps_completed input.form-control {
+        width: 50%;
+        margin-bottom: 10px
+    }
+    .typing_icon {
+        position: absolute;
+        top: 8%;
+        left: 42%
+    }
+    .upi_steps_type a.pay_button {
+        margin-left: 0
+    }
+    .step_details.fr_upi a.pay_button {
+        width: 90%;
+        padding: 0 10px;
+        align-items: center;
+        justify-content: center
+    }
+    .request_failed_section {
+        background: #ffeded;
+        line-height: 60px;
+        width: auto
+    }
+    .booking_your_ticket {
+        background: #f5fcff;
+        padding: 0 50px 0;
+        width: auto
+    }
+    .option_txt {
+        font-size: 14px;
+        color: #4a4a4a
+    }
+    .tab_section li a {
+        border-color: #e1e1e1
+    }
+    .tab_section li a:hover .paypal_smallicn {
+        background-position: -184px -155px
+    }
+    .tab_section li a:hover .giftcard_icon {
+        background-position: -184px -187px
+    }
+    .tab_section li a:hover .wallet_iconone {
+        background-position: -184px -125px
+    }
+    .tab_section li a:hover .cod_icon {
+        background-position: -184px -95px
+    }
+    .tab_section li a:hover .emi_icon {
+        background-position: -185px -67px
+    }
+    .tab_section li a:hover .netbanking_icon {
+        background-position: -185px -37px
+    }
+    .tab_section li a:hover .debit_icon {
+        background-position: -185px -11px
+    }
+    .tab_section li a:hover .cityreward_icon {
+        background-position: -185px -215px
+    }
+    .tab_section li a:hover .upi_sm_icon {
+        background-position: -213px -99px;
+        width: 24px;
+        height: 24px
+    }
+    .payback_wallet_section .label_info {
+        width: 68%
+    }
+    .payback_wallet_section .label_description {
+        width: 32%
+    }
+    .label_txt {
+        font-size: 11px;
+        margin-right: 5px;
+        line-height: 13px
+    }
+    .otp_sectionalpart {
+        margin: 0
+    }
+    .otp_info .card_brief {
+        margin-right: 0;
+        margin-bottom: 10px;
+        padding-right: 0;
+        border-right: none medium
+    }
+    .otp_sectionalpart .pay_buttoninfo {
+        width: 100%
+    }
+    .otp_sectionalpart .pay_button {
+        width: 93%
+    }
+    .continue_info {
+        padding-top: 8px
+    }
+    .pacback_info .label_info {
+        width: 100%;
+        margin-bottom: 10px
+    }
+    .pacback_info .label_description {
+        width: 89%
+    }
+    .type1,
+    .type2 {
+        width: auto
+    }
+    .point_main_section {
+        width: 62%
+    }
+    .redeem_type_input {
+        margin-bottom: 10px
+    }
+    .point_field a.secondary_button {
+        width: 60%;
+        margin-right: 0;
+        text-align: center
+    }
+    .redeem_type_input input {
+        border-right: 1px solid #d1e2f5
+    }
+    .label_description .click_info {
+        margin-top: 0
+    }
+    .point_main_section .error_txt {
+        width: 84%
+    }
+    .point_main_section .error_field .error_container {
+        margin-top: 6px
+    }
+    .error_field .redeem_type_input input {
+        border-right: 1px solid #f11e14
+    }
+    .linked_section,
+    .point_field {
+        float: none!important;
+        margin-right: 0;
+        margin-bottom: 10px
+    }
+    .linked_section input {
+        width: 93%
+    }
+    .no_paybackfound {
+        width: auto;
+        padding-top: 0;
+        margin-bottom: 8px
+    }
+    .wallet_info .label_info {
+        width: 100%;
+        margin-bottom: 8px
+    }
+    .wallet_info .label_description {
+        float: none;
+        width: 100%
+    }
+    .wallet_info .email_input,
+    .wallet_info .pass_input {
+        margin-bottom: 12px
+    }
+    .wallet_info .label_description .click_info {
+        padding-top: 8px
+    }
+    .wallet_info .social_button {
+        width: 36%
+    }
+    .wallet_login {
+        width: 87%
+    }
+    .right_info {
+        border: none medium;
+        padding-left: 0;
+        margin-left: 0;
+        width: 100%
+    }
+    .wallet_info .lato-normal-italic.text-right {
+        margin-bottom: 8px
+    }
+    .wallet_info .point_main_section {
+        width: 66%
+    }
+    .not_applicable {
+        width: 25%;
+        text-align: center;
+        margin-right: 8px;
+        min-height: 48px
+    }
+    ul.currency_options.part_payment li {
+        width: 94%
+    }
+    ul.currency_options.part_payment li a {
+        width: 96%;
+        margin-bottom: 10px
+    }
+    .make_pay {
+        width: 100%;
+        margin-bottom: 8px
+    }
+    .booking_summary_parent {
+        display: inline-block
+    }
+    .backArrowLink {
+        display: inline-block
+    }
+    .booking_summary_heading {
+        margin: 10px 0 5px 0
+    }
+    #leavePagePopUp .modal-title {
+        font-size: 15px;
+        font-weight: 900
+    }
+    #leavePagePopUp .modal-body {
+        font-size: 13px;
+        padding: 20px 0
+    }
+    #leavePagePopUp .resume_booking_button {
+        color: black
+    }
+    #leavePagePopUp .cancel_booking_button {
+        color: red
+    }
+    #leavePagePopUp .modal-footer {
+        padding-top: 20px;
+        border-top: 1px solid lightgray
+    }
+    .headerBack {
+        transform: rotate(180deg);
+        background-position: -450px -120px;
+        width: 26px;
+        height: 25px;
+        position: relative;
+        top: 9px;
+        margin-right: 5px
+    }
+    .sub_heading {
+        float: none!important;
+        line-height: 10px
+    }
+    .booking_summary {
+        width: 100%
+    }
+    .booking_summary img {
+        width: 100%;
+        height: auto
+    }
+    .tooltip_upper .cancellation_txt {
+        width: 70%;
+        line-height: 14px
+    }
+    .pacback_info.hover_state .label_info,
+    .wallet_info.hover_state .label_info {
+        width: 67%
+    }
+    .pacback_info.hover_state .label_description.special,
+    .wallet_info.hover_state .label_description.special {
+        width: 30%
+    }
+    .pacback_info.hover_state .info_icon {
+        margin-top: 0
+    }
+    .payback_wallet_section .info_icon {
+        margin-top: 0
+    }
+    .payback_icn {
+        margin-right: 14px
+    }
+    .price_breakup .tooltip_wrap {
+        width: 282px
+    }
+    .for_mobile_emi {
+        width: 90%;
+        margin-top: 10px
+    }
+    .tab_section .for_mobile_cpn a.change_couponinfo {
+        display: inline
+    }
+}
+
+.lato-black {
+    font-family: 'lato-black', Arial, Helvetica, sans-serif
+}
+
+.lato-bold {
+    font-family: 'lato-bold', Arial, Helvetica, sans-serif
+}
+
+.lato-light {
+    font-family: 'lato-light', Arial, Helvetica, sans-serif
+}
+
+.lato-medium {
+    font-family: 'lato-medium', Arial, Helvetica, sans-serif
+}
+
+.lato-normal-italic {
+    font-family: 'lato-normal-italic', Arial, Helvetica, sans-serif
+}
+
+.lato-regular {
+    font-family: 'lato-regular', Arial, Helvetica, sans-serif
+}
+
+.lato-semibold {
+    font-family: 'lato-semibold', Arial, Helvetica, sans-serif
+}
+
+.INR {
+    font-family: 'webRupee'
+}
+
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 9px 12px;
+    font-size: 14px;
+    line-height: 16px;
+    border-radius: 2px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+.btn:active,
+.btn.active,
+.btn:hover,
+.btn:focus,
+.btn.focus {
+    color: #0055b7;
+    text-decoration: none
+}
+
+.btn.disabled,
+.btn[disabled],
+fieldset[disabled] .btn {
+    cursor: not-allowed;
+    -ms-filter: "alpha(opacity=65)";
+    -moz-opacity: .65;
+    -khtml-opacity: .65;
+    opacity: .65;
+    filter: alpha(opacity=65);
+    -webkit-box-shadow: none;
+    box-shadow: none
+}
+
+a.btn.disabled,
+fieldset[disabled] a.btn {
+    pointer-events: none
+}
+
+.btn-default {
+    color: #0055b7;
+    background-color: #fff;
+    border-color: #c4c4c4
+}
+
+.btn-default:focus,
+.btn-default.focus {
+    color: #0055b7;
+    background-color: #eff6ff;
+    border-color: #c5deff
+}
+
+.btn-default:hover {
+    color: #0055b7;
+    background-color: #eff6ff;
+    border-color: #c5deff
+}
+
+.btn-default:active,
+.btn-default.active,
+.open>.btn-default.dropdown-toggle {
+    color: #0055b7;
+    background-color: #eff6ff;
+    border-color: #c5deff
+}
+
+.btn-default:active:hover,
+.btn-default:active:focus,
+.btn-default:active.focus,
+.btn-default.active:hover,
+.btn-default.active:focus,
+.btn-default.active.focus,
+.open>.btn-default.dropdown-toggle:hover,
+.open>.btn-default.dropdown-toggle:focus,
+.open>.btn-default.dropdown-toggle.focus {
+    color: #0055b7;
+    background-color: #eff6ff;
+    border-color: #c5deff
+}
+
+.btn-default:active,
+.btn-default.active,
+.open>.btn-default.dropdown-toggle {
+    background-image: none
+}
+
+.btn-default.disabled:hover,
+.btn-default.disabled:focus,
+.btn-default.disabled.focus,
+.btn-default[disabled]:hover,
+.btn-default[disabled]:focus,
+.btn-default[disabled].focus,
+fieldset[disabled] .btn-default:hover,
+fieldset[disabled] .btn-default:focus,
+fieldset[disabled] .btn-default.focus {
+    background-color: #fff;
+    border-color: #c4c4c4
+}
+
+.btn-default .badge {
+    color: #fff;
+    background-color: #0055b7
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #eb2026;
+    border-color: #bc0006
+}
+
+.btn-primary:focus,
+.btn-primary.focus {
+    color: #fff;
+    background-color: #ff4d53;
+    border-color: #db0006
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #ff4d53;
+    border-color: #db0006
+}
+
+.btn-primary:active,
+.btn-primary.active,
+.open>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #ff4d53;
+    border-color: #db0006
+}
+
+.btn-primary:active:hover,
+.btn-primary:active:focus,
+.btn-primary:active.focus,
+.btn-primary.active:hover,
+.btn-primary.active:focus,
+.btn-primary.active.focus,
+.open>.btn-primary.dropdown-toggle:hover,
+.open>.btn-primary.dropdown-toggle:focus,
+.open>.btn-primary.dropdown-toggle.focus {
+    color: #fff;
+    background-color: #ff4d53;
+    border-color: #db0006
+}
+
+.btn-primary:active,
+.btn-primary.active,
+.open>.btn-primary.dropdown-toggle {
+    background-image: none
+}
+
+.btn-primary.disabled:hover,
+.btn-primary.disabled:focus,
+.btn-primary.disabled.focus,
+.btn-primary[disabled]:hover,
+.btn-primary[disabled]:focus,
+.btn-primary[disabled].focus,
+fieldset[disabled] .btn-primary:hover,
+fieldset[disabled] .btn-primary:focus,
+fieldset[disabled] .btn-primary.focus {
+    background-color: #eb2026;
+    border-color: #bc0006
+}
+
+.btn-primary .badge {
+    color: #eb2026;
+    background-color: #fff
+}
+
+.btn-info {
+    color: #fff;
+    background-color: #87a1bf;
+    border-color: #7694b6
+}
+
+.btn-info:focus,
+.btn-info.focus {
+    color: #fff
+}
+
+.btn-info:hover {
+    color: #fff
+}
+
+.btn-info:active,
+.btn-info.active,
+.open>.btn-info.dropdown-toggle {
+    color: #fff
+}
+
+.btn-info:active:hover,
+.btn-info:active:focus,
+.btn-info:active.focus,
+.btn-info.active:hover,
+.btn-info.active:focus,
+.btn-info.active.focus,
+.open>.btn-info.dropdown-toggle:hover,
+.open>.btn-info.dropdown-toggle:focus,
+.open>.btn-info.dropdown-toggle.focus {
+    color: #fff
+}
+
+.btn-info:active,
+.btn-info.active,
+.open>.btn-info.dropdown-toggle {
+    background-image: none
+}
+
+.btn-info.disabled:hover,
+.btn-info.disabled:focus,
+.btn-info.disabled.focus,
+.btn-info[disabled]:hover,
+.btn-info[disabled]:focus,
+.btn-info[disabled].focus,
+fieldset[disabled] .btn-info:hover,
+fieldset[disabled] .btn-info:focus,
+fieldset[disabled] .btn-info.focus {
+    background-color: #87a1bf;
+    border-color: #7694b6
+}
+
+.btn-info .badge {
+    color: #87a1bf;
+    background-color: #fff
+}
+
+.btn-ghost-info {
+    color: #fff;
+    background-color: transparent;
+    border-color: #87a1bf
+}
+
+.btn-ghost-info:focus,
+.btn-ghost-info.focus {
+    color: #fff;
+    background-color: #87a1bf;
+    border-color: #87a1bf
+}
+
+.btn-ghost-info:hover {
+    color: #fff;
+    background-color: #87a1bf;
+    border-color: #87a1bf
+}
+
+.btn-ghost-info:active,
+.btn-ghost-info.active,
+.open>.btn-ghost-info.dropdown-toggle {
+    color: #fff;
+    background-color: #87a1bf;
+    border-color: #87a1bf
+}
+
+.btn-ghost-info:active:hover,
+.btn-ghost-info:active:focus,
+.btn-ghost-info:active.focus,
+.btn-ghost-info.active:hover,
+.btn-ghost-info.active:focus,
+.btn-ghost-info.active.focus,
+.open>.btn-ghost-info.dropdown-toggle:hover,
+.open>.btn-ghost-info.dropdown-toggle:focus,
+.open>.btn-ghost-info.dropdown-toggle.focus {
+    color: #fff;
+    background-color: #87a1bf;
+    border-color: #87a1bf
+}
+
+.btn-ghost-info:active,
+.btn-ghost-info.active,
+.open>.btn-ghost-info.dropdown-toggle {
+    background-image: none
+}
+
+.btn-ghost-info.disabled:hover,
+.btn-ghost-info.disabled:focus,
+.btn-ghost-info.disabled.focus,
+.btn-ghost-info[disabled]:hover,
+.btn-ghost-info[disabled]:focus,
+.btn-ghost-info[disabled].focus,
+fieldset[disabled] .btn-ghost-info:hover,
+fieldset[disabled] .btn-ghost-info:focus,
+fieldset[disabled] .btn-ghost-info.focus {
+    background-color: transparent;
+    border-color: #87a1bf
+}
+
+.btn-ghost-info .badge {
+    color: transparent;
+    background-color: #fff
+}
+
+.btn-ghost-default {
+    color: #0055b7;
+    background-color: transparent;
+    border-color: #c4c4c4
+}
+
+.btn-ghost-default:focus,
+.btn-ghost-default.focus {
+    color: #0055b7;
+    background-color: #eff6ff;
+    border-color: #c4c4c4
+}
+
+.btn-ghost-default:hover {
+    color: #0055b7;
+    background-color: #eff6ff;
+    border-color: #c4c4c4
+}
+
+.btn-ghost-default:active,
+.btn-ghost-default.active,
+.open>.btn-ghost-default.dropdown-toggle {
+    color: #0055b7;
+    background-color: #eff6ff;
+    border-color: #c4c4c4
+}
+
+.btn-ghost-default:active:hover,
+.btn-ghost-default:active:focus,
+.btn-ghost-default:active.focus,
+.btn-ghost-default.active:hover,
+.btn-ghost-default.active:focus,
+.btn-ghost-default.active.focus,
+.open>.btn-ghost-default.dropdown-toggle:hover,
+.open>.btn-ghost-default.dropdown-toggle:focus,
+.open>.btn-ghost-default.dropdown-toggle.focus {
+    color: #0055b7;
+    background-color: #eff6ff;
+    border-color: #c4c4c4
+}
+
+.btn-ghost-default:active,
+.btn-ghost-default.active,
+.open>.btn-ghost-default.dropdown-toggle {
+    background-image: none
+}
+
+.btn-ghost-default.disabled:hover,
+.btn-ghost-default.disabled:focus,
+.btn-ghost-default.disabled.focus,
+.btn-ghost-default[disabled]:hover,
+.btn-ghost-default[disabled]:focus,
+.btn-ghost-default[disabled].focus,
+fieldset[disabled] .btn-ghost-default:hover,
+fieldset[disabled] .btn-ghost-default:focus,
+fieldset[disabled] .btn-ghost-default.focus {
+    background-color: transparent;
+    border-color: #c4c4c4
+}
+
+.btn-ghost-default .badge {
+    color: transparent;
+    background-color: #0055b7
+}
+
+.btn-link {
+    color: #0055b7;
+    font-weight: normal;
+    border-radius: 0
+}
+
+.btn-link,
+.btn-link:active,
+.btn-link.active,
+.btn-link[disabled],
+fieldset[disabled] .btn-link {
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none
+}
+
+.gpay_icon {
+    background-position: -210px -299px;
+    width: 27px;
+    height: 26px
+}
+
+.btn-link,
+.btn-link:hover,
+.btn-link:focus,
+.btn-link:active {
+    border-color: transparent
+}
+
+.btn-link:hover,
+.btn-link:focus {
+    color: #0055b7;
+    text-decoration: none;
+    background-color: transparent
+}
+
+.btn-link[disabled]:hover,
+.btn-link[disabled]:focus,
+fieldset[disabled] .btn-link:hover,
+fieldset[disabled] .btn-link:focus {
+    color: #777;
+    text-decoration: none
+}
+
+.btn-lg {
+    padding: 10px 16px;
+    font-size: 14px;
+    line-height: 1.33333;
+    border-radius: 5px
+}
+
+.btn-sm {
+    padding: 5px 10px;
+    font-size: 11px;
+    line-height: 1.5;
+    border-radius: 3px
+}
+
+.btn-xs {
+    padding: 1px 5px;
+    font-size: 11px;
+    line-height: 1.5;
+    border-radius: 3px
+}
+
+.btn-block {
+    display: block;
+    width: 100%
+}
+
+.btn-block+.btn-block {
+    margin-top: 5px
+}
+
+input[type="submit"].btn-block,
+input[type="reset"].btn-block,
+input[type="button"].btn-block {
+    width: 100%
+}
+
+.chf_logopart {
+    background-position: 0 0;
+    width: 162px
+}
+
+.chf_logo .chf_logopart {
+    width: 122px
+}
+
+div,
+p,
+span,
+a,
+button,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li:focus {
+    outline: none!important
+}
+
+.append_right17 {
+    margin-right: 17px
+}
+
+.summary_heading {
+    font-size: 14px;
+    color: #4a4a4a
+}
+
+.border_bottomhalf {
+    border-bottom: .5px solid #ccc;
+    padding-bottom: 15px
+}
+
+.bus_description,
+.rail_description {
+    border-bottom: 1px solid #ccc;
+    padding: 15px
+}
+
+.price_breakup_header {
+    padding-top: 15px;
+    padding-left: 15px
+}
+
+.price_breakup_nopadding {
+    background: #f9f9f9;
+    padding: 0;
+    border-bottom: 1px solid #ddd
+}
+
+.rightArrow {
+    width: 18px;
+    height: 2px;
+    display: inline-block;
+    background-color: #9b9b9b;
+    position: relative;
+    top: -4px
+}
+
+.rightArrow::after {
+    content: "";
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-color: #9b9b9b;
+    position: absolute;
+    top: -3px;
+    right: 0;
+    width: 6px;
+    height: 7px;
+    border-style: solid;
+    transform: rotate(45deg);
+    border-bottom: 0;
+    border-left: none
+}
+
+.stationName {
+    font-size: 16px;
+    color: #4a4a4a
+}
+
+.busIcon {
+    width: 16px;
+    height: 16px;
+    display: inline-block
+}
+
+.busDescription {
+    line-height: 18px
+}
+
+.bus_description .traveler_details,
+.rail_description .traveler_details {
+    padding: 10px 0 0
+}
+
+.bus_price .first_part {
+    color: #484848
+}
+
+.price_breakup.bus_price {
+    border-bottom: 1px solid #ccc
+}
+
+.busOwner {
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #4a4a4a
+}
+
+.busDetails {
+    color: #878787;
+    font-size: 14px
+}
+
+.lightGreyColor {
+    color: #878787
+}
+
+.font12 {
+    font-size: 12px
+}
+
+.font13 {
+    font-size: 13px
+}
+
+.font20 {
+    font-size: 20px
+}
+
+.font16 {
+    font-size: 16px
+}
+
+.darkGreyText {
+    color: #4a4a4a
+}
+
+.bus_route_details {
+    margin: 0 -15px;
+    padding: 0 15px 15px 15px;
+    border-bottom: solid 1px #ccc;
+    position: relative
+}
+
+.duration {
+    color: #979797;
+    position: relative;
+    line-height: 40px;
+    position: absolute;
+    top: 35%;
+    left: 46%;
+    transform: translate(-50%, -50%)
+}
+
+.duration .hours {
+    position: relative;
+    top: 2px
+}
+
+.durationBar-left {
+    margin-right: 2px
+}
+
+.durationBar-right {
+    margin-left: 2px
+}
+
+.durationBar-left,
+.durationBar-right {
+    width: 30px;
+    display: inline-block;
+    border: 1px solid #979797
+}
+
+.rail_description .durationBar-left,
+.rail_description .durationBar-right {
+    width: 8px
+}
+
+.append_right15 {
+    margin-right: 15px
+}
+
+.durationBar-left:before {
+    position: absolute;
+    left: -7px;
+    top: 19px
+}
+
+.durationBar-right:after {
+    position: absolute;
+    right: -7px;
+    top: 19px
+}
+
+.durationBar-left:before,
+.durationBar-right:after {
+    content: "";
+    width: 6px;
+    height: 6px;
+    border: solid 1px #979797;
+    background-color: #d8d8d8;
+    border-radius: 50%
+}
+
+.bus_route_details .tooltip_wrap {
+    width: 212px
+}
+
+.bus_route_details .drop-point.tooltip_wrap {
+    left: -85%
+}
+
+.bus_route_details .tooltip_wrap {
+    top: -50px
+}
+
+.bus_route_details .drop-point .tooltip_uparrow {
+    left: 45%
+}
+
+.bus_route_details .tooltip_uparrow {
+    left: 20%;
+    top: auto;
+    Transform: rotate(180deg);
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #d8eaff
+}
+
+.capText {
+    text-transform: uppercase
+}
+
+.contact_text {
+    font-size: 13px;
+    line-height: 22px;
+    color: #4a4a4a
+}
+
+.contactIcon.emailIcon {
+    background-position: -3px -338px;
+    width: 17px;
+    height: 11px;
+    margin-top: 5px
+}
+
+.contactIcon.phoneIcon {
+    background-position: -26px -337px;
+    width: 17px;
+    height: 17px;
+    margin-top: 3px
+}
+
+.tooltip_content {
+    padding: 17px 15px 12px 17px;
+    border-bottom: solid 1px #ccc
+}
+
+.discounts {
+    padding: 8px 15px 8px 17px;
+    border-bottom: solid 1px #ccc
+}
+
+.fare_breakup {
+    color: #989898;
+    line-height: 16px
+}
+
+.amount_payable {
+    padding: 9px 15px 14px 17px
+}
+
+.price_breakup.bus_price .tooltip_uparrow {
+    top: 100%;
+    left: 30%;
+    Transform: rotate(180deg);
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #d8eaff
+}
+
+.seat_availability {
+    padding: 15px 15px 8px;
+    border-bottom: solid 1px #ccc
+}
+
+.availablity_text {
+    font-size: 20px;
+    line-height: 20px;
+    color: #00a19c
+}
+
+.rail_availability_content {
+    max-width: 210px
+}
+
+.timerText {
+    color: #fff;
+    font-size: 14px;
+    line-height: 16px;
+    padding-top: 3px
+}
+
+.duration_timer {
+    border-radius: 18px;
+    background-image: linear-gradient(253deg, #ff3e5e, #ff7f3f);
+    padding: 9px 22px 9px 9px;
+    margin-bottom: 17px
+}
+
+.clockIcon {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    border-radius: 100%;
+    border: 1px solid white;
+    position: relative
+}
+
+.clockIcon::after {
+    content: "";
+    width: 6px;
+    height: 6px;
+    top: 4px;
+    left: 7px;
+    position: absolute;
+    border-bottom: 1px solid white;
+    border-left: 1px solid white
+}
+
+.tab_list {
+    width: 300px;
+    height: 36px;
+    background: #fff;
+    box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.2);
+    padding: 0;
+    border-radius: 34px;
+    list-style-type: none;
+    margin: 0 auto 20px
+}
+
+.tab_list li {
+    float: left
+}
+
+.tab_list li a {
+    color: #4a4a4a;
+    font-size: 12px;
+    font-family: "lato-black";
+    width: 145px;
+    text-align: center;
+    margin: 5px 0;
+    display: inline-block;
+    height: 26px;
+    position: relative
+}
+
+.tab_list li a .blue_tick {
+    display: none
+}
+
+.tab_list li a.selected {
+    padding: 5px 0 0 5px;
+    margin-left: 5px;
+    border-radius: 13px;
+    background-color: #008cff;
+    text-align: unset;
+    height: 21px;
+    color: #fff
+}
+
+.tab_list li:nth-last-child(1) a.selected {
+    margin-left: 0
+}
+
+.tab_list li a.selected .blue_tick {
+    display: inline-block;
+    margin-right: 9px;
+    width: 15px;
+    height: 16px;
+    border-radius: 100%;
+    background: #fff;
+    position: relative
+}
+
+.tab_list li a.selected .blue_tick::after {
+    content: "";
+    border-right: 2px solid #008cff;
+    border-bottom: 2px solid #008cff;
+    left: 5px;
+    top: 3px;
+    position: absolute;
+    z-index: 1;
+    height: 7px;
+    width: 3px;
+    transform: rotate(45deg)
+}
+
+.tab-option_text {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    min-width: 80px
+}
+
+.tab_list li a.selected .tab-option_text {
+    transform: translate(0%, -50%)
+}
+
+@media only screen and (min-width: 320px) and (max-width:767px) {
+    .bus_route_details .drop-point.tooltip_wrap {
+        left: -126%
+    }
+    .bus_route_details .drop-point .tooltip_uparrow {
+        left: 65%
+    }
+    .rail_availability_content {
+        max-width: 190px
+    }
+    .tab_list li {
+        width: 50%;
+        margin-bottom: 0;
+        height: 36px;
+        background: 0
+    }
+    .tab_list {
+        width: 100%
+    }
+    .tab_list li a {
+        width: 93%;
+        border: 0;
+        padding-left: 0
+    }
+    .tab_list li a:hover {
+        border: 0;
+        margin-top: 5px;
+        outline: 0
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width:359px) {
+    .busOwner {
+        margin-right: 0
+    }
+    .boarding-point {
+        width: 25%
+    }
+    .duration {
+        margin-right: 35px
+    }
+    .durationBar-left,
+    .durationBar-right {
+        width: 20px
+    }
+    .bus_route_details .dropping-point {
+        width: 22%
+    }
+    .dropping-point {
+        width: 30%
+    }
+    .bus_route_details .tooltip_wrap {
+        top: -35px
+    }
+    .bus_route_details .boarding-point .tooltip_uparrow {
+        left: 10%
+    }
+    .bus_route_details .drop-point.tooltip_wrap {
+        left: -225%
+    }
+    .price_breakup.bus_price .tooltip_wrap {
+        left: 5%
+    }
+    .price_breakup.bus_price .tooltip_uparrow {
+        left: 40%
+    }
+    .rail_availability_content {
+        max-width: 150px
+    }
+}
+
+.indigo {
+    background-position: 0 -29px;
+    width: 36px;
+    height: 26px;
+    display: block;
+    margin: 0
+}
+
+.jetairways {
+    background-position: -38px 1px;
+    width: 36px;
+    height: 28px;
+    display: block
+}
+
+.jetair {
+    background-position: -38px -1px;
+    width: 36px;
+    height: 26px;
+    display: block
+}
+
+.sahara {
+    background-position: 0 -143px;
+    width: 36px;
+    height: 25px;
+    display: block
+}
+
+.airdeccan {
+    background-position: 0 -112px;
+    width: 36px;
+    height: 30px;
+    display: block
+}
+
+.kingfisher {
+    background-position: -38px -28px;
+    width: 36px;
+    height: 28px;
+    display: block
+}
+
+.indian_airlines {
+    background-position: 0 -170px;
+    width: 36px;
+    height: 25px;
+    display: block
+}
+
+.spicejet {
+    background-position: -37px -114px;
+    width: 36px;
+    height: 23px;
+    display: block
+}
+
+.airindia {
+    background-position: 0 -170px;
+    width: 36px;
+    height: 25px;
+    display: block
+}
+
+.goair {
+    background-position: 0 -85px;
+    width: 36px;
+    height: 26px;
+    display: block
+}
+
+.gobusiness {
+    background-position: 0 -85px;
+    width: 36px;
+    height: 26px;
+    display: block
+}
+
+.paramount {
+    background-position: -76px -172px;
+    width: 36px;
+    height: 25px;
+    display: block
+}
+
+.mdlr {
+    background-position: 0 -114px;
+    width: 36px;
+    height: 25px;
+    display: block
+}
+
+.buslogo {
+    background-position: -67px -27px;
+    width: 36px;
+    height: 25px;
+    display: block
+}
+
+.OP_Small {
+    background-position: 0 -172px;
+    width: 36px;
+    height: 25px;
+    display: block
+}
+
+.goaircomfort {
+    background-position: 0 -56px;
+    width: 36px;
+    height: 25px;
+    display: block
+}
+
+.jetkonnect {
+    background-position: 0 -59px;
+    width: 36px;
+    height: 24px;
+    display: block
+}
+
+.jetlitespecial {
+    background-position: 0 -59px;
+    width: 36px;
+    height: 30px;
+    display: block
+}
+
+.airindiaexpress {
+    background-position: -38px -172px;
+    width: 36px;
+    height: 25px;
+    display: block
+}
+
+.venturaairconnect {
+    background-position: -38px -58px;
+    width: 36px;
+    height: 25px;
+    display: block
+}
+
+.airasia,
+.airasiaindia {
+    background-position: 0 -194px;
+    width: 36px;
+    height: 25px;
+    display: block
+}
+
+.deccanshuttles {
+    background-position: 0 -112px;
+    width: 36px;
+    height: 25px;
+    display: block
+}
+
+.spacer {
+    background-position: -153px -143px;
+    width: 71px;
+    height: 25px;
+    display: block
+}
+
+.opaque {
+    background-position: 0 -172px;
+    width: 74px;
+    height: 25px;
+    display: block
+}
+
+.others {
+    background-position: -154px -115px;
+    width: 74px;
+    height: 25px;
+    display: block
+}
+
+.MA {
+    background-position: -38px -87px;
+    width: 36px;
+    height: 24px;
+    display: block
+}
+
+.mmtsaver {
+    background-position: -152px -176px;
+    width: 75px;
+    height: 19px;
+    display: block
+}
+
+.vistara {
+    background-position: -1px -401px;
+    width: 34px;
+    height: 34px;
+    display: block
+}
+
+.airpegasus {
+    background-position: -38px -401px;
+    width: 34px;
+    height: 34px;
+    display: block
+}
+
+.trujet {
+    background-position: -38px -450px;
+    width: 33px;
+    height: 18px;
+    display: block
+}
+
+.aircarnival {
+    background-position: 0 -482px;
+    width: 35px;
+    height: 12px;
+    display: block
+}
+
+.aircarnival_mobile {
+    background-position: 0 -482px;
+    width: 35px;
+    height: 12px;
+    display: block
+}
+
+.indigo_mobile {
+    background-position: -7px -254px;
+    width: 20px;
+    height: 15px;
+    margin: 0
+}
+
+.jetairways_mobile {
+    background-position: -47px -226px;
+    width: 20px;
+    height: 20px
+}
+
+.jetair_mobile {
+    background-position: -47px -226px;
+    width: 20px;
+    height: 20px
+}
+
+.spicejet_mobile {
+    background-position: -44px -302px;
+    width: 20px;
+    height: 15px
+}
+
+.airindia_mobile {
+    background-position: -7px -341px;
+    width: 20px;
+    height: 12px
+}
+
+.goair_mobile {
+    background-position: -5px -302px;
+    width: 20px;
+    height: 16px
+}
+
+.gobusiness_mobile {
+    background-position: -5px -302px;
+    width: 20px;
+    height: 16px
+}
+
+.jetkonnect_mobile {
+    background-position: -6px -278px;
+    width: 20px;
+    height: 18px
+}
+
+.airindiaexpress_mobile {
+    background-position: -46px -345px;
+    width: 20px;
+    height: 6px
+}
+
+.venturaairconnect_mobile {
+    background-position: -46px -276px;
+    width: 15px;
+    height: 20px
+}
+
+.airasia_mobile,
+.airasiaindia_mobile {
+    background-position: -44px -325px;
+    width: 20px;
+    height: 9px
+}
+
+.deccanshuttles_mobile {
+    background-position: -8px -324px;
+    width: 20px;
+    height: 10px
+}
+
+.MA_mobile {
+    background-position: -10px -360px;
+    width: 20px;
+    height: 12px
+}
+
+.vistara_mobile {
+    background-position: -7px -376px;
+    width: 20px;
+    height: 20px
+}
+
+.airpegasus_mobile {
+    background-position: -44px -376px;
+    width: 20px;
+    height: 20px
+}
+
+.trujet_mobile {
+    background-position: -7px -459px;
+    width: 19px;
+    height: 10px
+}
+
+.qtip {
+    position: absolute;
+    left: -28000px;
+    top: -28000px;
+    display: none;
+    max-width: 280px;
+    min-width: 50px;
+    font-size: 10.5px;
+    line-height: 12px;
+    direction: ltr;
+    box-shadow: none;
+    padding: 0
+}
+
+.qtip-content {
+    position: relative;
+    padding: 5px 9px;
+    overflow: hidden;
+    text-align: left;
+    word-wrap: break-word
+}
+
+.qtip-titlebar {
+    position: relative;
+    padding: 5px 35px 5px 10px;
+    overflow: hidden;
+    border-width: 0 0 1px;
+    font-weight: bold
+}
+
+.qtip-titlebar+.qtip-content {
+    border-top-width: 0!important
+}
+
+.qtip-close {
+    position: absolute;
+    right: -9px;
+    top: -9px;
+    z-index: 11;
+    cursor: pointer;
+    outline: medium none;
+    border: 1px solid transparent
+}
+
+.qtip-titlebar .qtip-close {
+    right: 4px;
+    top: 50%;
+    margin-top: -9px
+}
+
+* html .qtip-titlebar .qtip-close {
+    top: 16px
+}
+
+.qtip-titlebar .ui-icon,
+.qtip-icon .ui-icon {
+    display: block;
+    text-indent: -1000em;
+    direction: ltr
+}
+
+.qtip-icon,
+.qtip-icon .ui-icon {
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    text-decoration: none
+}
+
+.qtip-icon .ui-icon {
+    width: 18px;
+    height: 14px;
+    line-height: 14px;
+    text-align: center;
+    text-indent: 0;
+    font: normal bold 10px/13px Tahoma, sans-serif;
+    color: inherit;
+    background: transparent none no-repeat -100em -100em
+}
+
+.qtip-default {
+    border: 1px solid #f1d031;
+    background-color: #ffffa3;
+    color: #555
+}
+
+.qtip-default .qtip-titlebar {
+    background-color: #ffef93
+}
+
+.qtip-default .qtip-icon {
+    border-color: #CCC;
+    background: #f1f1f1;
+    color: #777
+}
+
+.qtip-default .qtip-titlebar .qtip-close {
+    border-color: #AAA;
+    color: #111
+}
+
+
+/*! Light tooltip style */
+
+.qtip-light {
+    background: #fff;
+    border: 1px solid #d8eaff;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1
+}
+
+.qtip-light .qtip-titlebar {
+    background-color: #f1f1f1
+}
+
+.qtip .qtip-tip {
+    margin: 0 auto;
+    overflow: hidden;
+    z-index: 10
+}
+
+x:-o-prefocus,
+.qtip .qtip-tip {
+    visibility: hidden
+}
+
+.qtip .qtip-tip,
+.qtip .qtip-tip .qtip-vml,
+.qtip .qtip-tip canvas {
+    position: absolute;
+    color: #123456;
+    background: transparent;
+    border: 0 dashed transparent
+}
+
+.qtip .qtip-tip canvas {
+    top: 0;
+    left: 0
+}
