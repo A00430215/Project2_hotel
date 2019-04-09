@@ -1,4 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { HeadServiceService } from 'src/app/services/head-service.service';
+import { Router } from '@angular/router';
+import { Helpers } from 'src/app/helpers/helpers';
 
 @Component({
   selector: 'app-head',
@@ -6,10 +9,17 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./head.component.css']
 })
 export class HeadComponent implements OnInit {
-
-  constructor() { }
+  @Input() customer :any;
+  constructor(private headServiceService: HeadServiceService,private router: Router, private helpers: Helpers) { }
 
   ngOnInit() {
+  }
+
+  logout(){
+
+    this.helpers.logout();
+
+    this.router.navigate(['/login']);
   }
 
 }

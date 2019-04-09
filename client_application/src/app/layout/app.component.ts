@@ -14,6 +14,7 @@ export class AppComponent implements AfterViewInit {
 
   authentication: boolean;
 
+
   constructor(private helpers: Helpers) {
 
   }
