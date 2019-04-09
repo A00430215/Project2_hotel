@@ -1,0 +1,24 @@
+<div class="forDesk">
+    <section id="Policies" class="page-section borderBottom bottom35">
+        <h2 class="txtHeading">Important Information</h2>
+        <p class="appendBottom10">{{checkInCheckOutTime}}</p>
+        <div>
+            <div class="impInfoRow">
+                <p class="latoBlack appendBottom5">HOUSE RULES:</p>
+                <ul class="houseRuleList">
+                    <li *ngFor="let rule of houseRuleList">{{rule}}</li>
+
+                </ul>
+            </div>
+        </div>
+    </section>
+</div>
+
+<div class="forMob">
+    <div class="boxPadding bdrBottom1">
+        <p class="font20 blackText latoBlack appendBottom14">Important Information</p>
+        <p class="makeFlex spaceBetween bdrBottom1 paddingB16 latoBold hrtlCenter"><span class="makeFlex hrtlCenter"><span class="font10 lightGreyText appendRight8">CHECK-IN</span><span>2 PM</span></span><span class="makeFlex hrtlCenter"><span class="font10 lightGreyText appendRight8">CHECK-OUT</span><span>12 PM</span></span>
+        </p>
+        <p class="bdrBottom1 paddingTB12 deepskyBlueText font12 makeFlex spaceBetween"><span>About Hotel</span><span class="redirectArrow"></span></p>
+    </div><span></span>
+</div>
