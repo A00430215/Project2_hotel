@@ -1,0 +1,312 @@
+<div class="booking_summary_wrap">
+
+    <div class="booking_summary_title" id="booking_summary_wrap_id">
+        <span class="pull-left booking_summary_left">
+<span class="make_block black font_16 append_bottom4" data-hasqtip="0" oldtitle="The Lalit Golf &amp; Spa Resort" title="">The Lalit Golf &amp; Spa Resort</span>
+        <span class="make_block hotel_location" data-hasqtip="1" oldtitle="Raj Baga, Canacona, Goa,Canacona" title="">Raj Baga, Canacona, Goa,Canacona</span>
+        </span>
+        <a href="javascript:void(0)" class="pull-right booking_summary_right">Details <span class="pull-right up_arrow direction"></span> </a>
+    </div>
+
+</div>
+<div class="booking_summary pull-right booking_summary_mob_details for_dt" id="top_rail_div">
+    <p class="summry_info lato-semibold append_bottom8 mb_hide">
+        BOOKING SUMMARY
+    </p>
+    <!-- Booking-Summary-Description -->
+    <div class="summary_description">
+
+        <p>
+            <img src="https://gos3.ibcdn.com/efc9da08bc0811e8abee0281517d0dd4.jpg" style="width: 368px;height: 135px;">
+        </p>
+        <!-- Hotel-Description -->
+        <div class="hotel_description clearfix">
+            <!-- Hotel-Type -->
+            <div class="hotel_type append_bottom16 border_bottom clearfix">
+                <!-- Hotel-Left-Part -->
+                <div class="pull-left hotel_leftpart">
+                    <p class="hotel_name pymt-htlInfo-name lato-semibold append_bottom6" data-hasqtip="2" oldtitle="The Lalit Golf &amp; Spa Resort" title="">The Lalit Golf &amp; Spa Resort</p>
+                    <p class="hotel_location pymt-htlInfo-loc lato-regular" data-hasqtip="3" oldtitle="Raj Baga, Canacona, Goa,Canacona" title="">Raj Baga, Canacona, Goa,Canacona</p>
+                </div>
+                <!-- /Hotel-Left-Part -->
+                <!-- Hotel-Right-Part -->
+                <div class="pull-right hotel_rightpart">
+
+
+
+
+
+                    <p class="clearfix append_bottom6">
+                        <span class="pull-right blank_icon">
+              
+                 
+                 
+                 
+                 
+                 <span class="fill_icon fivestar pull-left">&nbsp;</span>
+
+
+                        </span>
+                    </p>
+
+                </div>
+                <!-- /Hotel-Right-Part -->
+            </div>
+            <!-- /Hotel-Type -->
+            <!-- Hotel-Checkin-Details -->
+            <div class="checkin_details border_bottom append_bottom16 clearfix">
+                <!-- Check-In -->
+                <div class="checkin pull-left">
+
+
+
+
+                    <p class="labelinfo lato-regular append_bottom5">CHECK IN: 2 PM</p>
+                    <p class="checkin_time"><span class="lato-semibold"> {{checkInDate | date: 'dd/MM/yyyy'}}</span></p>
+                </div>
+                <!-- /Check-In -->
+                <!-- Check-Out -->
+                <div class="checkout pull-right">
+
+
+
+
+                    <p class="labelinfo lato-regular append_bottom5">CHECK OUT: 12 PM</p>
+                    <p class="checkin_time"><span class="lato-semibold">{{checkOutDate | date: 'dd/MM/yyyy'}}</span></p>
+                </div>
+                <!-- /Check-Out -->
+            </div>
+            <!-- /Hotel-Checkin-Details -->
+            <!-- Hotel-Room-Details -->
+            <div class="hotel_room_details border_bottom append_bottom16 clearfix">
+                <p class="clearfix append_bottom20">
+                    <span class="room_heading lato-semibold">
+        <span class="black">
+           {{room.roomType}}
+           | 
+              <a *ngIf="roomOption.breakfast" href="javascript:void(0);" class="tooltip_trigger">
+              Includes Free Breakfast
+              </a>
+           
+        </span>
+
+                    <span class="trigger_amenities" data-hasqtip="23">
+           </span>
+
+                    </span>
+                </p>
+
+                <div class="amenities" style="display:none;">
+                    <div class="tooltip_info clearfix">
+
+                        <p class="tooltip_info__subtotal lato-semibold clearfix append_bottom20" style="margin-top:10px;">
+                            Amenities :
+                        </p>
+                        <ul style="list-style-type:disc">
+
+                            <li>Front desk / Reception services</li>
+
+                            <li>Internet/Wi - Fi</li>
+
+                            <li>Parking</li>
+
+                            <li>General</li>
+
+                            <li>Outdoors</li>
+
+                            <li>Others</li>
+
+                            <li>Miscellaneous</li>
+
+                        </ul>
+                    </div>
+                </div>
+
+                <p class="clearfix">
+
+
+
+                    <span class="pull-left append_bottom5"> <span class="make_block labelinfo lato-regular append_bottom5">ROOM(S) : {{roomCount}}</span> <span class="make_block lato-regular adult_info">Adult(s) : {{guestCount}}</span> </span>
+
+
+
+
+                </p>
+            </div>
+            <!-- /Hotel-Room-Details -->
+            <!-- Traveler-Details -->
+            <div class="traveler_details clearfix">
+
+                <p class="lato-semibold traveler_name append_bottom6">
+
+                    {{travellerInfo.firstName}} {{travellerInfo.lastName}}
+
+
+                </p>
+
+                <p class="contact_info lato-regular">{{travellerInfo.phone}}, {{travellerInfo.email}}</p>
+            </div>
+            <!-- /Traveler-Details -->
+        </div>
+        <!-- /Hotel-Description -->
+        <!-- Price-Breakup -->
+        <div class="price_breakup clearfix">
+            <p class="labelinfo lato-regular append_bottom10">
+                PRICE BREAKUP
+            </p>
+
+
+
+            <div class="clearfix append_bottom15 tooltip_upper">
+                <span class="pull-left lato-semibold first_part">
+     Sub Total
+     
+     <a href="javascript:void(0);" class="second_label lato-regular  flightsidebar_trigger  tooltip_trigger" data-hasqtip="22">
+        ({{roomCount}}
+        Room
+        
+        X {{diffDays}}
+        Night(s)
+        
+        )
+     </a>
+  </span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <span class="pull-right second_part lato-bold text-right">
+     <span>
+        <span class="INR">Rs.</span>
+                <span class="formattedCurrency bookingAmount">{{realPrice}}</span>
+                </span>
+                </span>
+            </div>
+            <!-- Price Tooltip -->
+            <div class="flightsidebar sidebar" style="display:none;">
+                <!-- [ Hidden in Mobile Only ] -->
+
+
+
+
+
+
+                <div class="tooltip_info clearfix">
+                    <p class="clearfix append_bottom8 traveler_name lato-semibold">
+                        <span class="pull-left">Room{{roomCount}} x {{diffDays}} Nights</span>
+                        <span class="pull-right">
+                 <span class="INR">Rs.</span> {{totalPrice}}
+                        </span>
+                    </p>
+                    <p class="bdrbtm_line append_bottom10">
+                        <span>Room at</span>
+                        <span>
+                 <span class="INR">Rs.</span>
+                        <span class="formattedCurrency">{{totalDiscount}}</span>/day
+                        </span>
+                    </p>
+
+
+
+
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <p class="tooltip_info__subtotal lato-semibold clearfix append_bottom14">
+                    <span class="pull-left">
+        SUB TOTAL
+     </span>
+                    <span class="pull-right">
+        <span class="INR">Rs.</span>
+                    <span class="formattedCurrency bookingAmount">{{ realPrice }}</span>
+                    </span>
+                </p>
+            </div>
+            <!-- /Price Tooltip -->
+            <p class="clearfix border_topone append_bottom15" id="service_li_ecouponAmt">
+                <span class="pull-left lato-semibold first_part">
+<span class="pull-left">Coupon Code&nbsp;&nbsp;</span>
+
+
+
+                <span class="coupon_code green">{{promo.name}}</span>
+
+
+                </span>
+            </p>
+            <p class="clearfix append_bottom10 cdfInstantDiscount">
+                <span class="pull-left lato-semibold first_part">
+<span class="pull-left">Instant Discount&nbsp;&nbsp;</span>
+                </span>
+
+                <span class="green pull-right second_part lato-bold text-right">- <span class="INR">Rs.</span>
+                <span class="formattedCurrency amt_li_ecouponAmt">{{ totalDiscount }}</span>
+                </span>
+            </p>
+
+            <!-- /Price-Breakup -->
+            <!-- Total-Price-Info -->
+            <p class="total_price_info clearfix">
+                <span class="pull-left total_label">
+  <span class="first_label lato-semibold">Total</span>
+                <span class="second_label lato-regular">
+     ({{roomCount}}
+     Room
+     
+     X {{diffDays}} 
+     Night
+     
+     )
+  </span>
+                </span>
+                <span class="pull-right total_sumprice lato-bold">
+  <span class="lato-bold total_price mb_total_price append_bottom5 total_amount">
+     <span class="INR">Rs.</span>
+                <span class="formattedCurrency grandTotal" id="top_rail_totalAmount">{{ totalPrice }}</span>
+                </span>
+                </span>
+            </p>
+            <!-- /Total-Price-Info -->
+            <!-- Due now for Delayed payment -->
+
+            <!-- /Due now for Delayed payment -->
+        </div>
+        <!-- /Booking-Summary-Description -->
+    </div>
