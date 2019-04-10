@@ -1,10 +1,10 @@
 # Project2_hotel
 
-1. Kshitij Prashar (A00)
-2. Goutham Bho
-3. Sravani Madala
-4. Sidharth Bhalla
-5. Chaitanya Varma ()
+1. Kshitij Prashar (A00430628)
+2. Goutham Bhommu (A00432541)
+3. Sravani Madala (A00428967)
+4. Sidharth Bhalla(A00431562)
+5. Chaitanya Varma (A00432282)
 6. Nishant Malhotra(A00430215)
 
 Description:
