@@ -5,7 +5,7 @@
             <p class="txtSmallText">Take a look at <b>verified</b> ratings &amp; reviews posted by guests </p>
         </div>
         <ul class="ratingReviewTab appendBottom25">
-            <li id="userReviews_mmt" class="activeTab latoBold blackText">Makemytrip</li>
+            <li id="userReviews_mmt" class="activeTab latoBold blackText">Application</li>
         </ul>
         <div class="_RatingReview">
             <div class="reviewHeader">
@@ -40,8 +40,7 @@
 
 
 
-            <app-pagination [numberOfPages] ="reviews.length" 
-            (pageNumberClick) = "updatePage($event)"></app-pagination>>
+            <app-pagination [numberOfPages]="reviews.length" (pageNumberClick)="updatePage($event)"></app-pagination>>
             <!-- <div class="pagination" id="detpg_review_ratings_pagination">
                 <ul class="pagination">
                     <li class="disabled"><a class="" href="#">«</a></li>
