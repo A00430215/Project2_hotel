@@ -5,6 +5,7 @@ import { ActivatedRoute, Router, Params } from '@angular/router';
 import { BookingSummaryService } from 'src/app/services/booking-summary.service';
 import { TravellerInfoServiceService } from '../traveler-ifo/traveller-info-service.service';
 import { AlertService } from 'src/app/services/alert-service';
+import { Helpers } from 'src/app/helpers/helpers';
 @Component({
   selector: 'app-payment',
   templateUrl: './payment.component.html',
@@ -12,7 +13,7 @@ import { AlertService } from 'src/app/services/alert-service';
 })
 export class PaymentComponent implements OnInit {
   @Input() data: any;
-  constructor(private paymentClickService: PaymentClickService, private _interactionService: InteractionService, private _route: ActivatedRoute, private router: Router, private bookinSummaryService: BookingSummaryService, private alertService: AlertService) { }
+  constructor(private paymentClickService: PaymentClickService, private _interactionService: InteractionService, private _route: ActivatedRoute, private router: Router, private bookinSummaryService: BookingSummaryService, private alertService: AlertService, private helpers: Helpers) { }
   public room: any;
   public roomOption: any;
   public promo: any;
@@ -54,6 +55,11 @@ export class PaymentComponent implements OnInit {
       .subscribe(
         (res) => {
           console.log("traveller posted");
+          var customer = this.helpers.getCustomerData();
+          if(!customer){
+            this.router.navigate(['/login']);
+            return;
+          }
           this.bookingId = res;
           this.bookinSummaryService.postBookinData(data, this.bookingId).subscribe(
             (res: any) => {
